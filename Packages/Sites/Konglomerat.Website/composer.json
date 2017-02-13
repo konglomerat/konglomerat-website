@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*",
+        "neos/nodetypes": "*"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "konglomerat/website",
+    "autoload": {
+        "psr-4": {
+            "Konglomerat\\Website\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Konglomerat.Website"
+        }
+    }
+}

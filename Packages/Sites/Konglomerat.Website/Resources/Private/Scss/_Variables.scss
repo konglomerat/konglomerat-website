@@ -1,0 +1,129 @@
+/*
+ * BRANDING
+ *
+ * Please use naming scheme:
+ *  <name>-['medium', 'dark', 'darker', 'light', 'lighter']
+ */
+
+$brand-colors: (
+	primary: #00AEEF,
+	primary-darker: darken(#00AEEF, 35),
+	white: #fff,
+	black: #000,
+	text: #4e4e4e, // body copy
+	grey: #7c7c7c,
+	darker-grey: #323232,
+	light-grey: #acacac,
+	lighter-grey: #ececec
+);
+
+$page-footer-background: brand-color(primary-darker);
+$brand-logo-height: 50px;
+
+/*
+ * LAYOUT
+ */
+
+$page-header-height: 60px;
+$page-secondaryMenu-height: $page-header-height ;
+$page-header-background: brand-color(white);
+
+$content-width: 1200px;
+
+
+// map of z-index
+$layers: (
+		god-mode: 10000000000,
+		main-menu: 10000,
+);
+
+/*
+ * BREAKPOINTS
+ *
+ * TODO: might need some refactoring.
+ * IMPORTANT: make sure there are no 'gaps' in the declaration. Otherwise fontsizes and spacings will 'jump'
+ * to their default values.
+ */
+
+$breakpoints: (
+	small: "(max-width: 500px)",
+	medium: "(max-width: 767px)",
+	large: "(min-width: 768px)",
+);
+
+/*
+ * TYPOGRAPHY
+ *
+ * All maps that are used for adding styles based on breakpoints should contain all the keys found in `breakpoints`.
+ * We tried to implement a base-line-grid the ensure a vertical rhythm to some extend.
+ */
+
+// spacing and typesetting will be based on these values.
+// everywhere you should try to use whole-numbered multiples of the base-line-height.
+$base-font-size: 1rem;
+
+$base-line-heights: (
+	large: $base-font-size * 1.6,
+	medium: $base-font-size * 1.45,
+	small: $base-font-size * 1.4
+);
+
+// currently uses a modular scale
+$type-scales: (
+	large: (
+		small: 0.75rem,  // small text
+		text: 1rem,      // body text
+		h3: 1.333rem,  // large text
+		h2: 1.777rem,   // main heading
+		h1: 2.369rem,   // main heading
+		huge: 3.157em
+	),
+	medium: (
+		small: 0.75rem,  // small text
+		text: 1rem,      // body text
+		h3: 1.333rem,  // large text
+		h2: 1.777rem,   // main heading
+		h1: 2.369rem,   // main heading
+		huge: 3.157em
+	),
+	small: (
+		small: 0.75rem,  // small text
+		text: 1rem,      // body text
+		h3: 1.333rem * 0.75,  // large text
+		h2: 1.777rem * 0.75,   // main heading
+		h1: 2.369rem * 0.75,   // main heading
+		huge: 3.157em * 0.75
+	)
+);
+
+// IMPORTANT: line-heights need to be smaller than the corresponding `$type-scales`
+$line-heights: (
+	large: (
+		small: base-line-height(large),
+		text: base-line-height(large),
+		h3: base-line-height(large) * 2,
+		h2: base-line-height(large) * 2,
+		h1: base-line-height(large) * 3,
+		huge: base-line-height(large) * 3
+	),
+	medium: (
+		small: base-line-height(medium),
+		text: base-line-height(medium),
+		h3: base-line-height(medium) * 2,
+		h2: base-line-height(medium) * 2,
+		h1: base-line-height(medium) * 3,
+		huge: base-line-height(medium) * 3
+	),
+	small: (
+		small: base-line-height(small),
+		text: base-line-height(small),
+		h3: base-line-height(small) * 2,
+		h2: base-line-height(small) * 2,
+		h1: base-line-height(small) * 3,
+		huge: base-line-height(small) * 3
+	),
+);
+
+// Other
+$debugging-is-active: false;
+

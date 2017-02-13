@@ -1,0 +1,45 @@
+/**
+ * Root Fusion template for the konglomerat.org site
+ */
+page = Neos.Neos:Page {
+	head {
+		stylesheets.site = Neos.Fusion:Template {
+			templatePath = 'resource://Konglomerat.Website/Private/Templates/Page/Default.html'
+			sectionName = 'stylesheets'
+		}
+
+		javascripts.site = Neos.Fusion:Template {
+			templatePath = 'resource://Konglomerat.Website/Private/Templates/Page/Default.html'
+			sectionName = 'headScripts'
+		}
+	}
+
+	body {
+		templatePath = 'resource://Konglomerat.Website/Private/Templates/Page/Default.html'
+		sectionName = 'body'
+		parts {
+			menu = Neos.Neos:Menu
+		}
+
+		// These are your content areas, you can define as many as you want, just name them and the nodePath.
+		content {
+			// The default content section
+			main = Neos.Neos:PrimaryContent {
+				nodePath = 'main'
+			}
+		}
+
+		javascripts.site = Neos.Fusion:Template {
+			templatePath = 'resource://Konglomerat.Website/Private/Templates/Page/Default.html'
+			sectionName = 'bodyScripts'
+		}
+	}
+}
+
+prototype(Konglomerat.Website:CombCollection) < prototype(Neos.Fusion:Tag) {
+    // adding neos-contentelement is a HACK here, to ensure highlighting works, despite the node type being marked as Neos.Neos:ContentCollection
+    attributes.class = 'comb-collection neos-contentelement'
+    content = Neos.Neos:ContentCollectionRenderer
+    # Add contentElementWrapping so it would be possible to edit column's properties
+    @process.contentElementWrapping = Neos.Neos:ContentElementWrapping
+}

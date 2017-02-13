@@ -1,0 +1,7 @@
+ul, ol {
+	margin-top: 0;
+	@include space(margin-bottom);
+	li {
+		@include type-setting(text);
+	}
+}

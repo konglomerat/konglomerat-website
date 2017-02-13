@@ -1,0 +1,28 @@
+p {
+	@include reset-spacing();
+	@include type-setting(text);
+	@include space(margin-bottom);
+}
+
+p > br:only-child {
+	display: none;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+small {
+	@include reset-spacing();
+	@include type-setting(small);
+}
+
+body {
+	font-family: 'Lato';
+	font-weight: 300;
+	color: brand-color(text);
+}
+
+html, body {
+	font-size: 16px;
+}

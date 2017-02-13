@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace fusion=Neos\Fusion\ViewHelpers}
+<html>
+<head>
+	<f:section name="stylesheets">
+		<!-- Put your stylesheet inclusions here, they will be included in your website by Fusion -->
+		<link href="{f:uri.resource(path: 'Styles/Main.css', package: 'Konglomerat.Website')}" rel="stylesheet">
+	</f:section>
+	<f:section name="headScripts">
+		<!-- Put your scripts inclusions for the head here, they will be included in your website by Fusion -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="{f:uri.resource(path: 'JavaScript/app.js', package: 'Konglomerat.Website')}"></script>
+	</f:section>
+</head>
+<body>
+<f:section name="body">
+	<nav class="menu">
+		{parts.menu -> f:format.raw()}
+	</nav>
+
+	<div class="content">
+		{content.main -> f:format.raw()}
+	</div>
+
+	<div class="site-footer">
+		<div class="comb-right">
+			<f:render
+					partial="CombSvg"
+					arguments="{
+				fill: 'white'
+				showOverlayOnHover: false
+			}"
+			/>
+		</div>
+	</div>
+</f:section>
+
+<f:section name="bodyScripts">
+	<!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
+</f:section>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.site-footer {
+	position: relative;
+	width: 100%;
+	min-height: 200px;
+	bottom: 0;
+
+	background: white;
+
+	* {
+		color: transparentize(brand-color(white), 0.5);
+	}
+
+	.comb-right {
+		position: absolute;
+		right: 0;
+		top: -200px;
+		width: 400px;
+		height: 400px;
+		overflow: hidden;
+	}
+
+	.comb-svg {
+		padding-left: 200px;
+	}
+
+	.comb__shape {
+		fill: white;
+		opacity: 1;
+	}
+}

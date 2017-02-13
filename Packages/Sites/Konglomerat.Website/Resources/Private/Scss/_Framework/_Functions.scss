@@ -1,0 +1,26 @@
+// mostly getter and setter for easily accessing maps
+
+@function brand-color($key) {
+	@return map-get($brand-colors, $key);
+}
+
+@function line-height($key, $bp: large) {
+	@return map-get(map-get($line-heights, $bp), $key);
+}
+
+@function font-size($key, $bp: large) {
+	@return map-get(map-get($type-scales, $bp), $key);
+}
+
+@function layer($key) {
+	@return map-get($layers, $key);
+}
+
+@function breakpoint($key) {
+	@return map-get($breakpoints, $key);
+}
+
+@function base-line-height($bp: large) {
+	@return map-get($base-line-heights, $bp);
+
+}

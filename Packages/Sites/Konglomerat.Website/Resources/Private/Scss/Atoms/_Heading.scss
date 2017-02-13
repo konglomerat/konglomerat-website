@@ -1,0 +1,20 @@
+h1 {
+	@include type-setting(h1);
+}
+
+h2 {
+	@include type-setting(h2);
+}
+
+h3 {
+	@include type-setting(h3);
+}
+
+h1, h2, h3 {
+	font-family: 'Lato';
+	font-weight: 300;
+
+	@include reset-spacing();
+
+	color: brand-color(black);
+}

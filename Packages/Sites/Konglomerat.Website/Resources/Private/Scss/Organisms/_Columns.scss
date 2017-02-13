@@ -1,0 +1,37 @@
+.columns {
+	position: relative;
+	display: flex;
+
+	border-top: 1px solid brand-color(lighter-grey);
+	border-bottom: 1px solid brand-color(lighter-grey);
+
+	@include mq(medium){
+		display: block;
+	}
+}
+
+.columns + .columns {
+	border-top: none;
+}
+
+.columns__column {
+	overflow: hidden;
+	flex-basis: 100%;
+	@include space(padding-left);
+	@include space(padding-right);
+
+	@include mq(medium){
+		padding-left: 0;
+		padding-right: 0;
+		@include space(padding-bottom);
+	}
+}
+
+.columns__column:first-of-type {
+	padding-left: 0;
+}
+
+.columns__column:last-of-type {
+	padding-right: 0;
+	padding-bottom: 0;
+}

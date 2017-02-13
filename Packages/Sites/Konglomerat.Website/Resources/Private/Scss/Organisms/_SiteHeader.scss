@@ -1,0 +1,13 @@
+.site-header {
+	display: flex;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: $page-header-height;
+	line-height: $page-header-height;
+	z-index: layer(main-menu);
+
+	background: $page-header-background;
+	box-shadow: 2px 2px 1px transparentize(brand-color(black), 0.95);
+}

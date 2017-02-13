@@ -1,0 +1,101 @@
+# If you need more than just the "main" content area you can uncomment the snippet below. It will add a "sidebar" area
+# to your pages. You can add as many areas as you like, still only those that are rendered in your Fusion-code and
+# Template are visible on your page.
+---
+#'Neos.NodeTypes:Page':
+#  childNodes:
+#    'sidebar':
+#      type: 'Neos.Neos:ContentCollection'
+
+'Neos.Neos:Document':
+  ui:
+    inspector:
+      groups:
+        'properties':
+          label: 'Eigenschaften'
+          tab: 'default'
+
+'Neos.Neos:Content':
+  ui:
+    # HACK: remove grey bg in backend for all elements
+    inlineEditable: true
+    inspector:
+      groups:
+        'properties':
+          label: 'Eigenschaften'
+          tab: 'default'
+
+'Konglomerat.Website:CombCollection':
+  superTypes:
+    'Neos.Neos:Content': true
+    # HACK: extending from Conent and Collection alike
+    'Neos.Neos:ContentCollection': true
+  ui:
+    group: 'general'
+    label: 'Waben Sammlung'
+    inlineEditable: true
+  constraints:
+    nodeTypes:
+      '*': false
+      'Konglomerat.Website:Comb': true
+
+'Konglomerat.Website:Comb':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    label: 'Wabe'
+    inlineEditable: true
+  properties:
+    title:
+      type: string
+      defaultValue: '[Label]'
+      ui:
+        label: 'Line 1'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
+    title2:
+      type: string
+      ui:
+        label: 'Line 2'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
+    title3:
+      type: string
+      ui:
+        label: 'Line 3'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
+    color:
+      type: string
+      defaultValue: '#HEX'
+      ui:
+        label: 'Background Color'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
+    row:
+      type: integer
+      defaultValue: 10
+      ui:
+        label: 'Row'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
+    column:
+      type: integer
+      defaultValue: 10
+      ui:
+        label: 'Column'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'

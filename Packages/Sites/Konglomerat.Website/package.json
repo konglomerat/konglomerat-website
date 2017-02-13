@@ -1,0 +1,18 @@
+{
+  "name": "konglo",
+  "version": "0.0.1",
+  "description": "konglo",
+  "author": "Sandstorm",
+  "scripts": {
+    "build:sass": "node-sass Resources/Private/Scss/ -o Resources/Public/Styles/",
+    "postbuild:css": "postcss --use autoprefixer --autoprefixer.browsers 'last 4 versions' Resources/Public/Styles/*.css -d Resources/Public/Styles/",
+    "build": "npm run build:sass && npm run postbuild:css",
+    "watch:sass": "npm run build:sass -- -w",
+    "watch": "npm run watch:sass"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "node-sass": "^3.6.0",
+    "postcss-cli": "^2.5.2"
+  }
+}

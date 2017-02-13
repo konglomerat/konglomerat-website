@@ -1,0 +1,48 @@
+.flag {
+	display: flex;
+
+	figure {
+		flex-basis: 400px;
+		flex-shrink: 0;
+
+		> * {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	@include mq(small){
+		figure {
+			display: none;
+		}
+	}
+
+	@include mq(medium){
+		&.flag--centeredImage .flag__spacer {
+			display: none;
+		}
+	}
+}
+
+.flag--leftText {
+	flex-direction: row-reverse;
+}
+
+.flag--centeredImage {
+	figure {
+		flex-basis: 200px;
+	}
+
+	.flag__spacer{
+		display: block;
+	}
+}
+
+.flag__content {
+	flex: 2;
+}
+
+.flag__spacer{
+	display: none;
+	flex: 2;
+}

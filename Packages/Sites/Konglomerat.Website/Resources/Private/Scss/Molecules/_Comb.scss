@@ -1,0 +1,120 @@
+.comb-collection {
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	height: 100%;
+
+	margin: 0 auto;
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+
+$comb__columns: 3;
+$comb__rows: 10;
+
+$comb__aspect-ratio: 0.796;
+$comb__width-ratio: 0.7; //0.66;
+$comb__height-ratio: 0.5; //0.55;
+
+$comb__column__width: 100% / ($comb__columns + 0.5);
+$comb__width: $comb__column__width * $comb__width-ratio;
+$comb__height: $comb__width * $comb__aspect-ratio;
+
+$comb__padding: ($comb__column__width - $comb__width)/2;
+
+.comb-svg--outline {
+	.comb__shape {
+		fill: none;
+		stroke-width: 3px;
+		stroke: black;
+		vector-effect: non-scaling-stroke;
+	}
+}
+
+.comb {
+	position: absolute;
+	width: $comb__width;
+	padding-bottom: $comb__height;
+	float: left;
+
+	&:after {
+		clear: both;
+	}
+
+	svg {
+		position: absolute;
+		bottom: 0;
+
+		transition-property: transform;
+		transition-duration: 500ms;
+
+		&:hover {
+			.comb__overlay {
+				opacity: 0.1;
+			}
+
+			transform: rotateX(-20deg) rotateY(-10deg);
+		}
+	}
+}
+
+
+.comb:nth-child(2n) {
+	transform: translate(3%, 2%);
+}
+
+.comb:nth-child(3n) {
+	transform: translate(-2%, 4%);
+}
+
+.comb:nth-child(5n) {
+	transform: translate(0.5%, -3%);
+}
+
+.comb__overlay {
+	opacity: 0;
+	fill: black;
+
+	transition-property: opacity;
+	transition-duration: 500ms;
+}
+
+.comb__shape {
+	opacity: 0.8;
+}
+
+.comb__content {
+	transform: rotate(38deg) translate(22px, -8px);
+}
+
+.comb__label {
+	font-size: 9px;
+	text-transform: uppercase;
+}
+
+@for $row from 1 through $comb__rows {
+	.comb[data-row='#{$row}'] {
+		margin-top: ($row - 1) * $comb__height * $comb__height-ratio;
+		@if $row % 2 == 0 {
+			@for $column from 1 through $comb__columns {
+				&.comb[data-column='#{$column}'] {
+					left: $comb__column__width/2 + ($column - 1) * $comb__column__width + $comb__padding;
+				}
+			}
+		}
+	}
+}
+
+@for $column from 1 through $comb__columns {
+	.comb[data-column='#{$column}'] {
+		left: ($column - 1) * $comb__column__width + $comb__padding;
+	}
+}
+
+.neos-backend {
+	.comb {
+		a {
+			pointer-events: none;
+		}
+	}
+}
