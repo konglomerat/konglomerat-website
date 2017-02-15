@@ -15,11 +15,15 @@
 </head>
 <body>
 <f:section name="body">
-	<nav class="menu">
-		{parts.menu -> f:format.raw()}
-	</nav>
+	<div class="main-menu-toggle">Menü</div>
+	<div class="main-menu">
+		<div class="main-menu-close">Close</div>
+		<div class="u-stage u-stage--center">
+			{content.navigation -> f:format.raw()}
+		</div>
+	</div>
 
-	<div class="content">
+	<div class="u-stage">
 		{content.main -> f:format.raw()}
 	</div>
 
@@ -38,6 +42,17 @@
 
 <f:section name="bodyScripts">
 	<!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
+	<script>
+		$(document).ready(function(){
+			$('.main-menu-toggle').click(function () {
+				$('.main-menu').toggleClass('main-menu--is-open');
+			})
+
+			$('.main-menu-close').click(function () {
+				$('.main-menu').removeClass('main-menu--is-open');
+			})
+		});
+	</script>
 </f:section>
 </body>
 </html>

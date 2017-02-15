@@ -1,0 +1,36 @@
+.main-menu {
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	background: transparentize(white, 0.2);
+
+	width: 100%;
+	height: 100%;
+
+	transform: translate(0, -20px);
+
+	z-index: -1;
+
+	transition-property: transform, opacity;
+	transition-duration: 250ms;
+}
+
+.main-menu--is-open {
+	transform: translate(0, 0);
+	z-index: 1;
+	opacity: 1;
+}
+
+.main-menu-toggle {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.main-menu-close {
+	position: fixed;
+	top: 0;
+	right: 0;
+}

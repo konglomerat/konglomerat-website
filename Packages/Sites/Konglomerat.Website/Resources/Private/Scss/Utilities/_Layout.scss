@@ -1,44 +1,23 @@
-body {
+/*body {
 	background: url('../Images/dummy.jpg');
 	background-attachment: fixed;
 	padding-top: 2*$page-header-height;
 
-}
+}*/
 
 .u-stage {
-	display: block;
 	position: relative;
-	overflow: hidden;
-	background: #fff;
-	padding-top: $page-header-height;
-}
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 50px;
 
-
-.u-has-mobil-menu {
-	.siteHeader .menu {
-		display: none;
-	}
-
-	.siteHeader__mobilNavToggler {
-		display: block;
-	}
-
-	.secondaryMenu {
-		display: none;
-	}
-}
-
-.u-lock-scrolling {
-	overflow-y: hidden;
-
-}
-
-.content {
-	margin-top: 200px;
-	margin-bottom: 200px;
-	background: white;
-	padding: 36px;
-	width: 60%;
-	min-height: 100%;
+	width: 100%;
 	max-width: 800px;
+	background: white;
 }
+
+.u-stage--center {
+	margin: 0 auto;
+	max-width: 960px;
+}
+

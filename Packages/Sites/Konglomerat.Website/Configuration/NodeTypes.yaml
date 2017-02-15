@@ -7,6 +7,8 @@
 #    'sidebar':
 #      type: 'Neos.Neos:ContentCollection'
 
+
+
 'Neos.Neos:Document':
   ui:
     inspector:
@@ -24,6 +26,17 @@
         'properties':
           label: 'Eigenschaften'
           tab: 'default'
+
+'Konglomerat.Website:Homepage':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  ui:
+    group: 'general'
+    label: 'Homepage'
+  childNodes:
+    navigation:
+      type: 'Neos.Neos:ContentCollection'
+      position: 'before main'
 
 'Konglomerat.Website:CombCollection':
   superTypes:

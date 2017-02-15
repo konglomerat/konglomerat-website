@@ -1,0 +1,6 @@
+prototype(Neos.NodeTypes:Page.Document) < prototype(Konglomerat.Website:DefaultPage) {
+	body.content.navigation {
+		prototype(Neos.Neos:ContentCollection).@process.contentElementWrapping.@if.disableContentElementWrappingExceptOnHomepage = ${false}
+		prototype(Neos.Neos:Content).@process.contentElementWrapping.@if.disableContentElementWrappingExceptOnHomepage = ${false}
+	}
+}
