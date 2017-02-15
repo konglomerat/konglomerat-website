@@ -1,0 +1,13 @@
+'Konglomerat.Website:CombCollection':
+  superTypes:
+    'Neos.Neos:Content': true
+    # HACK: extending from Conent and Collection alike
+    'Neos.Neos:ContentCollection': true
+  ui:
+    group: 'general'
+    label: 'Waben Sammlung'
+    inlineEditable: true
+  constraints:
+    nodeTypes:
+      '*': false
+      'Konglomerat.Website:Comb': true

@@ -16,6 +16,14 @@
         'properties':
           label: 'Eigenschaften'
           tab: 'default'
+  properties:
+      'keyVisualImage':
+        type: Neos\Media\Domain\Model\ImageInterface
+        ui:
+          label: 'Standart Hintergrundbild'
+          reloadIfChanged: true
+          inspector:
+            group: 'properties'
 
 'Neos.Neos:Content':
   ui:
@@ -26,89 +34,3 @@
         'properties':
           label: 'Eigenschaften'
           tab: 'default'
-
-'Konglomerat.Website:Homepage':
-  superTypes:
-    'Neos.NodeTypes:Page': true
-  ui:
-    group: 'general'
-    label: 'Homepage'
-  childNodes:
-    navigation:
-      type: 'Neos.Neos:ContentCollection'
-      position: 'before main'
-
-'Konglomerat.Website:CombCollection':
-  superTypes:
-    'Neos.Neos:Content': true
-    # HACK: extending from Conent and Collection alike
-    'Neos.Neos:ContentCollection': true
-  ui:
-    group: 'general'
-    label: 'Waben Sammlung'
-    inlineEditable: true
-  constraints:
-    nodeTypes:
-      '*': false
-      'Konglomerat.Website:Comb': true
-
-'Konglomerat.Website:Comb':
-  superTypes:
-    'Neos.Neos:Content': true
-  ui:
-    group: 'general'
-    label: 'Wabe'
-    inlineEditable: true
-  properties:
-    title:
-      type: string
-      defaultValue: '[Label]'
-      ui:
-        label: 'Line 1'
-        inlineEditable: false
-        reloadIfChanged: true
-        inspector:
-          group: 'properties'
-    title2:
-      type: string
-      ui:
-        label: 'Line 2'
-        inlineEditable: false
-        reloadIfChanged: true
-        inspector:
-          group: 'properties'
-    title3:
-      type: string
-      ui:
-        label: 'Line 3'
-        inlineEditable: false
-        reloadIfChanged: true
-        inspector:
-          group: 'properties'
-    color:
-      type: string
-      defaultValue: '#HEX'
-      ui:
-        label: 'Background Color'
-        inlineEditable: false
-        reloadIfChanged: true
-        inspector:
-          group: 'properties'
-    row:
-      type: integer
-      defaultValue: 10
-      ui:
-        label: 'Row'
-        inlineEditable: false
-        reloadIfChanged: true
-        inspector:
-          group: 'properties'
-    column:
-      type: integer
-      defaultValue: 10
-      ui:
-        label: 'Column'
-        inlineEditable: false
-        reloadIfChanged: true
-        inspector:
-          group: 'properties'

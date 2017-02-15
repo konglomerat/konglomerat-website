@@ -1,0 +1,26 @@
+.brand-logo {
+	width: 240px;
+
+	&:hover {
+		.brand-logo__shadow {
+			transform: rotateX(-20deg) rotateY(-10deg);
+		}
+
+		.brand-logo__outline {
+			transform: rotateX(-20deg) rotateY(-10deg);
+		}
+	}
+}
+
+.brand-logo__shadow {
+	fill: white;//#7C7B7A;
+	opacity: 0.8;
+
+	transition-property: transform, fill;
+	transition-duration: 250ms;
+}
+
+.brand-logo__outline {
+	transition-property: transform;
+	transition-duration: 250ms;
+}

@@ -1,3 +1,5 @@
+// all pages inherit from this
+
 prototype(Konglomerat.Website:DefaultPage) < prototype(Page) {
     head {
         stylesheets.site = Neos.Fusion:Template {

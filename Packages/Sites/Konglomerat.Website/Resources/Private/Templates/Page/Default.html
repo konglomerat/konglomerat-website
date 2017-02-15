@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 {namespace neos=Neos\Neos\ViewHelpers}
-{namespace fusion=Neos\Fusion\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+
 <html>
 <head>
 	<f:section name="stylesheets">
 		<!-- Put your stylesheet inclusions here, they will be included in your website by Fusion -->
 		<link href="{f:uri.resource(path: 'Styles/Main.css', package: 'Konglomerat.Website')}" rel="stylesheet">
+
+
+
 	</f:section>
 	<f:section name="headScripts">
 		<!-- Put your scripts inclusions for the head here, they will be included in your website by Fusion -->
@@ -13,18 +17,42 @@
 		<script src="{f:uri.resource(path: 'JavaScript/app.js', package: 'Konglomerat.Website')}"></script>
 	</f:section>
 </head>
+
 <body>
 <f:section name="body">
-	<div class="main-menu-toggle">Menü</div>
+	<f:if condition="{keyVisualImage}">
+		<f:then>
+			<div class="u-background" style="background-image: url('{media:uri.image(image: keyVisualImage, maximumWidth: 1500, maximumHeight: 1500)}');"></div>
+		</f:then>
+	</f:if>
+	<f:render partial="MainMenuToggle" />
+	<a class="floating-logo" href="/">
+		<f:render partial="BrandLogo" />
+	</a>
+
 	<div class="main-menu">
-		<div class="main-menu-close">Close</div>
-		<div class="u-stage u-stage--center">
-			{content.navigation -> f:format.raw()}
+		<div class="main-menu__content">
+			<div class="growing-comb">
+				<f:render partial="CombSpike"/>
+				<div class="growing-comb__middle"></div>
+				<f:render partial="CombSpike" arguments="{flipped: true}"/>
+			</div>
+			<div class="main-menu__content-inner">
+				{content.navigation -> f:format.raw()}
+			</div>
 		</div>
 	</div>
 
 	<div class="u-stage">
-		{content.main -> f:format.raw()}
+		<div class="growing-comb">
+			<f:render partial="CombSpike"/>
+			<div class="growing-comb__middle"></div>
+			<f:render partial="CombSpike" arguments="{flipped: true}"/>
+		</div>
+
+		<div class="u-stage__inner">
+			{content.main -> f:format.raw()}
+		</div>
 	</div>
 
 	<div class="site-footer">
@@ -42,17 +70,6 @@
 
 <f:section name="bodyScripts">
 	<!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
-	<script>
-		$(document).ready(function(){
-			$('.main-menu-toggle').click(function () {
-				$('.main-menu').toggleClass('main-menu--is-open');
-			})
-
-			$('.main-menu-close').click(function () {
-				$('.main-menu').removeClass('main-menu--is-open');
-			})
-		});
-	</script>
 </f:section>
 </body>
 </html>

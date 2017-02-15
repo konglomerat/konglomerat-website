@@ -1,0 +1,10 @@
+'Konglomerat.Website:Homepage':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  ui:
+    group: 'general'
+    label: 'Homepage'
+  childNodes:
+    navigation:
+      type: 'Neos.Neos:ContentCollection'
+      position: 'before main'

@@ -1,0 +1,11 @@
+.floating-logo {
+	display: block;
+	position: fixed;
+	top: 50px;
+	right: 150px;
+
+	cursor: pointer;
+
+	transition-property: opacity;
+	transition-duration: 250ms;
+}

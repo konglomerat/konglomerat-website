@@ -6,4 +6,6 @@ prototype(Konglomerat.Website:Homepage.Document) < prototype(Konglomerat.Website
 			nodePath = 'navigation'
 		}
 	}
+
+	head.stylesheets.site.keyVisualImage = ''
 }
