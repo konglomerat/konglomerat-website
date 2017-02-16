@@ -3,25 +3,25 @@
  <site name="konglomerat.org" state="1" siteResourcesPackageKey="Konglomerat.Website" siteNodeName="website">
   <nodes formatVersion="2.0">
    <node identifier="c13d41f8-6679-4ea8-aa4c-7208f8152f4e" nodeName="website">
-    <variant sortingIndex="100" workspace="live" nodeType="Konglomerat.Website:Homepage" version="5" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Konglomerat.Website:Homepage" version="6" removed="" hidden="" hiddenInIndex="">
      <dimensions/>
      <accessRoles __type="array"/>
      <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:11:40+01:00</creationDateTime>
-     <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:23:14+01:00</lastModificationDateTime>
-     <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:02+01:00</lastPublicationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:33:35+01:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:33:35+01:00</lastPublicationDateTime>
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
-      <canonicalLink __type="string"></canonicalLink>
+      <keyVisualImage __type="object" __identifier="bcb7d218-2d85-4bbd-abf4-50014d9d3bc3" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;bcb7d218-2d85-4bbd-abf4-50014d9d3bc3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;i-mpsumpowe-jeff-sheldon.jpg&quot;,&quot;hash&quot;:&quot;13c2298aef54514aa2a6794806a1e5300a2f7c55&quot;,&quot;__identity&quot;:&quot;2da70d1c-81ee-48ed-b18f-94b940b03c7d&quot;}}</keyVisualImage>
      </properties>
     </variant>
     <node identifier="2e526d61-92b5-7476-f533-b1f468931e8d" nodeName="main">
-     <variant sortingIndex="700" workspace="live" nodeType="Neos.Neos:ContentCollection" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="700" workspace="live" nodeType="Neos.Neos:ContentCollection" version="6" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:11:40+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:12:33+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:02+01:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:33:35+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:33:35+01:00</lastPublicationDateTime>
       <properties/>
      </variant>
      <node identifier="904f7e42-5839-40fb-8720-7e3a89a432e2" nodeName="node-58a380fe2209f">
@@ -50,12 +50,12 @@
      </node>
     </node>
     <node identifier="11f61533-f306-0aee-8431-11c629b6e327" nodeName="navigation">
-     <variant sortingIndex="600" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="600" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-14T23:17:45+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:03+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:02+01:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:33:35+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:33:35+01:00</lastPublicationDateTime>
       <properties/>
      </variant>
      <node identifier="2e66e9fa-ded2-4403-bae1-04b51f185e40" nodeName="node-58a382d16bd96">
@@ -110,8 +110,6 @@
          <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T00:45:19+01:00</lastModificationDateTime>
          <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T00:45:19+01:00</lastPublicationDateTime>
          <properties>
-          <caption __type="string"></caption>
-          <alignment __type="string"></alignment>
           <image __type="object" __identifier="97b5f1ff-a29a-4f58-bd3b-aab5bdf6177d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;97b5f1ff-a29a-4f58-bd3b-aab5bdf6177d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;JIRA_logo.svg&quot;,&quot;hash&quot;:&quot;6a9f165089dd1098c205ae68af534e5963aaa208&quot;,&quot;__identity&quot;:&quot;eea60ccb-df64-4101-90d2-ecedf603ac3e&quot;}}</image>
          </properties>
         </variant>
@@ -134,8 +132,6 @@
          <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T00:45:19+01:00</lastModificationDateTime>
          <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T00:45:19+01:00</lastPublicationDateTime>
          <properties>
-          <caption __type="string"></caption>
-          <alignment __type="string"></alignment>
           <image __type="object" __identifier="d7a3362f-0da2-43c7-99a3-c447c2d9c105" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d7a3362f-0da2-43c7-99a3-c447c2d9c105&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;logo-w-type.svg&quot;,&quot;hash&quot;:&quot;f8be8e2dc566902b94e85c5d019685d4caf29e1e&quot;,&quot;__identity&quot;:&quot;ede66b81-e62a-4a1a-9c80-d45c2070b8f2&quot;}}</image>
          </properties>
         </variant>
@@ -239,8 +235,6 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T09:08:58+01:00</lastPublicationDateTime>
         <properties>
          <title __type="string">CNC</title>
-         <title2 __type="string"></title2>
-         <title3 __type="string"></title3>
          <color __type="string">#1ff7f7</color>
          <row __type="integer">4</row>
          <column __type="integer">2</column>
@@ -256,8 +250,6 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T09:08:58+01:00</lastPublicationDateTime>
         <properties>
          <title __type="string">test</title>
-         <title2 __type="string"></title2>
-         <title3 __type="string"></title3>
          <color __type="string">#f5ad00</color>
          <row __type="integer">5</row>
          <column __type="integer">2</column>
@@ -321,7 +313,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T16:42:37+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">unnamed</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Werkbereiche</title>
       </properties>
      </variant>
@@ -345,7 +336,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T16:42:37+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">cluster</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Cluster</title>
       </properties>
      </variant>
@@ -369,7 +359,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T16:02:51+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">projekte</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Projekte</title>
       </properties>
      </variant>
@@ -479,8 +468,6 @@
          <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T21:53:42+01:00</lastPublicationDateTime>
          <properties>
           <title __type="string">CNC</title>
-          <title2 __type="string"></title2>
-          <title3 __type="string"></title3>
           <color __type="string">#1ff7f7</color>
           <row __type="integer">4</row>
           <column __type="integer">2</column>
@@ -496,8 +483,6 @@
          <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T12:25:42+01:00</lastPublicationDateTime>
          <properties>
           <title __type="string">test</title>
-          <title2 __type="string"></title2>
-          <title3 __type="string"></title3>
           <color __type="string">#f5ad00</color>
           <row __type="integer">5</row>
           <column __type="integer">2</column>
@@ -558,9 +543,7 @@
         <creationDateTime __type="object" __classname="DateTime">2017-02-11T12:19:17+01:00</creationDateTime>
         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T12:20:52+01:00</lastModificationDateTime>
         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T12:20:52+01:00</lastPublicationDateTime>
-        <properties>
-         <text __type="string"></text>
-        </properties>
+        <properties/>
        </variant>
       </node>
      </node>
@@ -574,7 +557,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:24+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">termine</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Termine</title>
       </properties>
      </variant>
@@ -598,9 +580,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:11:28+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">konglomerat</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Konglomerat</title>
-       <keyVisualImage __type="string"></keyVisualImage>
       </properties>
      </variant>
      <node identifier="604c4f6f-975e-d346-ad7f-46236bb131ec" nodeName="main">
@@ -647,7 +627,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:08+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">freunde-partner</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Freunde&amp;Partner</title>
       </properties>
      </variant>
@@ -671,9 +650,7 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:28:40+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">rosenwerk</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Rosenwerk</title>
-       <keyVisualImage __type="string"></keyVisualImage>
       </properties>
      </variant>
      <node identifier="6bffbcae-da51-f09a-9066-53aec1233cf2" nodeName="main">
