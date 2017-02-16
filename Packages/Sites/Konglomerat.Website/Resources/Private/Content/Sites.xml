@@ -13,15 +13,15 @@
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
       <canonicalLink __type="string"></canonicalLink>
-      <keyVisualImage __type="object" __identifier="4387d07b-55b1-4736-8e96-df562c8cb88d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;4387d07b-55b1-4736-8e96-df562c8cb88d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;i-mpsumpowe-jeff-sheldon.jpg&quot;,&quot;hash&quot;:&quot;68cdb2943b548e4eab3b90de168d58720083a38c&quot;,&quot;__identity&quot;:&quot;c19da494-3200-4cb3-a79a-28b217310b1c&quot;}}</keyVisualImage>
+      <keyVisualImage __type="object" __identifier="4387d07b-55b1-4736-8e96-df562c8cb88d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;4387d07b-55b1-4736-8e96-df562c8cb88d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;i-mpsumpowe-jeff-sheldon.jpg&quot;,&quot;hash&quot;:&quot;13c2298aef54514aa2a6794806a1e5300a2f7c55&quot;,&quot;__identity&quot;:&quot;483d8e8e-aa28-452d-8aee-9ddb26e0be07&quot;}}</keyVisualImage>
      </properties>
     </variant>
     <node identifier="2e526d61-92b5-7476-f533-b1f468931e8d" nodeName="main">
-     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="700" workspace="live" nodeType="Neos.Neos:ContentCollection" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:11:40+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:03+01:00</lastModificationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:12:33+01:00</lastModificationDateTime>
       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:02+01:00</lastPublicationDateTime>
       <properties/>
      </variant>
@@ -591,26 +591,26 @@
      </node>
     </node>
     <node identifier="b69f3ad0-dbb3-4198-9df4-f9bc54b80bea" nodeName="node-589f0813374d6">
-     <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Page" version="6" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:48:19+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T20:58:46+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:58:46+01:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:11:28+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:11:28+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">konglomerat</uriPathSegment>
        <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Konglomerat</title>
-       <keyVisualImage __type="object" __identifier="73af4e51-a608-4d00-892a-89bcfb72fb4e" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;73af4e51-a608-4d00-892a-89bcfb72fb4e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;evclndfydbs-adrian.jpg&quot;,&quot;hash&quot;:&quot;4752348e4df4de9f0adab4c665b19fe9778911f0&quot;,&quot;__identity&quot;:&quot;caf10ffa-1633-4d96-9568-6db1c15041ea&quot;}}</keyVisualImage>
+       <keyVisualImage __type="string"></keyVisualImage>
       </properties>
      </variant>
      <node identifier="604c4f6f-975e-d346-ad7f-46236bb131ec" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:48:19+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T20:58:46+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:58:46+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:11:28+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:11:28+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
       <node identifier="74a0629a-0908-42ae-819c-57beb6fb82ae" nodeName="node-589f1153901f3">
@@ -664,17 +664,16 @@
      </node>
     </node>
     <node identifier="0930d420-ac3f-405f-bc73-f68a66ece9f6" nodeName="node-589f0840f21a3">
-     <variant sortingIndex="175" workspace="live" nodeType="Neos.NodeTypes:Page" version="7" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="175" workspace="live" nodeType="Neos.NodeTypes:Page" version="8" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:49:05+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T21:29:09+01:00</lastModificationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:12:32+01:00</lastModificationDateTime>
       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T21:29:09+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">rosenwerk</uriPathSegment>
        <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Rosenwerk</title>
-       <keyVisualImage __type="object" __identifier="8851874c-e9f8-4d32-b6f2-d3db20aa6b02" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;8851874c-e9f8-4d32-b6f2-d3db20aa6b02&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;afaea2f5-ce95-403b-a349-d8a664159c67&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;k2a8j47_m38-matthew-smith.jpg&quot;,&quot;hash&quot;:&quot;896b1cd3f469dca6c15b14a402e9400f324ec2ab&quot;,&quot;__identity&quot;:&quot;2fa43e26-1d62-4f77-a31c-5eab64adb295&quot;}},&quot;adjustments&quot;:[{&quot;height&quot;:2110,&quot;position&quot;:10,&quot;width&quot;:2795,&quot;x&quot;:325,&quot;y&quot;:2000,&quot;__identity&quot;:&quot;1310a754-f5c1-4db4-8e1b-6b2d4c066dd2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</keyVisualImage>
       </properties>
      </variant>
      <node identifier="6bffbcae-da51-f09a-9066-53aec1233cf2" nodeName="main">
