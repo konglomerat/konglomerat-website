@@ -449,8 +449,7 @@ textarea {
     line-height: 2.8rem; } }
 
 h1, h2, h3 {
-  font-family: 'Lato';
-  font-weight: 300;
+  font-family: 'Istok Web', sans-serif;
   margin: 0;
   padding: 0;
   color: #000; }
@@ -531,8 +530,8 @@ small {
       line-height: 1.4rem; } }
 
 body {
-  font-family: 'Lato';
-  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   color: #4e4e4e; }
 
 html, body {
