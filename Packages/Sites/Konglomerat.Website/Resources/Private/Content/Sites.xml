@@ -25,26 +25,26 @@
       <properties/>
      </variant>
      <node identifier="904f7e42-5839-40fb-8720-7e3a89a432e2" nodeName="node-58a380fe2209f">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-14T23:13:18+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-14T23:13:41+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-14T23:13:41+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T16:20:09+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T16:20:09+01:00</lastPublicationDateTime>
        <properties>
-        <title __type="string">&lt;h1&gt;Konglomerat&lt;/h1&gt;</title>
+        <title __type="string">&lt;h1 style=&quot;text-align: center;&quot;&gt;Konglomerat Infos die nich im Menü erscheinen&lt;/h1&gt;</title>
        </properties>
       </variant>
      </node>
      <node identifier="e424bcfd-6cc3-40ec-b6d3-6c23c885fc56" nodeName="node-58a3810b2a1cf">
-      <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="7" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-14T23:13:31+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-14T23:13:41+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-14T23:13:41+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T16:15:11+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T16:15:10+01:00</lastPublicationDateTime>
        <properties>
-        <text __type="string">&lt;p&gt;Someawesome text &lt;/p&gt;</text>
+        <text __type="string">&lt;p&gt;Bavaria ipsum dolor sit amet Gstanzl nia need, gwiss Fünferl. Dahoam kimmt oa Obazda sog i barfuaßat hallelujah sog i, luja i, an om auf’n Gipfe. Lewakaas Gstanzl i hab an Prosd des wiad a Mordsgaudi damischa. Lem und lem lossn gwiss a Prosit der Gmiadlichkeit i moan oiwei Broadwurschtbudn nia need. Zidern auf der Oim, da gibt’s koa Sünd wiavui af Musi nix Gwiass woass ma ned o’ha hea i hab an Reiwadatschi. Obandln an gscheckate des is hoid aso resch wia da Buachbinda Wanninger in da Biaschlegl i moan scho aa! Nix Gwiass woass ma ned o’ha oans Hetschapfah und sei Milli Schneid Meidromml umananda. Vui huift vui mechad jo mei wea ko, dea ko a bissal wos gehd ollaweil sei Mamalad mi und glei wirds no fui lustiga. Nix kummd wo hi Sauakraud um Godds wujn nia need hi, Graudwiggal? Allerweil Almrausch hogg di hera Fünferl vui huift vui no imma da, hog di hi.&lt;/p&gt;&lt;p&gt;I bin a woschechta Bayer Guglhupf wiavui no Enzian Brotzeit trihöleridi dijidiholleri ham Leonhardifahrt! Muass mi weida noch da Giasinga Heiwog schaugn es, guad. Wuid Jodler Biazelt samma. Muass des a, um Godds wujn. Ma sodala Spezi Haferl fensdaln, Ramasuri. D’ Schdarmbeaga See sog i damischa gschmeidig measi gscheckate Jodler!Schnacksln des is hoid aso vasteh da Haferl gscheit mogsd a Bussal i moan oiwei, i daad Brodzeid! Sepp sowos Gamsbart dahoam wui, ned woar oa Ledahosn Servas. Nix hallelujah sog i, luja Wurscht Griasnoggalsubbm Blosmusi hogg di hera back mas Leonhardifahrt. Hinter’m Berg san a no Leit di vui huift vui o’ha Woibbadinga, Schbozal. Allerweil Milli kumm geh gwiss nackata jedza, Maibam wuid barfuaßat.&lt;/p&gt;&lt;p&gt;Ramasuri Trachtnhuat Auffisteign hogg ma uns zamm Edlweiss. Habedehre nia need des is a gmahde Wiesn, ded a liabs Deandl Griasnoggalsubbm. Watschnbaam greaßt eich nachad is ma Wuascht, nomoi i mog di fei i moan oiwei mehra gscheckate Watschnbaam. Gwiss oa hi ned boarischer Ramasuri baddscher, auf der Oim, da gibt’s koa Sünd geh hoggd. Biagadn a ganze Hoiwe wos schnacksln Gaudi zua d’ nois Kuaschwanz. Eam kimmt singd Gamsbart, Brezn measi hob i an Suri. Mei wos singd, gwiss. Gwihss sog i Griasnoggalsubbm und sei, nimma oans, zwoa, gsuffa. Gfreit mi schüds nei Marterl des basd scho de Sonn, aasgem ned luja. Baddscher Biakriagal is Griasnoggalsubbm is ma Wuascht, in da Brotzeit barfuaßat hogg ma uns zamm schnacksln. I sog ja nix, i red ja bloß Namidog hod Spuiratz i bin a woschechta Bayer mim.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</text>
        </properties>
       </variant>
      </node>
@@ -58,85 +58,17 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:33:35+01:00</lastPublicationDateTime>
       <properties/>
      </variant>
-     <node identifier="2e66e9fa-ded2-4403-bae1-04b51f185e40" nodeName="node-58a382d16bd96">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="12" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2017-02-14T23:21:05+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T19:45:59+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T19:45:59+01:00</lastPublicationDateTime>
-       <properties>
-        <title __type="string">&lt;h2&gt;Werkbereiche&lt;/h2&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</title>
-       </properties>
-      </variant>
-     </node>
      <node identifier="66405b22-a156-44ab-954f-f39d5d1f78d2" nodeName="node-58a382e295902">
-      <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Text" version="15" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Text" version="17" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-14T23:21:22+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T21:01:58+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T21:01:57+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T16:22:04+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T16:22:04+01:00</lastPublicationDateTime>
        <properties>
-        <text __type="string">&lt;p&gt;&lt;a href=&quot;node://c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot;&gt;HOME&lt;/a&gt; &lt;a href=&quot;node://b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot;&gt;KONGLOMERAT&lt;/a&gt; &lt;a href=&quot;node://0930d420-ac3f-405f-bc73-f68a66ece9f6&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;0930d420-ac3f-405f-bc73-f68a66ece9f6&quot;&gt;Werkbereiche&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</text>
+        <text __type="string">&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;node://c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot;&gt;HOME&lt;/a&gt;   |  &lt;a href=&quot;node://b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot;&gt;KONGLOMERAT&lt;/a&gt;  |  &lt;a href=&quot;node://0930d420-ac3f-405f-bc73-f68a66ece9f6&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;0930d420-ac3f-405f-bc73-f68a66ece9f6&quot;&gt;ROSENWERK&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;</text>
        </properties>
       </variant>
-     </node>
-     <node identifier="b5969dfc-2f5c-4f92-b92e-743e38469799" nodeName="node-58a3963e7e9ab">
-      <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="3" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2017-02-15T00:43:58+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T00:44:16+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T00:44:16+01:00</lastPublicationDateTime>
-       <properties>
-        <layout __type="string">50-50</layout>
-       </properties>
-      </variant>
-      <node identifier="1b825e48-bcad-efdf-7cc1-73fa5752907b" nodeName="column0">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-        <dimensions/>
-        <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2017-02-15T00:43:58+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T00:44:16+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T00:44:16+01:00</lastPublicationDateTime>
-        <properties/>
-       </variant>
-       <node identifier="66d796f1-a9b1-47a4-90db-02a89bcdd8dd" nodeName="node-58a396448a132">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Image" version="3" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-15T00:44:04+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T00:45:19+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T00:45:19+01:00</lastPublicationDateTime>
-         <properties>
-          <image __type="object" __identifier="97b5f1ff-a29a-4f58-bd3b-aab5bdf6177d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;97b5f1ff-a29a-4f58-bd3b-aab5bdf6177d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;JIRA_logo.svg&quot;,&quot;hash&quot;:&quot;6a9f165089dd1098c205ae68af534e5963aaa208&quot;,&quot;__identity&quot;:&quot;eea60ccb-df64-4101-90d2-ecedf603ac3e&quot;}}</image>
-         </properties>
-        </variant>
-       </node>
-      </node>
-      <node identifier="62d942d8-2066-f5e8-ef5f-685073fc5b65" nodeName="column1">
-       <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-        <dimensions/>
-        <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2017-02-15T00:43:58+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T00:44:16+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T00:44:16+01:00</lastPublicationDateTime>
-        <properties/>
-       </variant>
-       <node identifier="bf576a22-f6c0-4b4a-9d7d-95ba1656c3b0" nodeName="node-58a3964b28076">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Image" version="3" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-15T00:44:11+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T00:45:19+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T00:45:19+01:00</lastPublicationDateTime>
-         <properties>
-          <image __type="object" __identifier="d7a3362f-0da2-43c7-99a3-c447c2d9c105" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d7a3362f-0da2-43c7-99a3-c447c2d9c105&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;logo-w-type.svg&quot;,&quot;hash&quot;:&quot;f8be8e2dc566902b94e85c5d019685d4caf29e1e&quot;,&quot;__identity&quot;:&quot;ede66b81-e62a-4a1a-9c80-d45c2070b8f2&quot;}}</image>
-         </properties>
-        </variant>
-       </node>
-      </node>
      </node>
      <node identifier="e56cf003-d723-4b2f-956f-7ad75d192bef" nodeName="node-58a40c9514b6b">
       <variant sortingIndex="175" workspace="live" nodeType="Konglomerat.Website:CombCollection" version="3" removed="" hidden="" hiddenInIndex="">
@@ -304,292 +236,26 @@
       </node>
      </node>
     </node>
-    <node identifier="e1219e17-f2cd-4774-8305-efeb3bdbf1c9" nodeName="node-589dd09cd5cbd">
-     <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
-      <dimensions/>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:39:24+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T16:42:37+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T16:42:37+01:00</lastPublicationDateTime>
-      <properties>
-       <uriPathSegment __type="string">unnamed</uriPathSegment>
-       <title __type="string">Werkbereiche</title>
-      </properties>
-     </variant>
-     <node identifier="fb241e6d-1162-eaea-f4f2-6c4dbf40d4ed" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:39:24+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T16:42:37+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T16:42:37+01:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-     </node>
-    </node>
-    <node identifier="4fbc6258-73a7-4340-a4c9-77589821269f" nodeName="node-589dd0d21f7b4">
-     <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
-      <dimensions/>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:40:18+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T16:42:37+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T16:42:37+01:00</lastPublicationDateTime>
-      <properties>
-       <uriPathSegment __type="string">cluster</uriPathSegment>
-       <title __type="string">Cluster</title>
-      </properties>
-     </variant>
-     <node identifier="8a789ec6-27b1-9ff6-0fd5-adfb8a8806dd" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:40:18+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T16:42:37+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T16:42:37+01:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-     </node>
-    </node>
-    <node identifier="9451990e-e238-46ee-87cc-a84525522f30" nodeName="node-589dd0dba0e36">
-     <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
-      <dimensions/>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:40:27+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T16:02:51+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T16:02:51+01:00</lastPublicationDateTime>
-      <properties>
-       <uriPathSegment __type="string">projekte</uriPathSegment>
-       <title __type="string">Projekte</title>
-      </properties>
-     </variant>
-     <node identifier="0e598651-daa8-4624-bf40-39adad3e6ae3" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:40:27+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T16:02:51+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T16:02:51+01:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-      <node identifier="18630b74-bebc-403a-8c6f-7443a5846708" nodeName="node-589dd2428fd66">
-       <variant sortingIndex="100" workspace="live" nodeType="Konglomerat.Website:CombCollection" version="2" removed="" hidden="" hiddenInIndex="">
-        <dimensions/>
-        <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:46:26+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T16:02:51+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T16:02:51+01:00</lastPublicationDateTime>
-        <properties/>
-       </variant>
-       <node identifier="74e4cdc0-a0f7-4523-9347-17d11040aa7d" nodeName="node-589de8bd127fb">
-        <variant sortingIndex="250" workspace="live" nodeType="Konglomerat.Website:Comb" version="16" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-10T17:22:21+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:25+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:24+01:00</lastPublicationDateTime>
-         <properties>
-          <color __type="string">#45ad91</color>
-          <row __type="integer">1</row>
-          <column __type="integer">2</column>
-          <title __type="string">Matti</title>
-          <title2 __type="string">Flo</title2>
-          <title3 __type="string">Micha</title3>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="41b169e7-0e3b-454e-9f42-5a93486806e8" nodeName="node-589de9576fec6">
-        <variant sortingIndex="29" workspace="live" nodeType="Konglomerat.Website:Comb" version="13" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-10T17:24:55+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:25+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:24+01:00</lastPublicationDateTime>
-         <properties>
-          <color __type="string">red</color>
-          <row __type="integer">2</row>
-          <column __type="integer">2</column>
-          <title __type="string">Holz</title>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="2fdc0a8e-1898-4aec-82bf-c5e11fbbd489" nodeName="node-589dec686b299">
-        <variant sortingIndex="225" workspace="live" nodeType="Konglomerat.Website:Comb" version="10" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-10T17:38:00+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T21:53:42+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T21:53:42+01:00</lastPublicationDateTime>
-         <properties>
-          <color __type="string">#59758f</color>
-          <row __type="integer">2</row>
-          <column __type="integer">1</column>
-          <title __type="string">Elektro</title>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="e82fbfa1-6bfe-45f4-977c-b7877b27d3ea" nodeName="node-589dec95c9b0a">
-        <variant sortingIndex="57" workspace="live" nodeType="Konglomerat.Website:Comb" version="10" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-10T17:38:45+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T21:53:42+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T21:53:42+01:00</lastPublicationDateTime>
-         <properties>
-          <color __type="string">#bababa</color>
-          <row __type="integer">3</row>
-          <column __type="integer">2</column>
-          <title __type="string">Foto</title>
-          <title2 __type="string">Film</title2>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="536065fa-b13e-4f7b-bdca-7364b4077e59" nodeName="node-589e222ccd4c6">
-        <variant sortingIndex="300" workspace="live" nodeType="Konglomerat.Website:Comb" version="8" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-10T21:27:24+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T21:53:42+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T21:53:42+01:00</lastPublicationDateTime>
-         <properties>
-          <color __type="string">#ffbfb8</color>
-          <row __type="integer">5</row>
-          <column __type="integer">1</column>
-          <title __type="string">3D-</title>
-          <title2 __type="string">Druck</title2>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="f5d38afe-81f5-4ad3-b7de-1f4ef22962d7" nodeName="node-589e27dc4459e">
-        <variant sortingIndex="141" workspace="live" nodeType="Konglomerat.Website:Comb" version="8" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-10T21:51:40+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T21:53:42+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T21:53:42+01:00</lastPublicationDateTime>
-         <properties>
-          <title __type="string">CNC</title>
-          <color __type="string">#1ff7f7</color>
-          <row __type="integer">4</row>
-          <column __type="integer">2</column>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="6204cb9a-89c0-49ec-9bfb-1d986273e672" nodeName="node-589e28683b574">
-        <variant sortingIndex="183" workspace="live" nodeType="Konglomerat.Website:Comb" version="11" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-10T21:54:00+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T12:25:42+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T12:25:42+01:00</lastPublicationDateTime>
-         <properties>
-          <title __type="string">test</title>
-          <color __type="string">#f5ad00</color>
-          <row __type="integer">5</row>
-          <column __type="integer">2</column>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="a7b66f2c-d101-4d9b-9216-514fb681890b" nodeName="node-589e291bd6672">
-        <variant sortingIndex="204" workspace="live" nodeType="Konglomerat.Website:Comb" version="5" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-10T21:56:59+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T22:00:23+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T22:00:23+01:00</lastPublicationDateTime>
-         <properties>
-          <title __type="string">Sieb-</title>
-          <color __type="string">#ab0f5c</color>
-          <row __type="integer">4</row>
-          <column __type="integer">1</column>
-          <title2 __type="string">Druck</title2>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="47559b58-8c3a-43f6-abde-8a7a8ef296b0" nodeName="node-589e2979ce5b1">
-        <variant sortingIndex="350" workspace="live" nodeType="Konglomerat.Website:Comb" version="6" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-10T21:58:33+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-10T22:00:23+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-10T22:00:23+01:00</lastPublicationDateTime>
-         <properties>
-          <title __type="string">Print</title>
-          <color __type="string">#0047ff</color>
-          <row __type="integer">6</row>
-          <column __type="integer">1</column>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="4a9037da-8872-4d32-8655-bcbef0e51655" nodeName="node-589ec6a89cdf8">
-        <variant sortingIndex="400" workspace="live" nodeType="Konglomerat.Website:Comb" version="6" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2017-02-11T09:09:12+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:25+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:24+01:00</lastPublicationDateTime>
-         <properties>
-          <title __type="string">[Label]</title>
-          <color __type="string">#HEX</color>
-          <row __type="integer">7</row>
-          <column __type="integer">2</column>
-         </properties>
-        </variant>
-       </node>
-      </node>
-      <node identifier="98fc4735-c04b-4f9e-bc38-7acb9f80352b" nodeName="node-589ef3359b61f">
-       <variant sortingIndex="113" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
-        <dimensions/>
-        <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2017-02-11T12:19:17+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T12:20:52+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T12:20:52+01:00</lastPublicationDateTime>
-        <properties/>
-       </variant>
-      </node>
-     </node>
-    </node>
-    <node identifier="dc757515-56dc-49a1-8d49-51e67b8af7d5" nodeName="node-589f07ed7d17d">
-     <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
-      <dimensions/>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:47:41+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:25+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:24+01:00</lastPublicationDateTime>
-      <properties>
-       <uriPathSegment __type="string">termine</uriPathSegment>
-       <title __type="string">Termine</title>
-      </properties>
-     </variant>
-     <node identifier="bf9f8985-f4a8-27e3-9362-239018920594" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:47:41+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:25+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:24+01:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-     </node>
-    </node>
     <node identifier="b69f3ad0-dbb3-4198-9df4-f9bc54b80bea" nodeName="node-589f0813374d6">
-     <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Page" version="6" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Page" version="7" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:48:19+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:11:28+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:11:28+01:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T16:04:54+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T16:04:54+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">konglomerat</uriPathSegment>
        <title __type="string">Konglomerat</title>
+       <keyVisualImage __type="object" __identifier="bac0f16a-0bde-4d1b-b7fb-97305c0106c2" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;bac0f16a-0bde-4d1b-b7fb-97305c0106c2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;evclndfydbs-adrian.jpg&quot;,&quot;hash&quot;:&quot;06c7dbc24080ef38413a9542f1c471f13286387e&quot;,&quot;__identity&quot;:&quot;a75fd0a3-c1c8-4481-8366-beab68b9f4df&quot;}}</keyVisualImage>
       </properties>
      </variant>
      <node identifier="604c4f6f-975e-d346-ad7f-46236bb131ec" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:48:19+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:11:28+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:11:28+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T16:04:54+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T16:04:54+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
       <node identifier="74a0629a-0908-42ae-819c-57beb6fb82ae" nodeName="node-589f1153901f3">
@@ -605,61 +271,39 @@
        </variant>
       </node>
       <node identifier="efac88d9-b4e6-47f4-8e62-85f9a955f3d9" nodeName="node-589f1163e5a66">
-       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="11" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="13" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-11T14:28:03+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T08:16:07+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T08:16:07+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T16:13:30+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T16:13:29+01:00</lastPublicationDateTime>
         <properties>
-         <text __type="string">&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten erm&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ih&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten erm&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten erm&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten erm&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten erm&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt;ren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;</text>
+         <text __type="string">&lt;p&gt;Schön, daß du auf die Website des Konglomerat e.V. Dresden gefunden hast! Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt. Es ermöglicht ihnen Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten zu teilen.&lt;br/&gt;&lt;br/&gt;Entstanden ist das Konglomerat aus vielen unterschiedlichen Projekten der DIY-Szene in Dresden. Und so ist auch die Vereinsstruktur bis heute sehr vielseitig. &lt;br/&gt;&lt;br/&gt;Immer auf dem Laufenden halten dich die News. Hier findest du alle Termine rund ums Konglomerat, z.B. von Workshops oder den regelmäßigen Treffen der Werkbereiche bis hin zu den Vereinsversammlungen. Aber auch aktuelle Hinweise und Neuerungen werden hier gepostet.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;</text>
         </properties>
        </variant>
       </node>
      </node>
     </node>
-    <node identifier="05efa82f-c426-4010-aff1-2b521d02f8d9" nodeName="node-589f082771347">
-     <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
-      <dimensions/>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:48:39+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:09+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:08+01:00</lastPublicationDateTime>
-      <properties>
-       <uriPathSegment __type="string">freunde-partner</uriPathSegment>
-       <title __type="string">Freunde&amp;Partner</title>
-      </properties>
-     </variant>
-     <node identifier="0bd9feaa-5064-13a5-41f3-3d2f4af3dd1d" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:48:39+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:09+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:08+01:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-     </node>
-    </node>
     <node identifier="0930d420-ac3f-405f-bc73-f68a66ece9f6" nodeName="node-589f0840f21a3">
-     <variant sortingIndex="175" workspace="live" nodeType="Neos.NodeTypes:Page" version="9" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="175" workspace="live" nodeType="Neos.NodeTypes:Page" version="10" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:49:05+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:28:40+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:28:40+01:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T16:07:46+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T16:07:45+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">rosenwerk</uriPathSegment>
        <title __type="string">Rosenwerk</title>
+       <keyVisualImage __type="object" __identifier="d830e27f-28f6-441a-b293-7aa269de8ab1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d830e27f-28f6-441a-b293-7aa269de8ab1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;k2a8j47_m38-matthew-smith.jpg&quot;,&quot;hash&quot;:&quot;4cab46c097a1e1aab3559ddfd10384238f5b5193&quot;,&quot;__identity&quot;:&quot;1b3005a1-9faf-48db-865e-353bd976597c&quot;}}</keyVisualImage>
       </properties>
      </variant>
      <node identifier="6bffbcae-da51-f09a-9066-53aec1233cf2" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="6" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="7" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:49:05+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T15:28:40+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T15:28:40+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T16:07:46+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T16:07:45+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
       <node identifier="c6b3281d-1a6a-4f40-b396-afb4655bc34b" nodeName="node-58a4b9fb78414">
@@ -675,14 +319,14 @@
        </variant>
       </node>
       <node identifier="ae5c60ce-f30c-4524-adf2-0affb54207be" nodeName="node-58a4ba07e1b69">
-       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="7" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="9" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-15T21:28:55+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T13:10:22+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T13:10:22+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T16:12:59+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T16:12:58+01:00</lastPublicationDateTime>
         <properties>
-         <text __type="string">&lt;p&gt;Das Rosenwerk &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;sdsd&lt;/p&gt;&lt;p&gt;sd&lt;/p&gt;&lt;p&gt;sd&lt;/p&gt;&lt;p&gt;s&lt;/p&gt;&lt;p&gt;d&lt;/p&gt;&lt;p&gt;sd&lt;/p&gt;&lt;p&gt;s&lt;/p&gt;&lt;p&gt;d&lt;/p&gt;&lt;p&gt;s&lt;/p&gt;&lt;p&gt;ds&lt;/p&gt;&lt;p&gt;d&lt;/p&gt;&lt;p&gt;s&lt;/p&gt;&lt;p&gt;ds...&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;</text>
+         <text __type="string">&lt;p&gt;Das #Rosenwerk befindet sich in einem etwa 7000m² großen Industriekomplex, angesiedelt in einem Gewerbegebiet nahe der Innenstadt. Eingebettet im Nirgendwo zwischen dem Löbtauer Heizkraftwerk, dem Hauptbahnhof und Dresden Mitte, liegt es zentral und dennoch im blinden Fleck urbaner Wahrnehmung.&lt;br/&gt;&lt;br/&gt;Dort, wo die Quadratmeterpreise trotz guter Lage gerade noch verkraftbar sind, mietet der Konglomerat e.V. seit dem 01.01.2015 insgesamt ca. 350m² große Räumlichkeiten. Diese möchten die Vereinsakteure gemeinsam mit Freunden und KollegInnen zu einer adäquaten Produktionsbasis für laufende wie neue; eigene wie fremde, private wie gesellschaftliche Projekte, ausbauen. Die dafür nötige Produktionsinfrastruktur wird durch die Werkstattprojekte Werk.Stadt.Laden. und FabLabDD zur Verfügung gestellt und bildet den Kern des Vorhabens. Die offene Werkstatt im Zentrum des Projektes stellt Geräte und Verfahren die über die Möglichkeiten des Einzelnen hinausgehen. Ihre Nutzung ist für alle möglich, von der Nachbarschaft, Hobbybastlern und Familien, über zivilgesellschaftlichen Akteure, Kunst- und Kulturschaffende, bis zu hin zu Unternehmen und produzierendes Gewerbe. Große Vision ist die Etablierung eines Dresdner Zentrums der Selbstmachkultur.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;</text>
         </properties>
        </variant>
       </node>
