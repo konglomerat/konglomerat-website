@@ -1,15 +1,16 @@
 .comb-collection {
 	position: relative;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 600px;
 	height: 100%;
+	margin: 0 auto;
 
 	margin: 0 auto;
 	margin-top: 36px;
 	margin-bottom: 36px;
 }
 
-$comb__columns: 3;
+$comb__columns: 2;
 $comb__rows: 10;
 
 $comb__aspect-ratio: 0.796;
@@ -30,6 +31,9 @@ $comb__padding: ($comb__column__width - $comb__width)/2;
 		vector-effect: non-scaling-stroke;
 	}
 }
+
+
+
 
 .comb {
 	position: absolute;
