@@ -22,7 +22,9 @@
 	max-width: 100%;
 	//margin: 0 auto;
 
-	transform: translate(0, -20px);
+	transform: rotate(0.5deg) scale(0.9);
+
+	//transform: translate(0, -20px);
 
 	transition-property: transform;
 	transition-duration: 250ms;
@@ -82,7 +84,8 @@
 	}
 
 	.main-menu__content {
-		transform: translate(0, 0);
+		//transform: translate(0, 0);
+		transform: rotate(0.5deg) scale(1);
 	}
 
 	.main-menu-toggle {
@@ -97,7 +100,7 @@
 
 	.u-stage {
 		opacity: 0;
-		transform: translate(0, -20px);
+		transform: rotate(0.5deg) scale(1.1);
 	}
 
 	.site-footer {

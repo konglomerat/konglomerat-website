@@ -897,7 +897,7 @@ html, body {
 .main-menu__content {
   width: 1200px;
   max-width: 100%;
-  transform: translate(0, -20px);
+  transform: rotate(0.5deg) scale(0.9);
   transition-property: transform;
   transition-duration: 250ms; }
 
@@ -941,7 +941,7 @@ html, body {
   opacity: 1; }
 
 .application--main-menu-is-open .main-menu__content {
-  transform: translate(0, 0); }
+  transform: rotate(0.5deg) scale(1); }
 
 .application--main-menu-is-open .main-menu-toggle .main-menu-toggle__close {
   opacity: 1; }
@@ -951,7 +951,7 @@ html, body {
 
 .application--main-menu-is-open .u-stage {
   opacity: 0;
-  transform: translate(0, -20px); }
+  transform: rotate(0.5deg) scale(1.1); }
 
 .application--main-menu-is-open .site-footer {
   opacity: 0; }
