@@ -1,0 +1,1 @@
+web: Packages/Application/Sandstorm.Heroku/Resources/Private/heroku-start.sh

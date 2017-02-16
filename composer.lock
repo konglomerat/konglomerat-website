@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e510a153fc3254f301ecdb20a269c34e",
-    "content-hash": "08abcf645fc0c6fb8ccd212292c9b1d7",
+    "hash": "3f8a4c31a1695563059e21c622d0b8bd",
+    "content-hash": "f4dace200e27ea4fe5a24b898fc6aa82",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -3412,6 +3412,56 @@
                 "uuid"
             ],
             "time": "2016-11-22 19:21:44"
+        },
+        {
+            "name": "sandstorm/heroku",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sandstorm/Heroku.git",
+                "reference": "fb35d9ed4fe7a963fb73e3337d5352add3cbc876"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sandstorm/Heroku/zipball/fb35d9ed4fe7a963fb73e3337d5352add3cbc876",
+                "reference": "fb35d9ed4fe7a963fb73e3337d5352add3cbc876",
+                "shasum": ""
+            },
+            "require": {
+                "neos/flow": "*"
+            },
+            "conflict": {
+                "neos/flow": "<=2.3"
+            },
+            "type": "neos-package",
+            "autoload": {
+                "psr-4": {
+                    "Sandstorm\\Heroku\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Kurfuerst",
+                    "homepage": "http://www.sandstorm-media.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Integration of Flow and Neos based projects with Heroku or Dokku PAAS Platform",
+            "homepage": "https://github.com/sandstorm/Heroku",
+            "keywords": [
+                "Neos",
+                "docker",
+                "dokku",
+                "flow",
+                "heroku",
+                "paas",
+                "typo3"
+            ],
+            "time": "2017-01-11 14:00:05"
         },
         {
             "name": "symfony/console",
