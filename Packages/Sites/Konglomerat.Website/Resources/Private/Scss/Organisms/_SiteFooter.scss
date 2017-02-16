@@ -1,33 +1,18 @@
 .site-footer {
 	position: absolute;
+	bottom: 0;
 	width: 100%;
 	height: 200px;
-	bottom: 0;
-
-	background: white;
 
 	transition-property: opacity;
 	transition-duration: 250ms;
 
+	.comb-spike {
+		height: 50px;
+		width: 100%;
+	}
+
 	* {
 		color: transparentize(brand-color(white), 0.5);
-	}
-
-	.comb-right {
-		position: absolute;
-		right: 0;
-		top: -200px;
-		width: 400px;
-		height: 400px;
-		overflow: hidden;
-	}
-
-	.comb-svg {
-		padding-left: 200px;
-	}
-
-	.comb__shape {
-		fill: white;
-		opacity: 1;
 	}
 }

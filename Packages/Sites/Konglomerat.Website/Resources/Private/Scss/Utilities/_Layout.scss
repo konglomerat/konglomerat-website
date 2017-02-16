@@ -17,6 +17,8 @@ body {
 
 	transition-property: transform, opacity;
 	transition-duration: 250ms;
+
+	transform: rotate(0.5deg);
 }
 
 .u-stage__inner {

@@ -1,5 +1,6 @@
 .comb-spike {
 	width: 100%;
+	height: 250px;
 
 	polygon {
 		fill: white;
@@ -18,6 +19,8 @@
 
 .growing-comb {
 	position: absolute;
+	top: 0;
+	left: 0;
 	display: flex;
 	align-content: stretch;
 	flex-direction: column;
