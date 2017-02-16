@@ -450,6 +450,7 @@ textarea {
 
 h1, h2, h3 {
   font-family: 'Istok Web', sans-serif;
+  font-weight: normal;
   margin: 0;
   padding: 0;
   color: #000; }
