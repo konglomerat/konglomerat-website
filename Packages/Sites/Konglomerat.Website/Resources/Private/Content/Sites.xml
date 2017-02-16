@@ -3,25 +3,26 @@
  <site name="konglomerat.org" state="1" siteResourcesPackageKey="Konglomerat.Website" siteNodeName="website">
   <nodes formatVersion="2.0">
    <node identifier="c13d41f8-6679-4ea8-aa4c-7208f8152f4e" nodeName="website">
-    <variant sortingIndex="100" workspace="live" nodeType="Konglomerat.Website:Homepage" version="2" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Konglomerat.Website:Homepage" version="4" removed="" hidden="" hiddenInIndex="">
      <dimensions/>
      <accessRoles __type="array"/>
      <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:11:40+01:00</creationDateTime>
-     <lastModificationDateTime __type="object" __classname="DateTime">2017-02-14T23:09:11+01:00</lastModificationDateTime>
-     <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-14T23:09:11+01:00</lastPublicationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:03+01:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:02+01:00</lastPublicationDateTime>
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
       <canonicalLink __type="string"></canonicalLink>
+      <keyVisualImage __type="object" __identifier="4387d07b-55b1-4736-8e96-df562c8cb88d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;4387d07b-55b1-4736-8e96-df562c8cb88d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;i-mpsumpowe-jeff-sheldon.jpg&quot;,&quot;hash&quot;:&quot;68cdb2943b548e4eab3b90de168d58720083a38c&quot;,&quot;__identity&quot;:&quot;c19da494-3200-4cb3-a79a-28b217310b1c&quot;}}</keyVisualImage>
      </properties>
     </variant>
     <node identifier="2e526d61-92b5-7476-f533-b1f468931e8d" nodeName="main">
-     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-10T15:11:40+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-14T23:09:11+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-14T23:09:11+01:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:03+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:02+01:00</lastPublicationDateTime>
       <properties/>
      </variant>
      <node identifier="904f7e42-5839-40fb-8720-7e3a89a432e2" nodeName="node-58a380fe2209f">
@@ -50,34 +51,35 @@
      </node>
     </node>
     <node identifier="11f61533-f306-0aee-8431-11c629b6e327" nodeName="navigation">
-     <variant sortingIndex="600" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="600" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-14T23:17:45+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-14T23:17:45+01:00</lastModificationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:03+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:32:02+01:00</lastPublicationDateTime>
       <properties/>
      </variant>
      <node identifier="2e66e9fa-ded2-4403-bae1-04b51f185e40" nodeName="node-58a382d16bd96">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="11" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-14T23:21:05+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T00:03:45+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T00:03:45+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T19:45:59+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T19:45:59+01:00</lastPublicationDateTime>
        <properties>
-        <title __type="string">&lt;h1&gt;Navigation Collectionsdsds&lt;/h1&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</title>
+        <title __type="string">&lt;h2&gt;Werkbereiche&lt;/h2&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</title>
        </properties>
       </variant>
      </node>
      <node identifier="66405b22-a156-44ab-954f-f39d5d1f78d2" nodeName="node-58a382e295902">
-      <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="13" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Text" version="15" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-14T23:21:22+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T08:44:04+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T08:44:03+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T21:01:58+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T21:01:57+01:00</lastPublicationDateTime>
        <properties>
-        <text __type="string">&lt;p&gt;&lt;a href=&quot;node://c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot;&gt;HOME&lt;/a&gt; &lt;a href=&quot;node://b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot;&gt;KONGLOMERAT&lt;/a&gt; TEST&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</text>
+        <text __type="string">&lt;p&gt;&lt;a href=&quot;node://c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot;&gt;HOME&lt;/a&gt; &lt;a href=&quot;node://b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot;&gt;KONGLOMERAT&lt;/a&gt; &lt;a href=&quot;node://0930d420-ac3f-405f-bc73-f68a66ece9f6&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;0930d420-ac3f-405f-bc73-f68a66ece9f6&quot;&gt;Werkbereiche&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</text>
        </properties>
       </variant>
      </node>
@@ -589,63 +591,49 @@
      </node>
     </node>
     <node identifier="b69f3ad0-dbb3-4198-9df4-f9bc54b80bea" nodeName="node-589f0813374d6">
-     <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:48:19+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:25+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:24+01:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T20:58:46+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:58:46+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">konglomerat</uriPathSegment>
        <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Konglomerat</title>
+       <keyVisualImage __type="object" __identifier="73af4e51-a608-4d00-892a-89bcfb72fb4e" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;73af4e51-a608-4d00-892a-89bcfb72fb4e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;evclndfydbs-adrian.jpg&quot;,&quot;hash&quot;:&quot;4752348e4df4de9f0adab4c665b19fe9778911f0&quot;,&quot;__identity&quot;:&quot;caf10ffa-1633-4d96-9568-6db1c15041ea&quot;}}</keyVisualImage>
       </properties>
      </variant>
      <node identifier="604c4f6f-975e-d346-ad7f-46236bb131ec" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:48:19+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:25+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:24+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T20:58:46+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T20:58:46+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
       <node identifier="74a0629a-0908-42ae-819c-57beb6fb82ae" nodeName="node-589f1153901f3">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-11T14:27:47+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T14:28:30+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T14:28:30+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T21:27:36+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T21:27:35+01:00</lastPublicationDateTime>
         <properties>
-         <title __type="string">&lt;h1&gt;Konglomerat ist hochbegabt&lt;/h1&gt;</title>
+         <title __type="string">&lt;h1&gt;Das Konglomerat&lt;br/&gt;&lt;/h1&gt;</title>
         </properties>
        </variant>
       </node>
       <node identifier="efac88d9-b4e6-47f4-8e62-85f9a955f3d9" nodeName="node-589f1163e5a66">
-       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="11" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-11T14:28:03+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T14:31:01+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T14:31:00+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T08:16:07+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T08:16:07+01:00</lastPublicationDateTime>
         <properties>
-         <text __type="string">&lt;p&gt;Handsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sdHandsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sdHandsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sdHandsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sdHandsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sdHandsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sdHandsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sdHandsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sdHandsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sdHandsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sdHandsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinesddn Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.sds&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;</text>
-        </properties>
-       </variant>
-      </node>
-      <node identifier="239e6742-a599-4c9b-be74-88f45039e5fe" nodeName="node-589f13ec06637">
-       <variant sortingIndex="50" workspace="live" nodeType="Konglomerat.Website:Comb" version="5" removed="" hidden="" hiddenInIndex="">
-        <dimensions/>
-        <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2017-02-11T14:38:52+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T14:44:50+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T14:44:50+01:00</lastPublicationDateTime>
-        <properties>
-         <title __type="string">MAtti</title>
-         <color __type="string">red</color>
-         <row __type="integer">10</row>
-         <column __type="integer">10</column>
+         <text __type="string">&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten erm&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ih&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten erm&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten erm&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten erm&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten erm&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt;ren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p&gt; Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.&lt;/p&gt;&lt;p&gt;Das Konglomerat ist ein Verein der Menschen rund um das Thema DIY (Do it yourself) zusammenbringt und ihnen die gemeinsame Nutzung von Räumlichkeiten, Werkzeug, Material und Know-How bei ihren Projekten ermöglicht.öglicht.&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;/p&gt;</text>
         </properties>
        </variant>
       </node>
@@ -676,27 +664,52 @@
      </node>
     </node>
     <node identifier="0930d420-ac3f-405f-bc73-f68a66ece9f6" nodeName="node-589f0840f21a3">
-     <variant sortingIndex="175" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="175" workspace="live" nodeType="Neos.NodeTypes:Page" version="7" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:49:05+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:25+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:24+01:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T21:29:09+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T21:29:09+01:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">rosenwerk</uriPathSegment>
        <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Rosenwerk</title>
+       <keyVisualImage __type="object" __identifier="8851874c-e9f8-4d32-b6f2-d3db20aa6b02" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;8851874c-e9f8-4d32-b6f2-d3db20aa6b02&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;afaea2f5-ce95-403b-a349-d8a664159c67&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;k2a8j47_m38-matthew-smith.jpg&quot;,&quot;hash&quot;:&quot;896b1cd3f469dca6c15b14a402e9400f324ec2ab&quot;,&quot;__identity&quot;:&quot;2fa43e26-1d62-4f77-a31c-5eab64adb295&quot;}},&quot;adjustments&quot;:[{&quot;height&quot;:2110,&quot;position&quot;:10,&quot;width&quot;:2795,&quot;x&quot;:325,&quot;y&quot;:2000,&quot;__identity&quot;:&quot;1310a754-f5c1-4db4-8e1b-6b2d4c066dd2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</keyVisualImage>
       </properties>
      </variant>
      <node identifier="6bffbcae-da51-f09a-9066-53aec1233cf2" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-11T13:49:05+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:25+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-11T13:51:24+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T21:29:09+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T21:29:09+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
+      <node identifier="c6b3281d-1a6a-4f40-b396-afb4655bc34b" nodeName="node-58a4b9fb78414">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-02-15T21:28:43+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-15T21:29:09+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-15T21:29:09+01:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Das Rosenwerk&lt;/h1&gt;</title>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="ae5c60ce-f30c-4524-adf2-0affb54207be" nodeName="node-58a4ba07e1b69">
+       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="7" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-02-15T21:28:55+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-16T13:10:22+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-16T13:10:22+01:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Das Rosenwerk &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;sdsd&lt;/p&gt;&lt;p&gt;sd&lt;/p&gt;&lt;p&gt;sd&lt;/p&gt;&lt;p&gt;s&lt;/p&gt;&lt;p&gt;d&lt;/p&gt;&lt;p&gt;sd&lt;/p&gt;&lt;p&gt;s&lt;/p&gt;&lt;p&gt;d&lt;/p&gt;&lt;p&gt;s&lt;/p&gt;&lt;p&gt;ds&lt;/p&gt;&lt;p&gt;d&lt;/p&gt;&lt;p&gt;s&lt;/p&gt;&lt;p&gt;ds...&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;height: auto; max-height: none; min-height: 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
      </node>
     </node>
    </node>
