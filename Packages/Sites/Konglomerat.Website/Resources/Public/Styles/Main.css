@@ -883,7 +883,7 @@ html, body {
   transition-duration: 250ms; }
 
 .main-menu__content {
-  width: 1200px;
+  width: 900px;
   max-width: 100%;
   transform: rotate(0.5deg) scale(0.9);
   transition-property: transform;
@@ -891,11 +891,11 @@ html, body {
 
 .main-menu__content-inner {
   position: relative;
-  padding-top: 250px;
+  padding-top: 150px;
   padding-bottom: 330px;
   padding-left: 80px;
   padding-right: 80px;
-  margin-top: -100px;
+  margin-top: 30px;
   margin-bottom: 150px; }
 
 .main-menu-toggle {
@@ -924,28 +924,24 @@ html, body {
   transition-property: opacity;
   transition-duration: 250ms; }
 
-.application--main-menu-is-open .main-menu {
-  z-index: 1;
-  opacity: 1; }
-
-.application--main-menu-is-open .main-menu__content {
-  transform: rotate(0.5deg) scale(1); }
-
-.application--main-menu-is-open .main-menu-toggle .main-menu-toggle__close {
-  opacity: 1; }
-
-.application--main-menu-is-open .main-menu-toggle .main-menu-toggle__hamburger {
-  opacity: 0; }
-
-.application--main-menu-is-open .u-stage {
-  opacity: 0;
-  transform: rotate(0.5deg) scale(1.1); }
-
-.application--main-menu-is-open .site-footer {
-  opacity: 0; }
-
-.application--main-menu-is-open .floating-logo {
-  z-index: 10000000; }
+.application--main-menu-is-open {
+  overflow: hidden; }
+  .application--main-menu-is-open .main-menu {
+    z-index: 1;
+    opacity: 1; }
+  .application--main-menu-is-open .main-menu__content {
+    transform: rotate(4deg) scale(1); }
+  .application--main-menu-is-open .main-menu-toggle .main-menu-toggle__close {
+    opacity: 1; }
+  .application--main-menu-is-open .main-menu-toggle .main-menu-toggle__hamburger {
+    opacity: 0; }
+  .application--main-menu-is-open .u-stage {
+    opacity: 0;
+    transform: rotate(4deg) scale(1.1); }
+  .application--main-menu-is-open .site-footer {
+    opacity: 0; }
+  .application--main-menu-is-open .floating-logo {
+    z-index: 10000000; }
 
 html, body {
   min-height: 100vh;
@@ -983,7 +979,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-attachment: fixed;
   background-size: cover; }

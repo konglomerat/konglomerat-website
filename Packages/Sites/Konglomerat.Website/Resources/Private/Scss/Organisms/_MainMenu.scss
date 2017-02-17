@@ -18,7 +18,7 @@
 }
 
 .main-menu__content {
-	width: 1200px;
+	width: 900px;
 	max-width: 100%;
 	//margin: 0 auto;
 
@@ -32,11 +32,11 @@
 
 .main-menu__content-inner {
 	position: relative;
-	padding-top: 250px;
+	padding-top: 150px;
 	padding-bottom: 330px;
 	padding-left: 80px;
 	padding-right: 80px;
-	margin-top: -100px;
+	margin-top: 30px;
 	margin-bottom: 150px;
 }
 
@@ -76,8 +76,11 @@
 	transition-duration: 250ms;
 }
 
-
 .application--main-menu-is-open {
+	// the easiest way to prevent background scrolling bellow fixed elements
+	// will however not work on iOS. As always :(
+	overflow: hidden;
+
 	.main-menu {
 		z-index: 1;
 		opacity: 1;
@@ -85,7 +88,7 @@
 
 	.main-menu__content {
 		//transform: translate(0, 0);
-		transform: rotate(0.5deg) scale(1);
+		transform: rotate(4deg) scale(1);
 	}
 
 	.main-menu-toggle {
@@ -100,7 +103,7 @@
 
 	.u-stage {
 		opacity: 0;
-		transform: rotate(0.5deg) scale(1.1);
+		transform: rotate(4deg) scale(1.1);
 	}
 
 	.site-footer {
