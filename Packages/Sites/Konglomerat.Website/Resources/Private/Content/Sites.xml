@@ -16,6 +16,27 @@
       <canonicalLink __type="string"></canonicalLink>
      </properties>
     </variant>
+    <node identifier="4e7d73b8-5254-c6a5-52f1-899344706c98" nodeName="footer">
+     <variant sortingIndex="900" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-02-19T06:14:46+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T06:14:46+01:00</lastModificationDateTime>
+      <properties/>
+     </variant>
+     <node identifier="7fa323db-5190-4c35-af26-18daee88a344" nodeName="node-58a92a5389a46">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-19T06:17:07+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T06:28:53+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T06:28:53+01:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">&lt;h3&gt;I am a footer. Ich can now be changed. Maybe multiple columns would be nice.&lt;/h3&gt;</title>
+       </properties>
+      </variant>
+     </node>
+    </node>
     <node identifier="2e526d61-92b5-7476-f533-b1f468931e8d" nodeName="main">
      <variant sortingIndex="700" workspace="live" nodeType="Neos.Neos:ContentCollection" version="6" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
@@ -320,39 +341,63 @@
       </properties>
      </variant>
      <node identifier="e7a1184d-7dfc-4897-962b-8038a361108c" nodeName="node-58a8f9865250b">
-      <variant sortingIndex="100" workspace="live" nodeType="Konglomerat.Website:Division" version="14" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Konglomerat.Website:Division" version="15" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-19T02:48:54+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T06:02:36+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T06:02:35+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:04:00+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:03:59+01:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">holz</uriPathSegment>
         <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Holz</title>
-        <keyVisualImage __type="object" __identifier="99108cf1-fb1c-42a9-b7dc-fba9d9eabcfa" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;99108cf1-fb1c-42a9-b7dc-fba9d9eabcfa&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;caroline-grondin-95056.jpg&quot;,&quot;hash&quot;:&quot;0f7d1e774b0ef61f3abd2b5763fd09542b1d0b96&quot;,&quot;__identity&quot;:&quot;dab3b953-102e-43dd-9d30-706321912a71&quot;}}</keyVisualImage>
+        <keyVisualImage __type="object" __identifier="d20ab8d4-365a-4b86-be23-e501753c1be8" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d20ab8d4-365a-4b86-be23-e501753c1be8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;barn-images-12223.jpg&quot;,&quot;hash&quot;:&quot;a5ce8f23168424085ebfc506abf8b7608d117333&quot;,&quot;__identity&quot;:&quot;401c3eeb-47c2-4fe2-9a43-01d5d11b73d1&quot;}}</keyVisualImage>
         <color __type="string">#b09142</color>
         <line1 __type="string">Holz</line1>
        </properties>
       </variant>
       <node identifier="760bd0aa-9341-0a4d-9563-558817953eca" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="12" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="14" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-19T02:48:54+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T06:02:36+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T06:02:35+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:04:00+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:03:59+01:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="6ed18266-c5c9-4780-a038-1fb8ab575eee" nodeName="node-58a9d5a9652bb">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:28:09+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:28:25+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:28:24+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Habt ihr kleine oder große Pläne, gute Ideen oder konkrete Vorstellungen – fehlt es euch aber am richtigen Equipment und dem nötigen Platz, dann seid ihr in der Holzwerkstatt an der richtigen Stelle. Auf ca. 90 qm könnt ihr Struktur und Ausstattung der Holzwerkstatt benutzen und wir helfen euch bei der Umsetzung eurer Konzepte.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="cd2aa056-4d9c-45d9-8363-9e865d75ed1d" nodeName="node-58a9d6510a42d">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="8" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:30:57+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:31:33+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:31:32+01:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Sägen, Hobeln ...&lt;/h1&gt;</title>
+         </properties>
+        </variant>
+       </node>
       </node>
      </node>
      <node identifier="2a45c84c-296b-4df0-8f67-5a4a0708b518" nodeName="node-58a909a8abe4b">
-      <variant sortingIndex="150" workspace="live" nodeType="Konglomerat.Website:Division" version="8" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="150" workspace="live" nodeType="Konglomerat.Website:Division" version="12" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-19T03:57:44+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:14+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:13+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:21:32+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:21:32+01:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">laser</uriPathSegment>
         <canonicalLink __type="string"></canonicalLink>
@@ -374,48 +419,96 @@
         <openGraphImage __type="string"></openGraphImage>
         <xmlSitemapChangeFrequency __type="string"></xmlSitemapChangeFrequency>
         <xmlSitemapPriority __type="string"></xmlSitemapPriority>
-        <keyVisualImage __type="object" __identifier="a8090316-3a73-47a8-80ad-b732d0934075" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;a8090316-3a73-47a8-80ad-b732d0934075&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;riley-mccullough-165554.jpg&quot;,&quot;hash&quot;:&quot;8a5e5e505beb53e45270d3895a1fb242acf7da55&quot;,&quot;__identity&quot;:&quot;3baad475-8699-4f8e-bc72-6da17b3d7848&quot;}}</keyVisualImage>
+        <keyVisualImage __type="object" __identifier="c2d4ab84-933d-42ec-b696-b2794bf6136f" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;c2d4ab84-933d-42ec-b696-b2794bf6136f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;a8090316-3a73-47a8-80ad-b732d0934075&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Objekt (52).jpg&quot;,&quot;hash&quot;:&quot;3a909159f424f0c9048369c89a1c25091bb0ab71&quot;,&quot;__identity&quot;:&quot;c9533dce-a979-4279-a95c-e83541f4f455&quot;}},&quot;adjustments&quot;:[{&quot;height&quot;:1096,&quot;position&quot;:10,&quot;width&quot;:1602,&quot;x&quot;:0,&quot;y&quot;:523,&quot;__identity&quot;:&quot;6813b98a-d2c2-437a-a7b6-aeda9c4a2c00&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</keyVisualImage>
         <layout __type="string"></layout>
         <subpageLayout __type="string"></subpageLayout>
         <line1 __type="string">Laser</line1>
        </properties>
       </variant>
       <node identifier="947c19a0-b2f7-c665-c193-91d24931f42f" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="6" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="10" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-19T03:57:44+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:14+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:13+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:21:32+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:21:32+01:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="c9d11a4d-918a-4067-bb18-a6b47ec0ab49" nodeName="node-58a9d69b9d24d">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:32:11+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:32:46+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:32:46+01:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Mit Licht schneiden ...&lt;/h1&gt;</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="8f142361-3973-43ef-982d-30633443839e" nodeName="node-58a9d6b3b7c70">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:32:35+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:32:46+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:32:46+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Handsäge und Akkubohrer waren gestern, heute schneiden und gravieren LASERCUTTER vollautomatisch filigranste Formen in nahezu jedes Material! Hier findet unser DIT -Do it together- Laser seinen Einsatz. Mit einer Größe von ... wird es möglich sein verschiedenste Materialien von bis zu schneiden oder zu gravieren. Regelmäßig werden dazu Workshops angeboten.&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
       </node>
      </node>
      <node identifier="707688c8-2ade-45cc-9538-1fbc09021899" nodeName="node-58a90b6f6ac9b">
-      <variant sortingIndex="250" workspace="live" nodeType="Konglomerat.Website:Division" version="6" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="250" workspace="live" nodeType="Konglomerat.Website:Division" version="9" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-19T04:05:19+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:14+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:13+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:29:51+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:29:51+01:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">elektro</uriPathSegment>
         <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Elektro</title>
         <color __type="string">#59758f</color>
-        <keyVisualImage __type="object" __identifier="8e5c7c32-5a60-4a70-a5ed-357529fdaa5e" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;8e5c7c32-5a60-4a70-a5ed-357529fdaa5e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;randall-bruder-136626.jpg&quot;,&quot;hash&quot;:&quot;3e4a0193e348dfcceb5216cb35fda2b98b340e5b&quot;,&quot;__identity&quot;:&quot;eb032997-69ab-4961-9995-c55a4f66a3eb&quot;}}</keyVisualImage>
-        <line1 __type="string">Elektro</line1>
+        <keyVisualImage __type="object" __identifier="1cc2c5bf-2f87-4dd5-90d5-c81b74a09dbd" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;1cc2c5bf-2f87-4dd5-90d5-c81b74a09dbd&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;7a83ce63-a9bd-4030-958a-1e955bcbe078&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;randall-bruder-136626.jpg&quot;,&quot;hash&quot;:&quot;3e4a0193e348dfcceb5216cb35fda2b98b340e5b&quot;,&quot;__identity&quot;:&quot;360779ce-b346-4f7a-80cf-746056e8289b&quot;}},&quot;adjustments&quot;:[{&quot;height&quot;:902,&quot;position&quot;:10,&quot;width&quot;:1600,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;efbd8749-bf2f-49a3-afca-97199e167d51&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</keyVisualImage>
+        <line1 __type="string">Elektronik</line1>
        </properties>
       </variant>
       <node identifier="db4a49c1-c7c5-7c32-9aab-5bd66e5d4bb7" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="7" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-19T04:05:19+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:14+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:13+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:29:51+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:29:51+01:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="bc2b12b0-ea59-4330-baf6-3cd8e9b158fa" nodeName="node-58a9d608d90b9">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:29:44+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:30:28+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:30:28+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Kein Problem! In der Elektronikwerkstatt findet ihr eine gute Grundausstattung für das Arbeiten an euren Elektronik-Projekten, ob Nurden oder Reparieren. Von Audio- bis Mikrocontroller findet ihr hier die passenden Werkzeuge.&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="407976d7-8225-44b4-889a-6e66bad42d4e" nodeName="node-58a9d622ca9a0">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:30:10+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:30:28+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:30:28+01:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Kabelbruch? &lt;/h1&gt;</title>
+         </properties>
+        </variant>
+       </node>
       </node>
      </node>
      <node identifier="a9275635-7e75-4358-ba13-c7e2407110a9" nodeName="node-58a90ed4f3ce4">
@@ -447,58 +540,106 @@
       </node>
      </node>
      <node identifier="7e8309e2-59bf-4e00-867c-9b5466dec331" nodeName="node-58a90f8002d28">
-      <variant sortingIndex="350" workspace="live" nodeType="Konglomerat.Website:Division" version="6" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="350" workspace="live" nodeType="Konglomerat.Website:Division" version="7" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-19T04:22:40+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:14+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:13+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:03:35+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:03:35+01:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">cnc</uriPathSegment>
         <canonicalLink __type="string"></canonicalLink>
         <title __type="string">CNC</title>
         <color __type="string">#1ff7f7</color>
-        <keyVisualImage __type="object" __identifier="d20ab8d4-365a-4b86-be23-e501753c1be8" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d20ab8d4-365a-4b86-be23-e501753c1be8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;barn-images-12223.jpg&quot;,&quot;hash&quot;:&quot;a5ce8f23168424085ebfc506abf8b7608d117333&quot;,&quot;__identity&quot;:&quot;401c3eeb-47c2-4fe2-9a43-01d5d11b73d1&quot;}}</keyVisualImage>
+        <keyVisualImage __type="object" __identifier="f5109c41-ad76-4162-bc0d-c66d89cdbfc9" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;f5109c41-ad76-4162-bc0d-c66d89cdbfc9&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;cncKeyVisual.jpg&quot;,&quot;hash&quot;:&quot;64ba49a846e8db9e696a3a55c635d8b6fcaa03d0&quot;,&quot;__identity&quot;:&quot;f599be17-4cd5-434c-89f3-bd0737e8e7ac&quot;}}</keyVisualImage>
         <line1 __type="string">CNC</line1>
        </properties>
       </variant>
       <node identifier="c3d68efb-f2e1-8a41-ca0b-588c37a0f833" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-19T04:22:40+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:14+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:43:13+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:03:35+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:03:35+01:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="df512ca4-436a-47e9-874b-6fd50c074059" nodeName="node-58a9d9834c0cc">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:44:35+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:45:49+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:45:49+01:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Akkurat und musikalisch ...&lt;/h1&gt;</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="42e60a84-033d-4b26-9676-a11ed016c4ad" nodeName="node-58a9d9ba57f93">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:45:30+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:45:49+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:45:49+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Ja...wir haben auch eine CNC-Fräse. Sie fräst und singt.&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
       </node>
      </node>
      <node identifier="07eb9ad1-f2d6-4c32-a08e-4cd3da94d0b3" nodeName="node-58a910c7bec81">
-      <variant sortingIndex="400" workspace="live" nodeType="Konglomerat.Website:Division" version="10" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="400" workspace="live" nodeType="Konglomerat.Website:Division" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-19T04:28:07+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:42:56+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:42:56+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:12:55+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:12:54+01:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">siebdruck</uriPathSegment>
         <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Siebdruck</title>
         <color __type="string">#ab0f5c</color>
-        <keyVisualImage __type="object" __identifier="ea64126f-707a-4402-874f-920332e9c948" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;ea64126f-707a-4402-874f-920332e9c948&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;emarts-emarts-68775.jpg&quot;,&quot;hash&quot;:&quot;eac992860c4d310d676457d7a6bc24049dc47a75&quot;,&quot;__identity&quot;:&quot;3c47a4a2-75e1-45f0-9be1-293c791afa31&quot;}}</keyVisualImage>
+        <keyVisualImage __type="object" __identifier="ea64126f-707a-4402-874f-920332e9c948" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;ea64126f-707a-4402-874f-920332e9c948&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;IMG_2151.jpg&quot;,&quot;hash&quot;:&quot;7f575873b8c22219aa4e8be837a157d836d59a8d&quot;,&quot;__identity&quot;:&quot;c776ed14-f23e-4d44-afe9-7efd7468f7f2&quot;}}</keyVisualImage>
         <line1 __type="string">Sieb-</line1>
         <line2 __type="string">Druck</line2>
        </properties>
       </variant>
       <node identifier="2d615485-574a-24f4-72a3-7cc09d10c254" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="6" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-19T04:28:07+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:42:56+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:42:56+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:12:55+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:12:54+01:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="cd02a011-b11b-4a76-b50e-8e0404402155" nodeName="node-58a9d71fe1474">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:34:23+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:35:07+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:35:07+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;In der Siebdruckwerkstatt findet ihr alles um Siebdrucke selbst anzufertigen. Siebdruck ist ein Druckverfahren, bei dem die Druckfarbe mit einer Gummirakel durch ein feinmaschiges Gewebe auf das zu bedruckende Material gedruckt wird. An den Stellen, wo dem Motiv entsprechend keine Farbe gedruckt werden soll, werden die Maschenöffnungen des Gewebes durch eine Schablone farbundurchlässig gemacht. Der Vorteil des Siebdrucks liegt darin, dass beinahe alle Materialien mit vielen verschiedenen Farbsorten bedruckt werden kann. Wer genau arbeitet, kann mit einfachen Mitteln hochwertige Drucke herstellen.&lt;/p&gt;&lt;p&gt;Wer schon Erfahrung hat, kann nach Absprache sofort loslegen. Für alle anderen besteht die Möglichkeit einer Praxiseinweisung oder der Teilnahme an gelegentlich stattfindenden Gruppenworkshops.&lt;br/&gt;&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="8e0672d0-494e-4992-9353-cac3333471ca" nodeName="node-58a9d733c01c0">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="9" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:34:43+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:35:07+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:35:07+01:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Rakeln bis der Arzt kommt ...&lt;/h1&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</title>
+         </properties>
+        </variant>
+       </node>
       </node>
      </node>
      <node identifier="1acbd113-ba9a-47de-a4ee-b7f1c14c7fa9" nodeName="node-58a9146df2096">
@@ -526,15 +667,39 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:50:57+01:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="2ec4da24-3bd2-446f-8393-1478dccc8852" nodeName="node-58a9d80c36e6f">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="14" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:38:20+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:39:28+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:39:28+01:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Vom Schlübber bis zum Kleid ...&lt;/h1&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="418bd506-8eca-45ac-9bee-c17cc94d5ad5" nodeName="node-58a9d81315c06">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:38:27+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:39:28+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:39:28+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;In der Nähwerkstatt geht es rund um das Handwerk Nähen von recyceln alter Hemden zu Schlüppern oder die Verarbeitung von Leder oder Planen. Verschiedene Maschinen als auch ein gutes Sortiment an Stoffen sorgt für FUN. Fragt einfach nach!&lt;br/&gt;&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
       </node>
      </node>
      <node identifier="6d8ad982-2839-4f5c-b738-431f5897b348" nodeName="node-58a914ef4cd48">
-      <variant sortingIndex="500" workspace="live" nodeType="Konglomerat.Website:Division" version="7" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="500" workspace="live" nodeType="Konglomerat.Website:Division" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-19T04:45:51+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:50:58+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:50:57+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T06:42:21+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T06:42:21+01:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">3d-druck</uriPathSegment>
         <canonicalLink __type="string"></canonicalLink>
@@ -542,44 +707,69 @@
         <title __type="string">3D Druck</title>
         <line1 __type="string">3D-</line1>
         <line2 __type="string">Druck</line2>
-        <keyVisualImage __type="object" __identifier="b86b9385-9443-4cce-91b3-0c64af32dba1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;b86b9385-9443-4cce-91b3-0c64af32dba1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;alejandro-alvarez-131543.jpg&quot;,&quot;hash&quot;:&quot;ad01e7eca24e80b1ace757cfbd2bb888f7a2e7dd&quot;,&quot;__identity&quot;:&quot;7d314051-2abf-428d-850f-0608cd1428c8&quot;}}</keyVisualImage>
+        <keyVisualImage __type="object" __identifier="055bee18-05cb-4494-8115-d1b76b41e90e" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;055bee18-05cb-4494-8115-d1b76b41e90e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;6_Maschine (7).jpg&quot;,&quot;hash&quot;:&quot;10ac6a7ac45ecb1b815cda80ee8e25ef81fb3007&quot;,&quot;__identity&quot;:&quot;e5a920ed-ac44-432b-9804-ecea68c384a8&quot;}}</keyVisualImage>
        </properties>
       </variant>
       <node identifier="8e712927-6753-ce1f-e1d4-7bd01794d356" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="7" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-19T04:45:51+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:50:58+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:50:57+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T06:42:21+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T06:42:21+01:00</lastPublicationDateTime>
         <properties/>
        </variant>
       </node>
      </node>
      <node identifier="494c59e6-cf4c-48e0-8ff6-c151a5d06dca" nodeName="node-58a915baaef7f">
-      <variant sortingIndex="550" workspace="live" nodeType="Konglomerat.Website:Division" version="6" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="550" workspace="live" nodeType="Konglomerat.Website:Division" version="7" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-19T04:49:14+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:50:58+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:50:57+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:04:33+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:04:33+01:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">print</uriPathSegment>
         <canonicalLink __type="string"></canonicalLink>
         <color __type="string">#0047ff</color>
         <title __type="string">Print</title>
         <line1 __type="string">Print</line1>
+        <keyVisualImage __type="object" __identifier="f0d788e8-186c-4215-8e24-a8d6d856d0d3" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;f0d788e8-186c-4215-8e24-a8d6d856d0d3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;12095084_10206289297809737_1953464193411736043_o.jpg&quot;,&quot;hash&quot;:&quot;dc5f5976757b9da9c58f8256dc07002ba8341a46&quot;,&quot;__identity&quot;:&quot;81a4db1e-60c2-44c8-955c-66f89ba3aec7&quot;}}</keyVisualImage>
        </properties>
       </variant>
       <node identifier="ae3e3612-200a-57fe-7854-e840920fe530" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2017-02-19T04:49:14+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T04:50:58+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T04:50:57+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:04:33+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:04:33+01:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="fe8bbc3c-e6af-45b5-acb2-4280c1503710" nodeName="node-58a9d78906f4b">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="9" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:36:09+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:37:04+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:37:03+01:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Drucken, Plotten, Schneiden ...&lt;/h1&gt;</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="649d9c07-9719-4182-b86a-97f20124073e" nodeName="node-58a9d78f771ee">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:36:15+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:37:04+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:37:03+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Im Print-Bereich steht ein wunderbares Gerät für alle Stencil-Fans. Ohne euch einen Krampf in den Griffeln zu holen, könnt ihr filigranste Formen in verschiedene Folien und andere dünne Materialien schneiden lassen. Einfache Beschriftungen sind genauso möglich, wie die Erstellung von komplexen Mehrfarbschablonen für die Nachbarschaftsgestaltung.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
       </node>
      </node>
     </node>
