@@ -45,10 +45,6 @@
 
 .main-menu-toggle {
 	position: fixed;
-	width: 160px;
-	top: 30px;
-	right: 30px;
-
 	z-index: 100000000;
 
 	transition-property: transform;
@@ -61,8 +57,16 @@
 	}
 }
 
+.main-menu-toggle--default {
+	top: 60px;
+	right: 60px;
+	width: 160px;
+}
+
 .main-menu-toggle--mobile {
 	display: none;
+	top: 30px;
+	right: 30px;
 	width: 80px;
 }
 

@@ -915,9 +915,6 @@ html, body {
 
 .main-menu-toggle {
   position: fixed;
-  width: 160px;
-  top: 30px;
-  right: 30px;
   z-index: 100000000;
   transition-property: transform;
   transition-duration: 250ms;
@@ -925,11 +922,18 @@ html, body {
   .main-menu-toggle:hover {
     transform: scale(1.1); }
 
+.main-menu-toggle--default {
+  top: 60px;
+  right: 60px;
+  width: 160px; }
+
 .main-menu-toggle--mobile {
   display: none;
+  top: 30px;
+  right: 30px;
   width: 80px; }
 
-@media (max-width: 1000px) {
+@media (max-width: 1082px) {
   .main-menu-toggle--mobile {
     display: block; }
   .main-menu-toggle--default {
