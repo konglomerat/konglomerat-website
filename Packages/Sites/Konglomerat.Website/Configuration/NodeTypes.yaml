@@ -34,3 +34,21 @@
         'properties':
           label: 'Eigenschaften'
           tab: 'default'
+
+'Konglomerat.Website:Test':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    label: 'Kilian'
+    inlineEditable: true
+  properties:
+    title:
+      type: string
+      defaultValue: 'Name'
+      ui:
+        label: 'Line 1'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'

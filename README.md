@@ -1,15 +1,21 @@
-# Sandstorm Website
+# Konglomerat Website
 
 ## First Setup
 
-* composer install
-* flow server:run
-* cd Packages/Sites/Sandstorm.PublicWebsite
-* npm install
+1. pull the repo
+2. inside your source root run `composer install`
+3. start the development server `flow server:run`
 
-## Development
+Open the displayed url in your browser ;)
 
-* look into package.json for sass watch/build
+## Setup UI build
+
+We use `nvm` and `npm`
+
+`cd Packages/Sites/Konglomerat:Website`
+
+Install nvm accoriding to the following instruction -> https://github.com/creationix/nvm
+
 
 ## Build/Deployment
 
