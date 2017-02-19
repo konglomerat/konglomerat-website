@@ -1,35 +1,36 @@
-'Konglomerat.Website:Comb':
+'Konglomerat.Website:Division':
   superTypes:
-    'Neos.Neos:Content': true
+    'Neos.NodeTypes:Page': true
   ui:
     group: 'general'
-    label: 'Wabe'
-    inlineEditable: true
+    label: 'Werkbereich'
   properties:
-    title:
+    line1:
       type: string
-      defaultValue: '[Label]'
       ui:
-        label: 'Line 1'
+        label: 'Wabe Linie 1'
         inlineEditable: false
         reloadIfChanged: true
         inspector:
+          position: 300
           group: 'properties'
-    title2:
+    line2:
       type: string
       ui:
-        label: 'Line 2'
+        label: 'Wabe Linie 2'
         inlineEditable: false
         reloadIfChanged: true
         inspector:
+          position: 400
           group: 'properties'
-    title3:
+    line3:
       type: string
       ui:
-        label: 'Line 3'
+        label: 'Wabe Linie 3'
         inlineEditable: false
         reloadIfChanged: true
         inspector:
+          position: 500
           group: 'properties'
     color:
       type: string
@@ -39,22 +40,5 @@
         inlineEditable: false
         reloadIfChanged: true
         inspector:
-          group: 'properties'
-    row:
-      type: integer
-      defaultValue: 10
-      ui:
-        label: 'Row'
-        inlineEditable: false
-        reloadIfChanged: true
-        inspector:
-          group: 'properties'
-    column:
-      type: integer
-      defaultValue: 10
-      ui:
-        label: 'Column'
-        inlineEditable: false
-        reloadIfChanged: true
-        inspector:
+          position: 600
           group: 'properties'

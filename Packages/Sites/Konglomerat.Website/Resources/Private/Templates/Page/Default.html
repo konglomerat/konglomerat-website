@@ -44,6 +44,23 @@
 	</div>
 
 	<div class="u-stage">
+		<f:if condition="{comb}">
+			<f:then>
+				<div class="corner-comb">
+					<f:render
+							partial="CombSvg"
+							arguments="{
+						line1: comb.line1,
+						line2: comb.line2,
+						line3: comb.line3,
+						fill: comb.color,
+						showOverlayOnHover: false
+					}"
+					/>
+				</div>
+			</f:then>
+		</f:if>
+
 		<div class="growing-comb">
 			<f:render partial="CombSpike"/>
 			<div class="growing-comb__middle"></div>

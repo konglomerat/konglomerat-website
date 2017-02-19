@@ -1,0 +1,17 @@
+{namespace f=Neos\Fluid\ViewHelpers}
+{namespace neos=Neos\Neos\ViewHelpers}
+
+<div class="comb" data-row="{row}" data-column="{column}">
+	<neos:link.node node="{reference}">
+		<f:render
+			partial="CombSvg"
+			arguments="{
+				line1: line1,
+				line2: line2,
+				line3: line3,
+				fill: color,
+				showOverlayOnHover: true
+			}"
+		/>
+	</neos:link.node>
+</div>

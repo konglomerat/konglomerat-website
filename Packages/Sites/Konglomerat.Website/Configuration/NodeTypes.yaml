@@ -7,9 +7,10 @@
 #    'sidebar':
 #      type: 'Neos.Neos:ContentCollection'
 
-
-
 'Neos.Neos:Document':
+  constraints:
+    nodeTypes:
+      '*': false
   ui:
     inspector:
       groups:
@@ -23,6 +24,7 @@
           label: 'Standart Hintergrundbild'
           reloadIfChanged: true
           inspector:
+            position: 100
             group: 'properties'
 
 'Neos.Neos:Content':
@@ -34,21 +36,3 @@
         'properties':
           label: 'Eigenschaften'
           tab: 'default'
-
-'Konglomerat.Website:Test':
-  superTypes:
-    'Neos.Neos:Content': true
-  ui:
-    group: 'general'
-    label: 'Kilian'
-    inlineEditable: true
-  properties:
-    title:
-      type: string
-      defaultValue: 'Name'
-      ui:
-        label: 'Line 1'
-        inlineEditable: false
-        reloadIfChanged: true
-        inspector:
-          group: 'properties'

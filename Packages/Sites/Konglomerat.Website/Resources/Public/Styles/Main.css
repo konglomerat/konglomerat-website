@@ -691,7 +691,7 @@ html, body {
   transition-duration: 500ms; }
 
 .comb__shape {
-  opacity: 0.8; }
+  opacity: 0.9; }
 
 .comb__content {
   transform: rotate(38deg) translate(22px, -8px); }
@@ -758,6 +758,14 @@ html, body {
 
 .neos-backend .comb a {
   pointer-events: none; }
+
+.corner-comb {
+  position: absolute;
+  right: 45px;
+  top: 0;
+  width: 200px;
+  transform: rotate(-20deg);
+  z-index: 2; }
 
 .columns {
   position: relative;

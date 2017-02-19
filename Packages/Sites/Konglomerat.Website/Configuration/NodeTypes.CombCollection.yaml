@@ -10,4 +10,4 @@
   constraints:
     nodeTypes:
       '*': false
-      'Konglomerat.Website:Comb': true
+      'Konglomerat.Website:DivisionComb': true

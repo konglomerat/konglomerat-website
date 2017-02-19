@@ -1,0 +1,37 @@
+'Konglomerat.Website:DivisionComb':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    label: 'Wabe'
+    inlineEditable: true
+  properties:
+    divisionReference:
+      type: reference
+      ui:
+        reloadIfChanged: true
+        label: 'Werkbereich'
+        help:
+          message: 'Bitte einen Werkbereich auswählen.'
+        inspector:
+          group: 'properties'
+          editorOptions:
+            nodeTypes: ['Konglomerat.Website:Division']
+    row:
+      type: integer
+      defaultValue: 10
+      ui:
+        label: 'Row'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
+    column:
+      type: integer
+      defaultValue: 10
+      ui:
+        label: 'Column'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
