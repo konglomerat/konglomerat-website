@@ -8,6 +8,11 @@ $(document).ready(function(){
     $('.main-menu-close').click(function () {
         $('body').removeClass('application--main-menu-is-open');
     });
+
+    $('.main-menu__backdrop').click(function () {
+        $('body').removeClass('application--main-menu-is-open');
+    });
+
 });
 
 $(window).resize(function(){

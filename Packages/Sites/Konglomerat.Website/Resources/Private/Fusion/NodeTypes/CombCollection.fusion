@@ -1,7 +1,18 @@
 prototype(Konglomerat.Website:CombCollection) < prototype(Neos.Fusion:Tag) {
     // adding neos-contentelement is a HACK here, to ensure highlighting works, despite the node type being marked as Neos.Neos:ContentCollection
-    attributes.class = 'comb-collection neos-contentelement'
+    //lastComb = ${q(node).children().length()}
+    //lastComb = "test"
+    //lastRow = ${q(lastComb).property('row')}
+
+    @context.lastComb = 'test'
+
+    attribute.class.test = '################'
+
+
+    attributes.class = ${'comb-collection neos-contentelement ' + lastComb + this.test}
+
     content = Neos.Neos:ContentCollectionRenderer
+
     # Add contentElementWrapping so it would be possible to edit column's properties
     @process.contentElementWrapping = Neos.Neos:ContentElementWrapping
 }
