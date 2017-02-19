@@ -26,6 +26,11 @@ prototype(Konglomerat.Website:DefaultPage) < prototype(Page) {
 
         }
 
+        content.footer = Neos.Neos:ContentCollection {
+            nodePath = ${q(site).find('footer').property('_path')}
+            collection = ${q(site).children('footer').children()}
+        }
+
         javascripts.site = Neos.Fusion:Template {
             templatePath = 'resource://Konglomerat.Website/Private/Templates/Page/Default.html'
             sectionName = 'bodyScripts'

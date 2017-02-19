@@ -8,3 +8,6 @@
     navigation:
       type: 'Neos.Neos:ContentCollection'
       position: 'before main'
+    footer:
+      type: 'Neos.Neos:ContentCollection'
+      position: 'after main'
