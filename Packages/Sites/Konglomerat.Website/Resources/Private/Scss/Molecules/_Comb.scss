@@ -10,6 +10,12 @@
 	margin-bottom: 36px;
 }
 
+.comb-collection__inner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
 $comb__columns: 2;
 $comb__rows: 10;
 
@@ -106,6 +112,10 @@ $comb__padding: ($comb__column__width - $comb__width)/2;
 				}
 			}
 		}
+	}
+
+	.comb-collection[data-rows='#{$row}'] .comb-collection__inner {
+		padding-bottom: ($row - 1) * $comb__height * $comb__height-ratio + $comb__height;
 	}
 }
 

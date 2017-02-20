@@ -651,6 +651,11 @@ html, body {
   margin-top: 36px;
   margin-bottom: 36px; }
 
+.comb-collection__inner {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
 .comb-svg--outline .comb__shape {
   fill: none;
   stroke-width: 3px;
@@ -702,6 +707,9 @@ html, body {
 .comb[data-row='1'] {
   margin-top: 0%; }
 
+.comb-collection[data-rows='1'] .comb-collection__inner {
+  padding-bottom: 22.288%; }
+
 .comb[data-row='2'] {
   margin-top: 11.144%; }
   .comb[data-row='2'].comb[data-column='1'] {
@@ -709,8 +717,14 @@ html, body {
   .comb[data-row='2'].comb[data-column='2'] {
     left: 66%; }
 
+.comb-collection[data-rows='2'] .comb-collection__inner {
+  padding-bottom: 33.432%; }
+
 .comb[data-row='3'] {
   margin-top: 22.288%; }
+
+.comb-collection[data-rows='3'] .comb-collection__inner {
+  padding-bottom: 44.576%; }
 
 .comb[data-row='4'] {
   margin-top: 33.432%; }
@@ -719,8 +733,14 @@ html, body {
   .comb[data-row='4'].comb[data-column='2'] {
     left: 66%; }
 
+.comb-collection[data-rows='4'] .comb-collection__inner {
+  padding-bottom: 55.72%; }
+
 .comb[data-row='5'] {
   margin-top: 44.576%; }
+
+.comb-collection[data-rows='5'] .comb-collection__inner {
+  padding-bottom: 66.864%; }
 
 .comb[data-row='6'] {
   margin-top: 55.72%; }
@@ -729,8 +749,14 @@ html, body {
   .comb[data-row='6'].comb[data-column='2'] {
     left: 66%; }
 
+.comb-collection[data-rows='6'] .comb-collection__inner {
+  padding-bottom: 78.008%; }
+
 .comb[data-row='7'] {
   margin-top: 66.864%; }
+
+.comb-collection[data-rows='7'] .comb-collection__inner {
+  padding-bottom: 89.152%; }
 
 .comb[data-row='8'] {
   margin-top: 78.008%; }
@@ -739,8 +765,14 @@ html, body {
   .comb[data-row='8'].comb[data-column='2'] {
     left: 66%; }
 
+.comb-collection[data-rows='8'] .comb-collection__inner {
+  padding-bottom: 100.296%; }
+
 .comb[data-row='9'] {
   margin-top: 89.152%; }
+
+.comb-collection[data-rows='9'] .comb-collection__inner {
+  padding-bottom: 111.44%; }
 
 .comb[data-row='10'] {
   margin-top: 100.296%; }
@@ -748,6 +780,9 @@ html, body {
     left: 26%; }
   .comb[data-row='10'].comb[data-column='2'] {
     left: 66%; }
+
+.comb-collection[data-rows='10'] .comb-collection__inner {
+  padding-bottom: 122.584%; }
 
 .comb[data-column='1'] {
   left: 6%; }
