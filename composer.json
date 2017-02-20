@@ -27,7 +27,9 @@
         "sandstorm\/heroku": "^2.0",
         "ext-mbstring": "*",
         "ext-gd": "*",
-        "php": "~7.0.0"
+        "php": "~7.0.0",
+        "neos/neos-ui": "dev-master",
+        "neos/neos-ui-compiled": "dev-master"
     },
     "require-dev": {
         "neos\/buildessentials": "~4.0.0",
