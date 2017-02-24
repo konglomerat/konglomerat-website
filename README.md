@@ -30,9 +30,9 @@ For development you do not need a webserver like Apache and Nginx as we are usin
 2. run `composer install` inside the source root
 	* composer fails if you have missing dependencies (see above), install them and rerun composer
 3. start the development server `flow server:run`
-	* this starts a webserver which should be running a separate console, other comands should be run ins separate console
+	* this starts a webserver which should be running in a separate console
 	* wait for the url to appear in the console
-	* you might run into error if:
+	* you might run into errors if ...
 		* you have the wrong php version
 		* some php modules are missing
 4. Open the displayed url in your browser and follow the install instructions. When asked to create or import a new site, select "Konglomerat.Website" (https://neos.readthedocs.io/en/stable/GettingStarted/Installation.html#the-neos-setup-tool)
