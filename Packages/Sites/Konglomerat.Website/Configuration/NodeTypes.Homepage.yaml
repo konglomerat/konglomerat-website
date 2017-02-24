@@ -4,6 +4,8 @@
   constraints:
     nodeTypes:
       'Konglomerat.Website:Homepage': false
+      'Konglomerat.Website:DivisionRepository': true
+      'Konglomerat.Website:DivisionPage': false
       'Neos.Neos:Shortcut': false
   ui:
     group: 'general'

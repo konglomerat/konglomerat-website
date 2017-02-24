@@ -752,6 +752,96 @@
       </node>
      </node>
     </node>
+    <node identifier="87f68bdd-788d-42e0-ae13-cfb64a7aa607" nodeName="node-58b05274c89e3">
+     <variant sortingIndex="1000" workspace="live" nodeType="Konglomerat.Website:DivisionRepository" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-02-24T16:34:12+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">kollektive</uriPathSegment>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Kollektive</title>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="3367db45-aef3-4a2c-ac9c-62a717bf7b50" nodeName="node-58b05285ad797">
+     <variant sortingIndex="1050" workspace="live" nodeType="Konglomerat.Website:DivisionRepository" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-02-24T16:34:29+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">projekte</uriPathSegment>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Projekte</title>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="5ada5434-b9b0-4692-961d-6921141b7793" nodeName="node-58b0529032aa8">
+     <variant sortingIndex="1100" workspace="live" nodeType="Konglomerat.Website:DivisionRepository" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-02-24T16:34:40+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">produkte</uriPathSegment>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Produkte</title>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="93869522-8ff1-4d47-8a19-7c90e0e9b2ac" nodeName="node-58b052b9bb1aa">
+     <variant sortingIndex="163" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-02-24T16:35:21+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">termine</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Termine</title>
+      </properties>
+     </variant>
+     <node identifier="eb8b38d6-39b1-4393-024c-da2b1ac44c2e" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-24T16:35:21+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="f4301142-4eb1-43d0-bc57-e787cc9c1061" nodeName="node-58b052c5afaae">
+     <variant sortingIndex="388" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-02-24T16:35:33+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:04+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:04+01:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">freunde-partner</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Freunde &amp; Partner</title>
+      </properties>
+     </variant>
+     <node identifier="ffdd605f-d3b0-5781-22f0-e4ec4324159f" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-24T16:35:33+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:04+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:04+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
    </node>
   </nodes>
  </site>
