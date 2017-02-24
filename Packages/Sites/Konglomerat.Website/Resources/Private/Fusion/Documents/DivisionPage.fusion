@@ -1,4 +1,4 @@
-prototype(Konglomerat.Website:Division.Document) < prototype(Neos.NodeTypes:Page.Document) {
+prototype(Konglomerat.Website:DivisionPage.Document) < prototype(Neos.NodeTypes:Page.Document) {
 	body.comb {
 		line1 = ${q(node).property('line1')}
 		line2 = ${q(node).property('line2')}

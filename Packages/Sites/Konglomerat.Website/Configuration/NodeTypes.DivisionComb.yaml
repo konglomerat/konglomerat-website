@@ -16,7 +16,7 @@
         inspector:
           group: 'properties'
           editorOptions:
-            nodeTypes: ['Konglomerat.Website:Division']
+            nodeTypes: ['Konglomerat.Website:DivisionPage']
     row:
       type: integer
       defaultValue: 10

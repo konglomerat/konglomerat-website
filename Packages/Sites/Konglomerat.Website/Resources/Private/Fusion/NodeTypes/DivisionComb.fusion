@@ -5,5 +5,14 @@ prototype(Konglomerat.Website:DivisionComb) < prototype(Neos.Neos:Content) {
     line2 = ${q(this.reference).property('line2')}
     line3 = ${q(this.reference).property('line3')}
 
-    @cache.entryIdentifier.documentNode = ${site}
+    @cache {
+        mode = 'cached'
+        entryIdentifier {
+            node = ${node}
+        }
+        entryTags {
+            1 = ${'Node_' + this.reference.identifier}
+            2 = ${'Node_' + node.identifier}
+        }
+    }
 }

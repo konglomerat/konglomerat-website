@@ -1,9 +1,13 @@
-'Konglomerat.Website:Division':
+'Konglomerat.Website:DivisionPage':
   superTypes:
     'Neos.NodeTypes:Page': true
+  constraints:
+    nodeTypes:
+      'Neos.Neos:Document': false
   ui:
     group: 'general'
-    label: 'Werkbereich'
+    label: 'Werkbereich Seite'
+    icon: 'icon-wrench'
   properties:
     line1:
       type: string

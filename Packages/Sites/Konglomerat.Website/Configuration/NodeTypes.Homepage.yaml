@@ -1,6 +1,10 @@
 'Konglomerat.Website:Homepage':
   superTypes:
     'Neos.NodeTypes:Page': true
+  constraints:
+    nodeTypes:
+      'Konglomerat.Website:Homepage': false
+      'Neos.Neos:Shortcut': false
   ui:
     group: 'general'
     label: 'Homepage'

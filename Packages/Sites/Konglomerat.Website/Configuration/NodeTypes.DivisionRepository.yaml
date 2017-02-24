@@ -1,11 +1,11 @@
 'Konglomerat.Website:DivisionRepository':
   superTypes:
     'Neos.Neos:Shortcut': true
+  constraints:
+    nodeTypes:
+      'Konglomerat.Website:DivisionPage': true
+      'Neos.Neos:Document': false
   ui:
     group: 'general'
     label: 'Werkbereiche Sammlung'
     icon: 'icon-folder-open'
-  constraints:
-    nodeTypes:
-      '*': false
-      'Konglomerat.Website:Division': true
