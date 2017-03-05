@@ -4,12 +4,12 @@
 	@return map-get($brand-colors, $key);
 }
 
-@function line-height($key, $bp: large) {
-	@return map-get(map-get($line-heights, $bp), $key);
+@function line-height($key) {
+	@return $base-line-height;
 }
 
-@function font-size($key, $bp: large) {
-	@return map-get(map-get($type-scales, $bp), $key);
+@function font-size($key) {
+	@return map-get($font-sizes, $key);
 }
 
 @function layer($key) {
@@ -18,9 +18,4 @@
 
 @function breakpoint($key) {
 	@return map-get($breakpoints, $key);
-}
-
-@function base-line-height($bp: large) {
-	@return map-get($base-line-heights, $bp);
-
 }

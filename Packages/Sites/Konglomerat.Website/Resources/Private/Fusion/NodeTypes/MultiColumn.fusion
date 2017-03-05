@@ -1,0 +1,7 @@
+prototype(Neos.NodeTypes:MultiColumn) {
+    attributes.class = ' columns'
+}
+
+prototype(Neos.NodeTypes:MultiColumnItem) {
+    attributes.class = ' columns__column'
+}

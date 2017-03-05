@@ -1,10 +1,22 @@
 .corner-comb {
 	position: absolute;
-	right: 45px;
+	right: 107px;
 	top: 0;
 	width: 200px;
 
 	transform: rotate(-20deg);
 
 	z-index: 2;
+
+	@include mq(medium){
+		right: auto;
+		left: 15px;
+		top: -40px;
+	}
+
+	@include mq(small){
+		right: auto;
+		left: 15px;
+		top: -70px;
+	}
 }

@@ -1,0 +1,17 @@
+.comb-spike {
+	width: 100%;
+	polygon {
+		fill: white;
+	}
+}
+
+.comb-spike--flipped {
+	transform: rotate(180deg);
+	top: auto;
+	bottom: 0;
+
+	polygon {
+		fill: white;
+	}
+}
+

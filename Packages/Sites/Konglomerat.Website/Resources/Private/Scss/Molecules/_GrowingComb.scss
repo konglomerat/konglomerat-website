@@ -1,22 +1,3 @@
-.comb-spike {
-	width: 100%;
-	height: 250px;
-
-	polygon {
-		fill: white;
-	}
-}
-
-.comb-spike--flipped {
-	transform: rotate(180deg);
-	top: auto;
-	bottom: 0;
-
-	polygon {
-		fill: white;
-	}
-}
-
 .growing-comb {
 	position: absolute;
 	top: 0;

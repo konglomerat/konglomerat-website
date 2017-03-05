@@ -11,10 +11,13 @@ h3 {
 }
 
 h1, h2, h3 {
+	@include reset-spacing();
+
+	margin-bottom: $spacing--normal;
+
 	font-family: 'Istok Web', sans-serif;
 	font-weight: normal;
 
-	@include reset-spacing();
 
 	color: brand-color(black);
 }

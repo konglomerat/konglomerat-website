@@ -1,6 +1,6 @@
 ul, ol {
 	margin-top: 0;
-	@include space(margin-bottom);
+	margin-bottom: $spacing--small;
 	li {
 		@include type-setting(text);
 	}

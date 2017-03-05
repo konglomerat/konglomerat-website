@@ -17,75 +17,12 @@
 
 
 // TYPO
-
-
-/*
- * This will create the styling for `font-size` and `line-height` keeping the vertical rhythm.
- * Both will be multiples of the `base-line-height` and will be created for each breakpoint defined.
- *
- * `$key` needs to be defined in the corresponding maps in `_Variables.scss`
- * You can overwrite `$line-height` for artistic purposes.
- */
-@mixin type-setting($key, $line-height: false) {
-	@each $item in $base-line-heights {
-		$bp: nth($item, 1);
-		@include mq($bp) {
-			font-size: font-size($key, $bp);
-			@if $line-height {
-				line-height: $line-height;
-			}
-			@else {
-				line-height: line-height($key, $bp);
-			}
-		}
-	}
+@mixin type-setting($key) {
+	line-height: line-height($key);
+	font-size: font-size($key);
 }
 
-// SPACING
-
-/*
- * Returns multiples of `base-line-height` to be used as a value for `$property`. Will be multiplied by `$factor`
- * to be more flexible. Try to use integer values.
- */
-@mixin space($property, $factor: 1) {
-	$allowedKeys: (
-		padding,
-		padding-top,
-		padding-bottom,
-		padding-left,
-		padding-right,
-		margin,
-		margin-top,
-		margin-bottom,
-		margin-left,
-		margin-right,
-		height,
-		width,
-		top,
-		bottom,
-		left,
-		right,
-		border-width,
-		line-height
-	);
-
-	@if index($allowedKeys, $property) {
-		@each $item in $base-line-heights {
-			$bp: nth($item, 1);
-			@include mq($bp) {
-				#{$property}: base-line-height($bp) * $factor;
-			}
-		}
-	} @else {
-		@error "Sorry, but `#{$property}` is not supported to be used with @mixin spacing(...)";
-	}
-}
-
-// MEDIAQUERIES
-
-/*
- * Wraps the content with a mediaquery, if a breakpoint is defined.
- */
+// MQ
 @mixin mq($key) {
 	@if breakpoint($key) {
 		@media #{breakpoint($key)} { @content; }

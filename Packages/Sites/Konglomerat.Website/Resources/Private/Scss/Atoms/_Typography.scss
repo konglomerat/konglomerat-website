@@ -1,7 +1,7 @@
 p {
 	@include reset-spacing();
 	@include type-setting(text);
-	@include space(margin-bottom);
+	margin-bottom: $spacing--normal;
 }
 
 p > br:only-child {

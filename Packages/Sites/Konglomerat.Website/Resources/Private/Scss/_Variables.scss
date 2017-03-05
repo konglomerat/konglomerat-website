@@ -30,6 +30,11 @@ $page-header-background: brand-color(white);
 
 $content-width: 1200px;
 
+$spacing--tiny: 4px;
+$spacing--small: 8px;
+$spacing--normal: 16px;
+$spacing--big: 32px;
+
 
 // map of z-index
 $layers: (
@@ -48,7 +53,7 @@ $layers: (
 $breakpoints: (
 	small: "(max-width: 500px)",
 	medium: "(max-width: 767px)",
-	large: "(min-width: 768px)",
+	large: "(min-width: 960px)",
 	show-mobile-menu: "(max-width: 1082px)",
 );
 
@@ -63,68 +68,13 @@ $breakpoints: (
 // everywhere you should try to use whole-numbered multiples of the base-line-height.
 $base-font-size: 1rem;
 
-$base-line-heights: (
-	large: $base-font-size * 1.6,
-	medium: $base-font-size * 1.45,
-	small: $base-font-size * 1.4
+$base-line-height: 1.6;
+
+$font-sizes: (
+	small: 0.75rem,
+	text: 1rem,
+	h3: 1.333rem,
+	h2: 1.777rem,
+	h1: 2.369rem,
+	huge: 3.157em
 );
-
-// currently uses a modular scale
-$type-scales: (
-	large: (
-		small: 0.75rem,  // small text
-		text: 1rem,      // body text
-		h3: 1.333rem,  // large text
-		h2: 1.777rem,   // main heading
-		h1: 2.369rem,   // main heading
-		huge: 3.157em
-	),
-	medium: (
-		small: 0.75rem,  // small text
-		text: 1rem,      // body text
-		h3: 1.333rem,  // large text
-		h2: 1.777rem,   // main heading
-		h1: 2.369rem,   // main heading
-		huge: 3.157em
-	),
-	small: (
-		small: 0.75rem,  // small text
-		text: 1rem,      // body text
-		h3: 1.333rem * 0.75,  // large text
-		h2: 1.777rem * 0.75,   // main heading
-		h1: 2.369rem * 0.75,   // main heading
-		huge: 3.157em * 0.75
-	)
-);
-
-// IMPORTANT: line-heights need to be smaller than the corresponding `$type-scales`
-$line-heights: (
-	large: (
-		small: base-line-height(large),
-		text: base-line-height(large),
-		h3: base-line-height(large) * 2,
-		h2: base-line-height(large) * 2,
-		h1: base-line-height(large) * 3,
-		huge: base-line-height(large) * 3
-	),
-	medium: (
-		small: base-line-height(medium),
-		text: base-line-height(medium),
-		h3: base-line-height(medium) * 2,
-		h2: base-line-height(medium) * 2,
-		h1: base-line-height(medium) * 3,
-		huge: base-line-height(medium) * 3
-	),
-	small: (
-		small: base-line-height(small),
-		text: base-line-height(small),
-		h3: base-line-height(small) * 2,
-		h2: base-line-height(small) * 2,
-		h1: base-line-height(small) * 3,
-		huge: base-line-height(small) * 3
-	),
-);
-
-// Other
-$debugging-is-active: false;
-
