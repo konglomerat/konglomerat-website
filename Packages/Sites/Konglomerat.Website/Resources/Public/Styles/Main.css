@@ -933,6 +933,9 @@ html, body {
   height: 100%; }
 
 .main-menu__content {
+  position: absolute;
+  right: 0;
+  top: 50px;
   width: 900px;
   max-width: 100%;
   transform: rotate(0.5deg) scale(0.9);
@@ -950,7 +953,7 @@ html, body {
 
 .main-menu-toggle {
   position: fixed;
-  z-index: 100000000;
+  z-index: 5000;
   transition-property: transform;
   transition-duration: 250ms;
   cursor: pointer; }
@@ -994,7 +997,7 @@ html, body {
 .application--main-menu-is-open {
   overflow: hidden; }
   .application--main-menu-is-open .main-menu {
-    z-index: 1;
+    z-index: 1000;
     opacity: 1; }
   .application--main-menu-is-open .main-menu__content {
     transform: rotate(4deg) scale(1); }
@@ -1007,8 +1010,6 @@ html, body {
     transform: rotate(4deg) scale(1.1); }
   .application--main-menu-is-open .site-footer {
     opacity: 0; }
-  .application--main-menu-is-open .floating-logo {
-    z-index: 10000000; }
 
 html, body {
   min-height: 100vh;

@@ -24,6 +24,9 @@
 }
 
 .main-menu__content {
+	position: absolute;
+	right: 0;
+	top: 50px;
 	width: 900px;
 	max-width: 100%;
 
@@ -45,7 +48,7 @@
 
 .main-menu-toggle {
 	position: fixed;
-	z-index: 100000000;
+	z-index: 5000;
 
 	transition-property: transform;
 	transition-duration: 250ms;
@@ -108,7 +111,7 @@
 	overflow: hidden;
 
 	.main-menu {
-		z-index: 1;
+		z-index: 1000;
 		opacity: 1;
 	}
 
@@ -135,9 +138,4 @@
 	.site-footer {
 		opacity: 0;
 	}
-
-	.floating-logo {
-		z-index: 10000000;
-	}
-
 }
