@@ -1,0 +1,23 @@
+'Konglomerat.Website:FullCalendar':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    label: 'Termin Kalender'
+  properties:
+    calendarId:
+      type: string
+      ui:
+        label: 'Kalender ID'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
+    apiKey:
+      type: string
+      ui:
+        label: 'Google API Key'
+        inlineEditable: false
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'

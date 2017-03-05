@@ -1022,10 +1022,9 @@ body {
   position: relative;
   padding-bottom: 150px;
   width: 100%;
-  max-width: 800px;
+  max-width: 960px;
   transition-property: transform, opacity;
-  transition-duration: 250ms;
-  transform: rotate(0.5deg); }
+  transition-duration: 250ms; }
 
 .u-stage__inner {
   width: 100%;
