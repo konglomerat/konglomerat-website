@@ -80,14 +80,14 @@
       <properties/>
      </variant>
      <node identifier="66405b22-a156-44ab-954f-f39d5d1f78d2" nodeName="node-58a382e295902">
-      <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Text" version="20" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Text" version="21" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-02-14T23:21:22+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T03:08:40+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T03:08:40+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-03-05T15:51:07+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-05T15:51:07+01:00</lastPublicationDateTime>
        <properties>
-        <text __type="string">&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;node://c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot;&gt;HOME&lt;/a&gt;   |  &lt;a href=&quot;node://b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot;&gt;KONGLOMERAT&lt;/a&gt;  |  &lt;a href=&quot;node://0930d420-ac3f-405f-bc73-f68a66ece9f6&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;0930d420-ac3f-405f-bc73-f68a66ece9f6&quot;&gt;ROSENWERK&lt;/a&gt;  |  &lt;a href=&quot;node://cce49760-ec51-482c-a616-b6f23366de48&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;cce49760-ec51-482c-a616-b6f23366de48&quot;&gt;INFOS&lt;/a&gt; | &lt;a href=&quot;node://e7a1184d-7dfc-4897-962b-8038a361108c&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;e7a1184d-7dfc-4897-962b-8038a361108c&quot;&gt;HOLZ&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;</text>
+        <text __type="string">&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;node://c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;c13d41f8-6679-4ea8-aa4c-7208f8152f4e&quot;&gt;HOME&lt;/a&gt;   |  &lt;a href=&quot;node://b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;b69f3ad0-dbb3-4198-9df4-f9bc54b80bea&quot;&gt;KONGLOMERAT&lt;/a&gt;  |  &lt;a href=&quot;node://0930d420-ac3f-405f-bc73-f68a66ece9f6&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;0930d420-ac3f-405f-bc73-f68a66ece9f6&quot;&gt;ROSENWERK&lt;/a&gt;  |  &lt;a href=&quot;node://93869522-8ff1-4d47-8a19-7c90e0e9b2ac&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;93869522-8ff1-4d47-8a19-7c90e0e9b2ac&quot;&gt;TERMINE&lt;/a&gt; &lt;/h3&gt;&lt;p&gt;&lt;/p&gt;</text>
        </properties>
       </variant>
      </node>
@@ -363,12 +363,12 @@
         <properties/>
        </variant>
        <node identifier="6ed18266-c5c9-4780-a038-1fb8ab575eee" nodeName="node-58a9d5a9652bb">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions/>
          <accessRoles __type="array"/>
          <creationDateTime __type="object" __classname="DateTime">2017-02-19T18:28:09+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-19T18:28:25+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-19T18:28:24+01:00</lastPublicationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-03-05T15:19:52+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-05T15:19:52+01:00</lastPublicationDateTime>
          <properties>
           <text __type="string">&lt;p&gt;Habt ihr kleine oder große Pläne, gute Ideen oder konkrete Vorstellungen – fehlt es euch aber am richtigen Equipment und dem nötigen Platz, dann seid ihr in der Holzwerkstatt an der richtigen Stelle. Auf ca. 90 qm könnt ihr Struktur und Ausstattung der Holzwerkstatt benutzen und wir helfen euch bei der Umsetzung eurer Konzepte.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</text>
          </properties>
@@ -816,6 +816,31 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-24T16:37:07+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
+      <node identifier="1b3848d3-4c09-472a-97f1-91d59c830f26" nodeName="node-58bc12cf7dd76">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-03-05T14:29:51+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-03-05T14:30:18+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-05T14:30:18+01:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Termine&lt;/h1&gt;</title>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="351da90a-2e22-465f-9eda-705975d09013" nodeName="node-58bc12e146d14">
+       <variant sortingIndex="150" workspace="live" nodeType="Konglomerat.Website:FullCalendar" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-03-05T14:30:09+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-03-05T15:19:52+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-05T15:19:52+01:00</lastPublicationDateTime>
+        <properties>
+         <calendarId __type="string">bj85d742g31mgkblbaiusmk3s8@group.calendar.google.com</calendarId>
+         <apiKey __type="string">AIzaSyD3u3LvjmMCCjweb5ssngJBkSMPAVEErq8</apiKey>
+        </properties>
+       </variant>
+      </node>
      </node>
     </node>
     <node identifier="f4301142-4eb1-43d0-bc57-e787cc9c1061" nodeName="node-58b052c5afaae">
