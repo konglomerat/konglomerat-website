@@ -3,10 +3,8 @@
     'Neos.NodeTypes:Page': true
   constraints:
     nodeTypes:
-      'Konglomerat.Website:Homepage': false
       'Konglomerat.Website:DivisionRepository': true
-      'Konglomerat.Website:DivisionPage': false
-      'Neos.Neos:Shortcut': false
+      '*': false
   ui:
     group: 'general'
     label: 'Homepage'

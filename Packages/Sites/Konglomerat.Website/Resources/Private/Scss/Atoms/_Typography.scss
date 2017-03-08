@@ -4,14 +4,6 @@ p {
 	margin-bottom: $spacing--normal;
 }
 
-p > br:only-child {
-	display: none;
-}
-
-p:last-child {
-	margin-bottom: 0;
-}
-
 small {
 	@include reset-spacing();
 	@include type-setting(small);
