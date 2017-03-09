@@ -4,6 +4,7 @@
   constraints:
     nodeTypes:
       'Konglomerat.Website:DivisionRepository': true
+      'Konglomerat.Website:MainPage': true
       '*': false
   ui:
     group: 'general'

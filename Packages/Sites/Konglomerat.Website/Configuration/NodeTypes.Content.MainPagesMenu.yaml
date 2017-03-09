@@ -1,0 +1,7 @@
+'Konglomerat.Website:MainPagesMenu':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    label: 'Hauptseiten Menü'
+    icon: 'icon-star'

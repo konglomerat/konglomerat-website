@@ -1,0 +1,19 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace ts=Neos\Fusion\ViewHelpers}
+{test}
+<f:if condition="{items -> f:count()}">
+	<f:then>
+		<ul {attributes -> f:format.raw()}>
+			<li class="main-pages-menu__item"><a href="/">Home</a></li>
+			<f:render section="itemsList" arguments="{items: items}" />
+		</ul>
+	</f:then>
+</f:if>
+
+<f:section name="itemsList">
+	<f:for each="{items}" as="item">
+		<li {ts:render(path: '{item.state}.attributes', context: {item: item}) -> f:format.raw()}>
+			{item.node.state}<neos:link.node node="{item.node}">{item.label}</neos:link.node>
+		</li>
+	</f:for>
+</f:section>

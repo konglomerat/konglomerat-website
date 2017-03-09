@@ -1,0 +1,10 @@
+'Konglomerat.Website:MainPage':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  constraints:
+    nodeTypes:
+      'Neos.Neos:Document': false
+  ui:
+    group: 'general'
+    label: 'Hauptseite'
+    icon: 'icon-star'

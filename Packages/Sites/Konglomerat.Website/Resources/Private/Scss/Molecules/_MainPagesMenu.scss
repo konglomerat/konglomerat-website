@@ -1,0 +1,20 @@
+.main-pages-menu {
+	@include reset-list-style();
+	width: 100%;
+	text-align: center;
+}
+
+.main-pages-menu__item {
+	display: inline;
+	width: auto;
+	margin-left: $spacing--small;
+	margin-right: $spacing--small;
+
+	font-size: font-size(h3);
+}
+
+.main-pages-menu__item--current {
+	a {
+		text-decoration: underline;
+	}
+}

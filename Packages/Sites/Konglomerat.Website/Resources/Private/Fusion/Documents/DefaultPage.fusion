@@ -23,7 +23,6 @@ prototype(Konglomerat.Website:DefaultPage) < prototype(Page) {
 
         content.navigation = PrimaryContent {
             nodePath = ${q(site).find('navigation').property('_path')}
-
         }
 
         content.footer = Neos.Neos:ContentCollection {
