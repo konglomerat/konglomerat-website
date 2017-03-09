@@ -894,6 +894,9 @@ html, body {
   .application--main-menu-is-open .site-footer {
     opacity: 0; }
 
+.neos-backend .main-navigation {
+  background: #ececec; }
+
 html, body {
   min-height: 100vh;
   position: relative; }

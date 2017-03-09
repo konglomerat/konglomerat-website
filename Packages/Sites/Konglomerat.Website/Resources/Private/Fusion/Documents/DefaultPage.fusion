@@ -22,6 +22,18 @@ prototype(Konglomerat.Website:DefaultPage) < prototype(Page) {
         }
 
         content.navigation = PrimaryContent {
+            // the following line fixes a nasty problem:
+            // - by default, ContentCollection is *CACHED*, depending on its own Node path.
+            // - Menu is also cached, depending on the DOCUMENT node path (to have different cache entries on different
+            //   pages to account for the "active" state)
+            // Because we always use the SAME ContentCollection on ALL pages (the one placed on the homepage),
+            // the full ContentCollection is cached exactly once; and this way can just include a single version of
+            // the menu (by including the cache identifier).
+            //
+            // The FIX: we can a) remove explicit caching for the ContentCollection, or b) include the DOCUMENT NODE
+            //          in the identifier of the ContentCollection cache.
+            // We use option a) here because it is "good enough" for this website, and reduces complexity.
+            prototype(Neos.Neos:ContentCollection).@cache.mode = 'embed'
             nodePath = ${q(site).find('navigation').property('_path')}
         }
 

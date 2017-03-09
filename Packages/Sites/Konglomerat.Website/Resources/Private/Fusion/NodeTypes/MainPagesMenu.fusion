@@ -8,12 +8,5 @@ prototype(Konglomerat.Website:MainPagesMenu) < prototype(Neos.Neos:Menu) {
 	active.attributes.class = 'main-pages-menu__item main-pages-menu__item--active'
 	current.attributes.class = 'main-pages-menu__item main-pages-menu__item--current'
 	normal.attributes.class = 'main-pages-menu__item main-pages-menu__item--normal'
-
-	@cache {
-		mode = 'uncached'
-		context {
-			1 = 'node'
-			2 = 'documentNode'
-		}
-	}
+	@process.contentElementWrapping = Neos.Neos:ContentElementWrapping
 }
