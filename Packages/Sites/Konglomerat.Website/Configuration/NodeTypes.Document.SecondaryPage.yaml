@@ -1,0 +1,6 @@
+'Konglomerat.Website:SecondaryPage':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  ui:
+    group: 'general'
+    label: 'Sekundäre Seite'

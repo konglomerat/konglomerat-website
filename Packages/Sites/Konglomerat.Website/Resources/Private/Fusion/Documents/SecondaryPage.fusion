@@ -1,0 +1,1 @@
+prototype(Konglomerat.Website:SecondaryPage.Document) < prototype(Neos.NodeTypes:Page.Document)
