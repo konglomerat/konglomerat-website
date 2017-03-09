@@ -851,40 +851,28 @@
       </node>
      </node>
     </node>
-    <node identifier="caaab1c5-86ce-4445-bbe4-76bf254837c8" nodeName="node-58c073b22709e">
-     <variant sortingIndex="825" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+    <node identifier="195f267a-a000-4e29-86f2-3d04d8af1d06" nodeName="node-58c1672bd9739">
+     <variant sortingIndex="1000" workspace="live" nodeType="Konglomerat.Website:SecondaryPage" version="2" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2017-03-08T22:12:18+01:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-03-08T22:47:30+01:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-08T22:47:29+01:00</lastPublicationDateTime>
+      <creationDateTime __type="object" __classname="DateTime">2017-03-09T15:31:07+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-03-09T15:32:07+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-09T15:32:07+01:00</lastPublicationDateTime>
       <properties>
-       <uriPathSegment __type="string">mitmachen</uriPathSegment>
+       <uriPathSegment __type="string">mitmachen-1</uriPathSegment>
        <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Mitmachen</title>
       </properties>
      </variant>
-     <node identifier="bdf1dc35-2c40-0427-0106-6022c48aa8c5" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+     <node identifier="d4fbaeff-8673-69f8-d212-7a7d21b8852c" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2017-03-08T22:12:18+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-03-08T22:47:30+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-08T22:47:29+01:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2017-03-09T15:31:08+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-03-09T15:32:07+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-09T15:32:07+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
-      <node identifier="7c03ebe3-63b3-4be1-bd6e-a5a8ff42f089" nodeName="node-58c10a4b02820">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
-        <dimensions/>
-        <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2017-03-09T08:54:51+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-03-09T08:56:05+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-09T08:56:05+01:00</lastPublicationDateTime>
-        <properties>
-         <title __type="string">&lt;h1&gt;Mitmachen&lt;/h1&gt;</title>
-        </properties>
-       </variant>
-      </node>
      </node>
     </node>
    </node>
