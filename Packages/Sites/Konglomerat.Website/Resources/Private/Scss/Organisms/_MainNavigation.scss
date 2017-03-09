@@ -1,5 +1,21 @@
+.main-navigation {
+	margin-bottom: $spacing--normal;
+}
+
 .neos-backend {
 	.main-navigation {
-		background: brand-color(lighter-grey);
+		position: relative;
+		padding-bottom: $spacing--normal;
+
+		border: 1px dashed brand-color(light-grey);
+
+		&::after {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			padding-right: $spacing--tiny;
+			content: 'Dieser Bereich wird als Menü verwendet';
+			font-size: font-size(small);
+		}
 	}
 }

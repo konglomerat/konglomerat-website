@@ -32,9 +32,20 @@ prototype(Konglomerat.Website:DefaultPage) < prototype(Page) {
             //
             // The FIX: we can a) remove explicit caching for the ContentCollection, or b) include the DOCUMENT NODE
             //          in the identifier of the ContentCollection cache.
-            // We use option a) here because it is "good enough" for this website, and reduces complexity.
-            prototype(Neos.Neos:ContentCollection).@cache.mode = 'embed'
+            // We use option b) here because it is "good enough" for this website, and reduces complexity.
+            prototype(Neos.Neos:ContentCollection).@cache {
+                mode = 'cached'
+                entryIdentifier {
+                    1 = ${node}
+                    2 = ${documentNode}
+                }
+            }
+
             nodePath = ${q(site).find('navigation').property('_path')}
+            default.renderer {
+                attributes.class = 'neos-contentelement main-navigation'
+                tagName = 'nav'
+            }
         }
 
         content.footer = Neos.Neos:ContentCollection {

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box; }
 
@@ -894,8 +895,20 @@ html, body {
   .application--main-menu-is-open .site-footer {
     opacity: 0; }
 
+.main-navigation {
+  margin-bottom: 16px; }
+
 .neos-backend .main-navigation {
-  background: #ececec; }
+  position: relative;
+  padding-bottom: 16px;
+  border: 1px dashed #acacac; }
+  .neos-backend .main-navigation::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 4px;
+    content: 'Dieser Bereich wird als Menü verwendet';
+    font-size: 0.75rem; }
 
 html, body {
   min-height: 100vh;
