@@ -1,8 +1,12 @@
 <f:section name="body">
-	<main class="u-stage u-stage--center">
-		{content.navigation -> f:format.raw()}
-		{content.main -> f:format.raw()}
-	</main>
+	<div class="stage">
+		<nav class="section--force-right">
+			{content.navigation -> f:format.raw()}
+		</nav>
+		<main>
+			{content.main -> f:format.raw()}
+		</main>
+	</div>
 	<footer class="site-footer">
 		<div class="site-footer__content">
 			{content.footer -> f:format.raw()}

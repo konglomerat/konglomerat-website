@@ -1,0 +1,13 @@
+'Konglomerat.Website:Section':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    label: 'Abschnitt'
+    inlineEditable: true
+  childNodes:
+    'main':
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          '*': true

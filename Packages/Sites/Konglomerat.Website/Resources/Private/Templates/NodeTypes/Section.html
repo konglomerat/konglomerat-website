@@ -1,0 +1,14 @@
+{namespace f=Neos\Fluid\ViewHelpers}
+{namespace neos=Neos\Neos\ViewHelpers}
+
+<div class="section" data-row="{row}" data-column="{column}">
+	<div class="section__content growing-comb">
+		<f:render partial="CombSpike"/>
+		<div class="growing-comb__middle">
+			<div class="growing-comb__content">
+				{main -> f:format.raw()}
+			</div>
+		</div>
+		<f:render partial="CombSpike" arguments="{bottom: true}"/>
+	</div>
+</div>

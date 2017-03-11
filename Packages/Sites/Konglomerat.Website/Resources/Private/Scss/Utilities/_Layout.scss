@@ -4,8 +4,10 @@ html, body {
 }
 
 body {
-	padding-top: 10%;
-	padding-bottom: 500px;
+	padding-top: 5%;
+
+
+	background: #F2F2F2;
 
 	@include mq(medium){
 		padding-top: 20%;

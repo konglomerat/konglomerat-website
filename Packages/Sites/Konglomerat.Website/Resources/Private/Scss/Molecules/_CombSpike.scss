@@ -1,3 +1,11 @@
+%comb-spike--flipped {
+	transform: scale(-1, 1);
+}
+
+%comb-spike--bottom-flipped {
+	transform: scale(1, -1);
+}
+
 .comb-spike {
 	width: 100%;
 	polygon {
@@ -5,13 +13,7 @@
 	}
 }
 
-.comb-spike--flipped {
-	transform: rotate(180deg);
-	top: auto;
-	bottom: 0;
-
-	polygon {
-		fill: white;
-	}
+.comb-spike--bottom {
+	transform: scale(-1, -1);
 }
 

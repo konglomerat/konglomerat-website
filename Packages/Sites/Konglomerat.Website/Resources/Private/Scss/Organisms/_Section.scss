@@ -1,0 +1,40 @@
+.section {
+	position: relative;
+
+	width: 100%;
+}
+
+.section--force-right {
+	.section__content {
+		margin-left: auto;
+	}
+
+	.comb-spike {
+		@extend %comb-spike--flipped;
+	}
+
+	.comb-spike--bottom {
+		@extend %comb-spike--bottom-flipped;
+	}
+}
+
+.section__content {
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+}
+
+*.section:nth-of-type(2) {
+	.section__content {
+		margin-left: auto;
+	}
+
+	.comb-spike {
+		@extend %comb-spike--flipped;
+	}
+
+	.comb-spike--bottom {
+		@extend %comb-spike--bottom-flipped;
+	}
+}
+

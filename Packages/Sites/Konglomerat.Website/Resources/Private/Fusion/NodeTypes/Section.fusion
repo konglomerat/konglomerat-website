@@ -1,0 +1,7 @@
+prototype(Konglomerat.Website:Section) < prototype(Neos.Neos:Content) {
+    // adding neos-contentelement is a HACK here, to ensure highlighting works, despite the node type being marked as Neos.Neos:ContentCollection
+    attributes.class = ${'section'}
+    main = PrimaryContent {
+        nodePath = 'main'
+    }
+}

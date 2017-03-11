@@ -648,25 +648,30 @@ html, body {
   .growing-comb .comb-spike {
     flex-shrink: 0;
     margin-bottom: -2px; }
-  .growing-comb .comb-spike--flipped {
-    flex-shrink: 0;
-    margin-top: -2px; }
   .growing-comb .growing-comb__middle {
     width: 100%;
     height: 100%;
-    background: white; }
+    background: white;
+    z-index: 1; }
+  .growing-comb .growing-comb__content {
+    margin-top: -60px;
+    margin-bottom: -60px;
+    padding-right: 80px;
+    padding-left: 80px; }
+
+.section--force-right .comb-spike, *.section:nth-of-type(2) .comb-spike {
+  transform: scale(-1, 1); }
+
+.section--force-right .comb-spike--bottom, *.section:nth-of-type(2) .comb-spike--bottom {
+  transform: scale(1, -1); }
 
 .comb-spike {
   width: 100%; }
   .comb-spike polygon {
     fill: white; }
 
-.comb-spike--flipped {
-  transform: rotate(180deg);
-  top: auto;
-  bottom: 0; }
-  .comb-spike--flipped polygon {
-    fill: white; }
+.comb-spike--bottom {
+  transform: scale(-1, -1); }
 
 .main-pages-menu {
   list-style: none;
@@ -743,8 +748,8 @@ html, body {
 
 .site-footer {
   position: absolute;
-  bottom: 0;
   width: 100%;
+  margin-top: 100px;
   transition-property: opacity;
   transition-duration: 250ms; }
   .site-footer .site-footer__content {
@@ -790,6 +795,7 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
+  padding-top: 5%;
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -805,36 +811,32 @@ html, body {
   height: 100%; }
 
 .main-menu__content {
-  position: absolute;
-  right: 0;
-  top: 50px;
-  width: 960px;
-  max-width: 100%;
-  transition-property: transform;
-  transition-duration: 250ms; }
-  @media (min-width: 960px) {
-    .main-menu__content {
-      transform: rotate(0.5deg) scale(0.8); } }
-
-.main-menu__content-inner {
   position: relative;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 230px;
-  padding-bottom: 280px; }
-  @media (max-width: 767px) {
-    .main-menu__content-inner {
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-top: 200px;
-      padding-bottom: 190px; } }
-  @media (max-width: 500px) {
-    .main-menu__content-inner {
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 170px;
-      padding-bottom: 120px; } }
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 100%; }
 
+/*.main-menu__content-inner {
+	position: relative;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 230px;
+	padding-bottom: 280px;
+
+	@include mq(medium){
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 200px;
+		padding-bottom: 190px;
+	}
+
+	@include mq(small){
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 170px;
+		padding-bottom: 120px;
+	}
+}*/
 .main-menu-toggle {
   position: fixed;
   z-index: 5000;
@@ -883,14 +885,11 @@ html, body {
   .application--main-menu-is-open .main-menu {
     z-index: 1000;
     opacity: 1; }
-  @media (min-width: 960px) {
-    .application--main-menu-is-open .main-menu__content {
-      transform: rotate(4deg) scale(1); } }
   .application--main-menu-is-open .main-menu-toggle .main-menu-toggle__close {
     opacity: 1; }
   .application--main-menu-is-open .main-menu-toggle .main-menu-toggle__hamburger {
     opacity: 0; }
-  .application--main-menu-is-open .u-stage {
+  .application--main-menu-is-open .stage {
     opacity: 0; }
   .application--main-menu-is-open .site-footer {
     opacity: 0; }
@@ -910,13 +909,33 @@ html, body {
     content: 'Dieser Bereich wird als Menü verwendet';
     font-size: 0.75rem; }
 
+.section {
+  position: relative;
+  width: 100%; }
+
+.section--force-right .section__content {
+  margin-left: auto; }
+
+.section__content {
+  position: relative;
+  width: 100%;
+  max-width: 960px; }
+
+*.section:nth-of-type(2) .section__content {
+  margin-left: auto; }
+
+.stage {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto; }
+
 html, body {
   min-height: 100vh;
   position: relative; }
 
 body {
-  padding-top: 10%;
-  padding-bottom: 500px; }
+  padding-top: 5%;
+  background: #F2F2F2; }
   @media (max-width: 767px) {
     body {
       padding-top: 20%;

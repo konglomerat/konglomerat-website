@@ -30,21 +30,14 @@
 	</f:if>
 	<f:render partial="MainMenuToggle" />
 
-	<div class="main-menu">
+	<mav class="main-menu">
 		<div class="main-menu__backdrop"></div>
-		<div class="main-menu__content">
-			<div class="growing-comb">
-				<f:render partial="CombSpike"/>
-				<div class="growing-comb__middle"></div>
-				<f:render partial="CombSpike" arguments="{flipped: true}"/>
-			</div>
-			<div class="main-menu__content-inner">
-				{content.navigation -> f:format.raw()}
-			</div>
+		<div class="main-menu__content section--force-right">
+			{content.navigation -> f:format.raw()}
 		</div>
-	</div>
+	</mav>
 
-	<div class="u-stage">
+	<div class="stage">
 		<f:if condition="{comb}">
 			<f:then>
 				<div class="corner-comb">
@@ -62,15 +55,7 @@
 			</f:then>
 		</f:if>
 
-		<div class="growing-comb">
-			<f:render partial="CombSpike"/>
-			<div class="growing-comb__middle"></div>
-			<f:render partial="CombSpike" arguments="{flipped: true}"/>
-		</div>
-
-		<div class="u-stage__inner">
-			{content.main -> f:format.raw()}
-		</div>
+		{content.main -> f:format.raw()}
 	</div>
 
 	<footer class="site-footer">
