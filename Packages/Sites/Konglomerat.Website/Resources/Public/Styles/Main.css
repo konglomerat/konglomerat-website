@@ -681,14 +681,28 @@ html, body {
   text-align: center; }
 
 .main-pages-menu__item {
+  position: relative;
   display: inline;
   width: auto;
   margin-left: 8px;
   margin-right: 8px;
-  font-size: 1.333rem; }
+  font-size: 1.333rem;
+  white-space: nowrap; }
+  .main-pages-menu__item::before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    left: 5px;
+    bottom: 0;
+    background: #E0E0E0;
+    z-index: -1; }
+  .main-pages-menu__item a {
+    color: #000; }
 
-.main-pages-menu__item--current a {
-  text-decoration: underline; }
+.main-pages-menu__item--current::before {
+  background: #bababa; }
 
 .columns {
   position: relative;
@@ -919,14 +933,15 @@ html, body {
 .section__content {
   position: relative;
   width: 100%;
-  max-width: 960px; }
+  max-width: 860px; }
 
 *.section:nth-of-type(2) .section__content {
   margin-left: auto; }
 
 .stage {
   position: relative;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto; }
 
 html, body {
@@ -934,7 +949,7 @@ html, body {
   position: relative; }
 
 body {
-  padding-top: 5%;
+  padding-top: 10%;
   background: #F2F2F2; }
   @media (max-width: 767px) {
     body {
@@ -944,40 +959,6 @@ body {
     body {
       padding-top: 30%;
       padding-bottom: 500px; } }
-
-.u-stage {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  transition-property: transform, opacity;
-  transition-duration: 250ms; }
-
-.u-stage__inner {
-  width: 100%;
-  position: relative;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 180px;
-  padding-bottom: 280px; }
-  @media (max-width: 767px) {
-    .u-stage__inner {
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-top: 150px;
-      padding-bottom: 190px; } }
-  @media (max-width: 500px) {
-    .u-stage__inner {
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 120px;
-      padding-bottom: 120px; } }
-
-.u-stage__background {
-  display: flex; }
-
-.u-stage--center {
-  margin: 0 auto;
-  max-width: 960px; }
 
 .u-background {
   position: fixed;
