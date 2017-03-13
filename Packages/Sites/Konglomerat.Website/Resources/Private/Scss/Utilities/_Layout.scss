@@ -6,8 +6,7 @@ html, body {
 body {
 	padding-top: 10%;
 
-
-	background: #F2F2F2;
+	background: darken(#F2F2F2, 2);
 
 	@include mq(medium){
 		padding-top: 20%;
