@@ -1,7 +1,18 @@
 .section {
 	position: relative;
+	margin-bottom: -60px;
 
 	width: 100%;
+
+	@include mq(sections-touching){
+		margin-bottom: 0;
+	}
+}
+
+.section--rotated {
+	@include mq(large){
+		transform: rotate(5deg);
+	}
 }
 
 .section--force-right {
@@ -10,11 +21,11 @@
 	}
 
 	.comb-spike {
-		@extend %comb-spike--flipped;
+		@extend %comb-spike;
 	}
 
 	.comb-spike--bottom {
-		@extend %comb-spike--bottom-flipped;
+		@extend %comb-spike--bottom;
 	}
 }
 
@@ -30,11 +41,11 @@
 	}
 
 	.comb-spike {
-		@extend %comb-spike--flipped;
+		@extend %comb-spike;
 	}
 
 	.comb-spike--bottom {
-		@extend %comb-spike--bottom-flipped;
+		@extend %comb-spike--bottom;
 	}
 }
 

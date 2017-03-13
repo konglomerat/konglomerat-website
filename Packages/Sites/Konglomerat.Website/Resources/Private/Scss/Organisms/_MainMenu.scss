@@ -29,6 +29,13 @@
 	margin: 0 auto;
 	width: 1200px;
 	max-width: 100%;
+
+	@include mq(large){
+		transform: rotate(0deg) scale(0.8, 0.8);
+
+		transition-duration: 250ms;
+		transition-property: transform;
+	}
 }
 
 /*.main-menu__content-inner {
@@ -120,6 +127,12 @@
 	.main-menu {
 		z-index: 1000;
 		opacity: 1;
+	}
+
+	.main-menu__content {
+		@include mq(large){
+			transform: rotate(5deg);
+		}
 	}
 
 	.main-menu-toggle {

@@ -8,30 +8,11 @@
 
 	.site-footer__content {
 		position: relative;
-		max-width: 960px;
+		max-width: 1200px;
 		width: 100%;
 		margin: 0 auto;
 
 		z-index: 1;
-
-		padding-left: 60px;
-		padding-right: 60px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-
-		@include mq(medium){
-			padding-left: 30px;
-			padding-right: 30px;
-			padding-top: 60px;
-			padding-bottom: 30px;
-		}
-
-		@include mq(small){
-			padding-left: 20px;
-			padding-right: 20px;
-			padding-top: 40px;
-			padding-bottom: 30px;
-		}
 	}
 
 	.comb-spike {

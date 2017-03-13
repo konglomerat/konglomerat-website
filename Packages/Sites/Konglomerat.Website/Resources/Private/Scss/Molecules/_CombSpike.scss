@@ -1,19 +1,29 @@
+%comb-spike {
+	transform: scale(1, 1);
+}
+
+%comb-spike--bottom {
+	transform: scale(-1, -1);
+}
+
 %comb-spike--flipped {
 	transform: scale(-1, 1);
 }
 
-%comb-spike--bottom-flipped {
+%comb-spike--flipped-bottom {
 	transform: scale(1, -1);
 }
 
 .comb-spike {
 	width: 100%;
+	@extend %comb-spike;
+
 	polygon {
 		fill: white;
 	}
 }
 
 .comb-spike--bottom {
-	transform: scale(-1, -1);
+	@extend %comb-spike--bottom;
 }
 

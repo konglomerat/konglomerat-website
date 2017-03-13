@@ -59,12 +59,13 @@
 	</div>
 
 	<footer class="site-footer">
-		<div class="site-footer__content">
-			{content.footer -> f:format.raw()}
-		</div>
 		<div class="growing-comb">
 			<f:render partial="CombSpike"/>
-			<div class="growing-comb__middle"></div>
+			<div class="growing-comb__middle">
+				<div class="growing-comb__content site-footer__content">
+					{content.footer -> f:format.raw()}
+				</div>
+			</div>
 		</div>
 	</footer>
 </f:section>

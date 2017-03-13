@@ -5,17 +5,19 @@
 .neos-backend {
 	.main-navigation {
 		position: relative;
-		padding-bottom: $spacing--normal;
 
-		border: 1px dashed brand-color(light-grey);
+		.growing-comb {
+			position: relative;
+			border: 1px dashed brand-color(light-grey);
 
-		&::after {
-			position: absolute;
-			bottom: 0;
-			right: 0;
-			padding-right: $spacing--tiny;
-			content: 'Dieser Bereich wird als Menü verwendet';
-			font-size: font-size(small);
+			&::after {
+				position: absolute;
+				top: -20px;
+				left: 0;
+				padding-right: $spacing--tiny;
+				content: 'Dieser Bereich wird als Menü verwendet';
+				font-size: font-size(small);
+			}
 		}
 	}
 }
