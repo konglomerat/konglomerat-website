@@ -14,6 +14,10 @@
     navigation:
       type: 'Neos.Neos:ContentCollection'
       position: 'before main'
+      constraints:
+        nodeTypes:
+          '*': false
+          'Konglomerat.Website:Section': true
     footer:
       type: 'Neos.Neos:ContentCollection'
       position: 'after main'

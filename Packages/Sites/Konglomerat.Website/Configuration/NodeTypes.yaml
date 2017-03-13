@@ -18,14 +18,20 @@
           label: 'Eigenschaften'
           tab: 'default'
   properties:
-      'keyVisualImage':
-        type: Neos\Media\Domain\Model\ImageInterface
-        ui:
-          label: 'Standart Hintergrundbild'
-          reloadIfChanged: true
-          inspector:
-            position: 100
-            group: 'properties'
+    'keyVisualImage':
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Standart Hintergrundbild'
+        reloadIfChanged: true
+        inspector:
+          position: 100
+          group: 'properties'
+  childNodes:
+    main:
+      constraints:
+        nodeTypes:
+          '*': false
+          'Konglomerat.Website:Section': true
 
 'Neos.Neos:Content':
   ui:
@@ -36,3 +42,7 @@
         'properties':
           label: 'Eigenschaften'
           tab: 'default'
+
+'Neos.NodeTypes:Form':
+  ui:
+    group: ~

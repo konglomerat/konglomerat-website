@@ -10,4 +10,11 @@
       type: 'Neos.Neos:ContentCollection'
       constraints:
         nodeTypes:
-          '*': true
+          '*': false
+          'Neos.NodeTypes:Text': true
+          'Neos.NodeTypes:Headline': true
+          'Neos.NodeTypes:Image': true
+          'Neos.NodeTypes:TwoColumn': true
+          'Konglomerat.Website:MainPagesMenu': true
+          'Konglomerat.Website:CombCollection': true
+          'Konglomerat.Website:FullCalendar': true
