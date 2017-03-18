@@ -392,14 +392,26 @@ textarea {
 h1 {
   line-height: 1.6;
   font-size: 2.369rem; }
+  @media (max-width: 500px) {
+    h1 {
+      line-height: 1.6;
+      font-size: 2.01365rem; } }
 
 h2 {
   line-height: 1.6;
   font-size: 1.777rem; }
+  @media (max-width: 500px) {
+    h2 {
+      line-height: 1.6;
+      font-size: 1.51045rem; } }
 
 h3 {
   line-height: 1.6;
   font-size: 1.333rem; }
+  @media (max-width: 500px) {
+    h3 {
+      line-height: 1.6;
+      font-size: 1.13305rem; } }
 
 h1, h2, h3 {
   margin: 0;
@@ -471,9 +483,12 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  margin: 0 auto;
   margin-top: 36px;
   margin-bottom: 36px; }
+  @media (max-width: 500px) {
+    .comb-collection {
+      width: calc(100% + 120px);
+      margin-left: -60px; } }
 
 .comb-collection__inner {
   position: relative;
@@ -653,7 +668,20 @@ html, body {
     margin-top: -60px;
     margin-bottom: -60px;
     padding-right: 80px;
-    padding-left: 80px; }
+    padding-left: 80px;
+    overflow-x: hidden; }
+    @media (max-width: 767px) {
+      .growing-comb .growing-comb__content {
+        margin-top: -40px;
+        margin-bottom: -40px;
+        padding-right: 40px;
+        padding-left: 40px; } }
+    @media (max-width: 500px) {
+      .growing-comb .growing-comb__content {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        padding-right: 20px;
+        padding-left: 20px; } }
 
 .comb-spike, .section--force-right .comb-spike, *.section:nth-of-type(2) .comb-spike {
   transform: scale(1, 1); }

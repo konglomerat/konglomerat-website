@@ -1,13 +1,25 @@
 h1 {
 	@include type-setting(h1);
+
+	@include mq(small){
+		@include type-setting(h1-mobile);
+	}
 }
 
 h2 {
 	@include type-setting(h2);
+
+	@include mq(small){
+		@include type-setting(h2-mobile);
+	}
 }
 
 h3 {
 	@include type-setting(h3);
+
+	@include mq(small){
+		@include type-setting(h3-mobile);
+	}
 }
 
 h1, h2, h3 {
