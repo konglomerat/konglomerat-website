@@ -1,3 +1,39 @@
+%section__icon--left {
+	left: 60px;
+	right: auto;
+	top: 0;
+
+	transform: rotate(-5deg);
+
+	@include mq(medium){
+		left: 17px;
+		top: -20px;
+	}
+
+	@include mq(small){
+		left: -10px;
+		top: -60px;
+	}
+}
+
+%section__icon--right {
+	top: 20px;
+	right: 80px;
+	left: auto;
+
+	transform: rotate(6deg);
+
+	@include mq(medium){
+		right: 17px;
+		top: -20px;
+	}
+
+	@include mq(small){
+		right: -10px;
+		top: -60px;
+	}
+}
+
 .section {
 	position: relative;
 	margin-bottom: -40px;
@@ -28,10 +64,18 @@
 		@extend %comb-spike--bottom;
 	}
 
-	*.section:nth-of-type(2) {
+	.section__icon {
+		@extend %section__icon--right;
+	}
+
+	.section:nth-of-type(2) {
 		.section__content {
 			margin-left: 0;
 			margin-right: auto;
+		}
+
+		.section__icon {
+			@extend %section__icon--left;
 		}
 	}
 }
@@ -43,25 +87,13 @@
 }
 
 .section__icon {
+	@extend %section__icon--left;
 	position: absolute;
-	left: 60px;
-	top: 0px;
+
 	width: 160px;
 	min-height: 160px;
 
-	transform: rotate(-5deg);
-
 	z-index: 2;
-
-	@include mq(medium){
-		left: 17px;
-		top: -20px;
-	}
-
-	@include mq(small){
-		left: -10px;
-		top: -60px;
-	}
 }
 
 .neos-backend {
@@ -81,27 +113,13 @@
 	}
 }
 
-*.section:nth-of-type(2) {
+.section:nth-of-type(2) {
 	.section__content {
 		margin-left: auto;
 	}
 
 	.section__icon {
-		top: 20px;
-		right: 80px;
-		left: auto;
-
-		transform: rotate(6deg);
-
-		@include mq(medium){
-			right: 17px;
-			top: -20px;
-		}
-
-		@include mq(small){
-			right: -10px;
-			top: -60px;
-		}
+		@extend %section__icon--right;
 	}
 }
 

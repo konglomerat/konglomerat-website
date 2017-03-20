@@ -1,4 +1,11 @@
+{namespace media=Neos\Media\ViewHelpers}
+
 <f:section name="body">
+	<f:if condition="{keyVisualImage}">
+		<f:then>
+			<div class="u-background" style="background-image: url('{media:uri.image(image: keyVisualImage, maximumWidth: 1500, maximumHeight: 1500)}');"></div>
+		</f:then>
+	</f:if>
 	<f:render partial="MainMenuToggle" />
 	<nav class="main-menu">
 		<div class="main-menu__backdrop"></div>

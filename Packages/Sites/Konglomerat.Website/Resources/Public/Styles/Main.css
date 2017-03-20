@@ -937,6 +937,34 @@ a.section-icon:hover {
       content: 'Dieser Bereich wird als Menü verwendet';
       font-size: 0.75rem; }
 
+.section--force-right .section:nth-of-type(2) .section__icon, .section__icon {
+  left: 60px;
+  right: auto;
+  top: 0;
+  transform: rotate(-5deg); }
+  @media (max-width: 767px) {
+    .section--force-right .section:nth-of-type(2) .section__icon, .section__icon {
+      left: 17px;
+      top: -20px; } }
+  @media (max-width: 500px) {
+    .section--force-right .section:nth-of-type(2) .section__icon, .section__icon {
+      left: -10px;
+      top: -60px; } }
+
+.section--force-right .section__icon, .section:nth-of-type(2) .section__icon {
+  top: 20px;
+  right: 80px;
+  left: auto;
+  transform: rotate(6deg); }
+  @media (max-width: 767px) {
+    .section--force-right .section__icon, .section:nth-of-type(2) .section__icon {
+      right: 17px;
+      top: -20px; } }
+  @media (max-width: 500px) {
+    .section--force-right .section__icon, .section:nth-of-type(2) .section__icon {
+      right: -10px;
+      top: -60px; } }
+
 .section {
   position: relative;
   margin-bottom: -40px;
@@ -952,7 +980,7 @@ a.section-icon:hover {
 .section--force-right .section__content {
   margin-left: auto; }
 
-.section--force-right *.section:nth-of-type(2) .section__content {
+.section--force-right .section:nth-of-type(2) .section__content {
   margin-left: 0;
   margin-right: auto; }
 
@@ -963,20 +991,9 @@ a.section-icon:hover {
 
 .section__icon {
   position: absolute;
-  left: 60px;
-  top: 0px;
   width: 160px;
   min-height: 160px;
-  transform: rotate(-5deg);
   z-index: 2; }
-  @media (max-width: 767px) {
-    .section__icon {
-      left: 17px;
-      top: -20px; } }
-  @media (max-width: 500px) {
-    .section__icon {
-      left: -10px;
-      top: -60px; } }
 
 .neos-backend .section__icon .neos-contentcollection > .neos-empty-contentcollection-overlay {
   position: relative;
@@ -989,22 +1006,8 @@ a.section-icon:hover {
     right: 0;
     color: #4e4e4e; }
 
-*.section:nth-of-type(2) .section__content {
+.section:nth-of-type(2) .section__content {
   margin-left: auto; }
-
-*.section:nth-of-type(2) .section__icon {
-  top: 20px;
-  right: 80px;
-  left: auto;
-  transform: rotate(6deg); }
-  @media (max-width: 767px) {
-    *.section:nth-of-type(2) .section__icon {
-      right: 17px;
-      top: -20px; } }
-  @media (max-width: 500px) {
-    *.section:nth-of-type(2) .section__icon {
-      right: -10px;
-      top: -60px; } }
 
 .stage {
   position: relative;
