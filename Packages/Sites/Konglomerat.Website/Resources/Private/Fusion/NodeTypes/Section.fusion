@@ -4,4 +4,7 @@ prototype(Konglomerat.Website:Section) < prototype(Neos.Neos:Content) {
     main = PrimaryContent {
         nodePath = 'main'
     }
+    icon = PrimaryContent {
+        nodePath = 'icon'
+    }
 }

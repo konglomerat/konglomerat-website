@@ -1,10 +1,6 @@
 prototype(Konglomerat.Website:Homepage.Document) < prototype(Konglomerat.Website:DefaultPage) {
 	body{
 		templatePath = 'resource://Konglomerat.Website/Private/Templates/Page/Homepage.html'
-
-		/*content.navigation = PrimaryContent {
-			nodePath = 'navigation'
-		}*/
 	}
 
 	head.stylesheets.site.keyVisualImage = ''

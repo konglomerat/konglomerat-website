@@ -1,0 +1,19 @@
+.section-icon {
+	display: block;
+	height: 160px;
+	width: 160px;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	transition-duration: 250ms;
+	transition-property: transform;
+}
+
+.section-icon--rounded {
+	border-radius: 80px;
+	background-size: cover;
+}
+
+a.section-icon:hover {
+	transform: rotate(5deg) scale(1.08);
+}

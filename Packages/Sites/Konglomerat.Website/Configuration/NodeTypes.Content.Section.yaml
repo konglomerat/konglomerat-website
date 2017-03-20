@@ -18,3 +18,10 @@
           'Konglomerat.Website:MainPagesMenu': true
           'Konglomerat.Website:CombCollection': true
           'Konglomerat.Website:FullCalendar': true
+    'icon':
+      type: 'Neos.Neos:ContentCollection'
+      position: 'before main'
+      constraints:
+        nodeTypes:
+          '*': false
+          'Konglomerat.Website:SectionIcon': true

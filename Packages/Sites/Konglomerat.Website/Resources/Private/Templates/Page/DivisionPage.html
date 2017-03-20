@@ -1,0 +1,51 @@
+<f:section name="body">
+	<f:render partial="MainMenuToggle" />
+	<nav class="main-menu">
+		<div class="main-menu__backdrop"></div>
+		<div class="main-menu__content section--force-right">
+			{content.navigation -> f:format.raw()}
+		</div>
+	</nav>
+	<div class="stage">
+		<main>
+			<div>
+				<div class="section" data-row="{row}" data-column="{column}">
+					<div class="section__content growing-comb">
+						<div class="section__icon">
+							<f:render
+									partial="CombSvg"
+									arguments="{
+								line1: comb.line1,
+								line2: comb.line2,
+								line3: comb.line3,
+								fill: comb.color,
+								showOverlayOnHover: false
+							}"
+							/>
+						</div>
+						<f:render partial="CombSpike"/>
+						<div class="growing-comb__middle">
+							<div class="growing-comb__content">
+								{content.teaser -> f:format.raw()}
+							</div>
+						</div>
+						<f:render partial="CombSpike" arguments="{bottom: true}"/>
+					</div>
+				</div>
+				<div class="section--force-right">
+					{content.main -> f:format.raw()}
+				</div>
+			</div>
+		</main>
+	</div>
+	<footer class="site-footer">
+		<div class="growing-comb">
+			<f:render partial="CombSpike"/>
+			<div class="growing-comb__middle">
+				<div class="growing-comb__content site-footer__content">
+					{content.footer -> f:format.raw()}
+				</div>
+			</div>
+		</div>
+	</footer>
+</f:section>

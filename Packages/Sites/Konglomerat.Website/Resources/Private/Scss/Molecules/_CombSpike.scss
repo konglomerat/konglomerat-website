@@ -6,14 +6,6 @@
 	transform: scale(-1, -1);
 }
 
-%comb-spike--flipped {
-	transform: scale(-1, 1);
-}
-
-%comb-spike--flipped-bottom {
-	transform: scale(1, -1);
-}
-
 .comb-spike {
 	width: 100%;
 	@extend %comb-spike;
@@ -26,4 +18,3 @@
 .comb-spike--bottom {
 	@extend %comb-spike--bottom;
 }
-

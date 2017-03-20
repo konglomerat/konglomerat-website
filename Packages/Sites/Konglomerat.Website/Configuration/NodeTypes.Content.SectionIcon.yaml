@@ -1,0 +1,33 @@
+'Konglomerat.Website:SectionIcon':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    label: 'Abschnitt Icon'
+    inlineEditable: true
+  properties:
+    'image':
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Icon Image'
+        reloadIfChanged: true
+        inspector:
+          position: 100
+          group: 'properties'
+    'link':
+      type: string
+      ui:
+        label: 'Icon Link'
+        reloadIfChanged: TRUE
+        inspector:
+          position: 300
+          group: 'properties'
+          editor: 'Neos.Neos/Inspector/Editors/LinkEditor'
+    'rounded':
+      type: boolean
+      ui:
+        label: 'Icon abrunden'
+        reloadIfChanged: TRUE
+        inspector:
+          position: 400
+          group: 'properties'

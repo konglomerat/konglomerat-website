@@ -1,8 +1,14 @@
 prototype(Konglomerat.Website:DivisionPage.Document) < prototype(Neos.NodeTypes:Page.Document) {
-	body.comb {
-		line1 = ${q(node).property('line1')}
-		line2 = ${q(node).property('line2')}
-		line3 = ${q(node).property('line3')}
-		color = ${q(node).property('color')}
+	body{
+		templatePath = 'resource://Konglomerat.Website/Private/Templates/Page/DivisionPage.html'
+		comb {
+			line1 = ${q(node).property('line1')}
+			line2 = ${q(node).property('line2')}
+			line3 = ${q(node).property('line3')}
+			color = ${q(node).property('color')}
+		}
+		content.teaser = PrimaryContent {
+			nodePath = 'teaser'
+		}
 	}
 }

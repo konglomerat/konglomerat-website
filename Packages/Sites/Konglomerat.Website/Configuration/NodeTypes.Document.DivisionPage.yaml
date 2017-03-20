@@ -8,6 +8,16 @@
     group: 'general'
     label: 'Werkbereich Seite'
     icon: 'icon-wrench'
+  childNodes:
+    teaser:
+      type: 'Neos.Neos:ContentCollection'
+      position: 'before main'
+      constraints:
+        nodeTypes:
+          '*': false
+          'Neos.NodeTypes:Text': true
+          'Neos.NodeTypes:Headline': true
+          'Neos.NodeTypes:TwoColumn': true
   properties:
     line1:
       type: string

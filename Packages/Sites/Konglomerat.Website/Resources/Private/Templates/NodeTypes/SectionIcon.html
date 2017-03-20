@@ -1,0 +1,34 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+
+<f:section name="image">
+	<f:if condition="{link}">
+		<f:then>
+			<a
+				style="background-image: url('{media:uri.image(image: image, maximumWidth: 200, maximumHeight: 200)}');"
+				class="section-icon {f:if(condition: '{rounded}', then: 'section-icon--rounded')}"
+				href="{neos:uri.node(node: link)}"
+			>
+			</a>
+		</f:then>
+		<f:else>
+			<div
+				style="background-image: url('{media:uri.image(image: image, maximumWidth: 200, maximumHeight: 200)}');"
+				class="section-icon {f:if(condition: '{rounded}', then: 'section-icon--rounded')}"
+			>
+			</div>
+		</f:else>
+	</f:if>
+
+</f:section>
+
+<f:if condition="{image}">
+	<f:then>
+		<f:render section="image" arguments="{_all}" />
+	</f:then>
+	<f:else>
+		<div class="section-icon">
+			Bitte ein Bild hochladen
+		</div>
+	</f:else>
+</f:if>
