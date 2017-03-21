@@ -669,7 +669,8 @@ a.section-icon:hover {
   margin-bottom: -60px;
   padding-right: 80px;
   padding-left: 80px;
-  overflow-y: visible; }
+  overflow-y: visible;
+  overflow-x: hidden; }
   @media (max-width: 767px) {
     .growing-comb__content {
       margin-top: -40px;

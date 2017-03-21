@@ -18,10 +18,29 @@
           'Konglomerat.Website:MainPagesMenu': true
           'Konglomerat.Website:CombCollection': true
           'Konglomerat.Website:FullCalendar': true
-    'icon':
-      type: 'Neos.Neos:ContentCollection'
-      position: 'before main'
-      constraints:
-        nodeTypes:
-          '*': false
-          'Konglomerat.Website:SectionIcon': true
+  properties:
+    'image':
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Icon Image'
+        reloadIfChanged: true
+        inspector:
+          position: 100
+          group: 'properties'
+    'link':
+      type: string
+      ui:
+        label: 'Icon Link'
+        reloadIfChanged: TRUE
+        inspector:
+          position: 300
+          group: 'properties'
+          editor: 'Neos.Neos/Inspector/Editors/LinkEditor'
+    'rounded':
+      type: boolean
+      ui:
+        label: 'Icon abrunden'
+        reloadIfChanged: TRUE
+        inspector:
+          position: 400
+          group: 'properties'

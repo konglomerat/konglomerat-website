@@ -25,6 +25,7 @@
 	padding-left: 80px;
 
 	overflow-y: visible;
+	overflow-x: hidden;
 
 	@include mq(medium){
 		margin-top: -40px;
