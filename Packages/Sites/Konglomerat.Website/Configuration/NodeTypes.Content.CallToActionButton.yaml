@@ -18,8 +18,6 @@
         label: 'Interner Link'
         inspector:
           group: 'properties'
-          editorOptions:
-            nodeTypes: ['Neos.NodeTypes:Page']
     externalLink:
       type: string
       ui:
