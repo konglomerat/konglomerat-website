@@ -1,0 +1,11 @@
+.logowall {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.logowall__item {
+	margin: 9px;
+	align-self: center;
+}
