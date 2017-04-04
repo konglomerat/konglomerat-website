@@ -1,0 +1,33 @@
+.button {
+	width: 100%;
+	margin-top: 18px;
+	margin-bottom: 18px;
+
+	text-align: center;
+}
+
+.button__link {
+	display: inline-block;
+	height: 45px;
+	margin: 0 auto;
+	padding-left: 18px;
+	padding-right: 18px;
+
+	border-radius: 2px;
+	border: 1px solid #000;
+
+	line-height: 45px;
+	text-align: center;
+	color: #000;
+
+	&:hover {
+		border-color: brand-color(primary);
+		color: brand-color(primary);
+	}
+}
+
+.neos-backend {
+	.button__link {
+		pointer-events: none;
+	}
+}

@@ -1,0 +1,35 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+
+<f:section name="link">
+	<div class="button">
+		<f:if condition="{internalReference}">
+			<f:then>
+				<neos:link.node node="{internalReference}" class="button__link">
+					{title -> f:format.stripTags()}
+				</neos:link.node>
+			</f:then>
+			<f:else>
+				<a href="{externalLink}" class="button__link">
+					{title -> f:format.stripTags()}
+				</a>
+			</f:else>
+		</f:if>
+	</div>
+</f:section>
+
+<f:if condition="{neos:rendering.inBackend()}">
+	<f:then>
+		<div class="button">
+			<div class="button__link">
+				<neos:contentElement.wrap>
+					<neos:contentElement.editable tag="span" property="title" />
+				</neos:contentElement.wrap>
+			</div>
+		</div>
+	</f:then>
+	<f:else>
+		<f:render section="link" arguments="{_all}" />
+	</f:else>
+</f:if>
+
+
