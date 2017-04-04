@@ -1,0 +1,22 @@
+{namespace media=Neos\Media\ViewHelpers}
+{namespace neos=Neos\Neos\ViewHelpers}
+
+<f:if condition="{neos:rendering.inBackend()}">
+	<f:then>
+		<f:if condition="{url}">
+			<f:then>
+				<img src="{url}" class="logowall__item" alt="{title}" style="height: {height}px;" />
+			</f:then>
+			<f:else>
+				<div class="logowall__item" style="height: {height}px;">please choose </br>an image</div>
+			</f:else>
+		</f:if>
+	</f:then>
+	<f:else>
+		<f:if condition="{url}">
+			<f:then>
+				<img src="{url}" class="logowall__item" alt="{title}" style="height: {height}px;" />
+			</f:then>
+		</f:if>
+	</f:else>
+</f:if>

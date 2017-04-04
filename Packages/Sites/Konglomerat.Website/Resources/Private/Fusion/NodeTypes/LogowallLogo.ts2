@@ -1,0 +1,9 @@
+prototype(Konglomerat.Website:LogowallLogo) {
+    url = Neos.Neos:ImageUri {
+        asset = ${q(node).property('image')}
+        maximumWidth = 600
+        maximumHeight = 600
+        allowCropping = FALSE
+        allowUpScaling = TRUE
+    }
+}

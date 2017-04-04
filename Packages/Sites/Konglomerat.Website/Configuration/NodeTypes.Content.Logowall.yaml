@@ -1,0 +1,13 @@
+'Konglomerat.Website:Logowall':
+  superTypes:
+    'Neos.Neos:Content': true
+    # HACK 1 to ensure that the "add node" dialogue works correctly
+    'Neos.Neos:ContentCollection': true
+  ui:
+    group: 'general'
+    label: 'Logowall'
+    inlineEditable: true
+  constraints:
+    nodeTypes:
+      '*': false
+      'Konglomerat.Website:LogowallLogo': true

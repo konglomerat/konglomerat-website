@@ -1,0 +1,31 @@
+'Konglomerat.Website:LogowallLogo':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    label: 'Logowall Logo'
+    inlineEditable: false
+  properties:
+    image:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Image'
+        reloadIfChanged: true
+        inspector:
+          position: 1
+          group: 'properties'
+    height:
+      type: string
+      defaultValue: '100'
+      ui:
+        reloadIfChanged: true
+        label: 'Height in px (default: 100)'
+        inspector:
+          position: 3
+          group: 'properties'
+    title:
+      type: string
+      ui:
+        label: 'Logo Titel'
+        inspector:
+          group: 'properties'
