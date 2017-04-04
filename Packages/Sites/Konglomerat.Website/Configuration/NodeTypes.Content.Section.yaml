@@ -8,16 +8,6 @@
   childNodes:
     'main':
       type: 'Neos.Neos:ContentCollection'
-      constraints:
-        nodeTypes:
-          '*': false
-          'Neos.NodeTypes:Text': true
-          'Neos.NodeTypes:Headline': true
-          'Neos.NodeTypes:Image': true
-          'Neos.NodeTypes:TwoColumn': true
-          'Konglomerat.Website:MainPagesMenu': true
-          'Konglomerat.Website:CombCollection': true
-          'Konglomerat.Website:FullCalendar': true
   properties:
     'image':
       type: Neos\Media\Domain\Model\ImageInterface
