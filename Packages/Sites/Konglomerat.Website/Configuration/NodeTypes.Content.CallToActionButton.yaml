@@ -1,0 +1,29 @@
+'Konglomerat.Website:CallToActionButton':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    label: 'Call to Action Button'
+    inlineEditable: true
+  properties:
+    title:
+      type: string
+      defaultValue: 'Button label'
+      ui:
+        inlineEditable: true
+    internalReference:
+      type: reference
+      ui:
+        reloadIfChanged: true
+        label: 'Interner Link'
+        inspector:
+          group: 'properties'
+          editorOptions:
+            nodeTypes: ['Neos.NodeTypes:Page']
+    externalLink:
+      type: string
+      ui:
+        reloadIfChanged: true
+        label: 'Externer Link'
+        inspector:
+          group: 'properties'

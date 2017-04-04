@@ -494,6 +494,30 @@ html, body {
 a.section-icon:hover {
   transform: rotate(5deg) scale(1.08); }
 
+.button {
+  width: 100%;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  text-align: center; }
+
+.button__link {
+  display: inline-block;
+  height: 45px;
+  margin: 0 auto;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 2px;
+  border: 1px solid #000;
+  line-height: 45px;
+  text-align: center;
+  color: #000; }
+  .button__link:hover {
+    border-color: #00AEEF;
+    color: #00AEEF; }
+
+.neos-backend .button__link {
+  pointer-events: none; }
+
 .comb-collection {
   position: relative;
   width: 100%;

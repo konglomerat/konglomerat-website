@@ -51,6 +51,7 @@
       'Neos.NodeTypes:Headline': true
       'Neos.NodeTypes:Image': true
       'Neos.NodeTypes:TwoColumn': true
+      'Konglomerat.Website:CallToActionButton': true
       'Konglomerat.Website:MainPagesMenu': true
       'Konglomerat.Website:CombCollection': true
       'Konglomerat.Website:FullCalendar': true
