@@ -11,6 +11,15 @@ $(document).ready(function(){
         $('body').removeClass('application--main-menu-is-open');
     });
 
+    // in the following we ensure that the menu can be closed when clicking outside the menu
+    // TODO: use reusable functions for showing and closing the menu
+    $('body').on('click touchstart', '.main-menu .section', function () {
+        $('body').removeClass('application--main-menu-is-open');
+    });
+    $('body').on('click touchstart', '.main-menu .section .growing-comb__content', function (event) {
+        event.stopPropagation();
+    });
+
     $('.full-calendar').each(function() {
         const calendarId = $(this).data('calendar-id');
         const apiKey = $(this).data('api-key');
