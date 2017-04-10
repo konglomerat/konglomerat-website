@@ -1,13 +1,13 @@
 $(document).ready(function(){
-    $('body').on('click', '.main-menu-toggle',function () {
+    $('body').on('click touchstart', '.main-menu-toggle',function () {
         $('body').toggleClass('application--main-menu-is-open');
     });
 
-    $('body').on('click', '.main-menu-close',function () {
+    $('body').on('click touchstart', '.main-menu-close',function () {
         $('body').removeClass('application--main-menu-is-open');
     });
 
-    $('body').on('click', '.main-menu__backdrop', function () {
+    $('body').on('click touchstart', '.main-menu__backdrop', function () {
         $('body').removeClass('application--main-menu-is-open');
     });
 
