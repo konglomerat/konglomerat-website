@@ -11,25 +11,23 @@
 		comb-svg
 		{f:if(condition: '{showOutlineOnly}', then: 'comb-svg--outline')}
 	">
-	<g>
-		<path class="comb__shape" d="M22.949,61.2l-22.948,-30.599l22.948,-30.601l30.6,0l22.634,30.179l-0.563,0.422l0.563,-0.422l0.316,0.422l-22.948,30.598l-30.601,0l-0.001,0Z" fill="{fill}"/>
+	<path class="comb__shape" d="M22.949,61.2l-22.948,-30.599l22.948,-30.601l30.6,0l22.634,30.179l-0.563,0.422l0.563,-0.422l0.316,0.422l-22.948,30.598l-30.601,0l-0.001,0Z" fill="{fill}"/>
 
-		<f:if condition="{showOverlayOnHover}">
-			<f:then>
-				<path class="comb__overlay" d="M22.949,61.2l-22.948,-30.599l22.948,-30.601l30.6,0l22.634,30.179l-0.563,0.422l0.563,-0.422l0.316,0.422l-22.948,30.598l-30.601,0l-0.001,0Z" />
-			</f:then>
-		</f:if>
+	<f:if condition="{showOverlayOnHover}">
+		<f:then>
+			<path class="comb__overlay" d="M22.949,61.2l-22.948,-30.599l22.948,-30.601l30.6,0l22.634,30.179l-0.563,0.422l0.563,-0.422l0.316,0.422l-22.948,30.598l-30.601,0l-0.001,0Z" />
+		</f:then>
+	</f:if>
 
-		<g class="comb__content">
-			<text class="comb__label" x="0" y="5" fill="white">
-				{line1}
-			</text>
-			<text class="comb__label" x="0" y="15" fill="white">
-				{line2}
-			</text>
-			<text class="comb__label" x="0" y="25" fill="white">
-				{line3}
-			</text>
-		</g>
+	<g class="comb__content">
+		<text class="comb__label" x="0" y="5" fill="white">
+			{line1}
+		</text>
+		<text class="comb__label" x="0" y="15" fill="white">
+			{line2}
+		</text>
+		<text class="comb__label" x="0" y="25" fill="white">
+			{line3}
+		</text>
 	</g>
 </svg>
