@@ -1,17 +1,15 @@
 $(document).ready(function(){
-    $('.main-menu-toggle').click(function () {
+    $('body').on('click', '.main-menu-toggle',function () {
         $('body').toggleClass('application--main-menu-is-open');
     });
 
-    $('.main-menu-close').click(function () {
+    $('body').on('click', '.main-menu-close',function () {
         $('body').removeClass('application--main-menu-is-open');
     });
 
-    $('.main-menu__backdrop').click(function () {
+    $('body').on('click', '.main-menu__backdrop', function () {
         $('body').removeClass('application--main-menu-is-open');
     });
-
-
 
     $('.full-calendar').each(function() {
         const calendarId = $(this).data('calendar-id');
