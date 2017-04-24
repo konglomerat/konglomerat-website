@@ -68,7 +68,7 @@
 		@extend %section__icon--right;
 	}
 
-	.section:nth-of-type(2) {
+	.section:nth-of-type(even) {
 		.section__content {
 			margin-left: 0;
 			margin-right: auto;
@@ -117,7 +117,7 @@
 	}
 }
 
-.section:nth-of-type(2) {
+.section:nth-of-type(even) {
 	.section__content {
 		margin-left: auto;
 	}
