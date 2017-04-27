@@ -1157,7 +1157,8 @@ body {
   width: 100vw;
   height: 100vh;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .neos-nodetypes-image {
   position: relative;

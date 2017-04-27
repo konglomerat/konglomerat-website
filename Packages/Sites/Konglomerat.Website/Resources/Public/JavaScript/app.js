@@ -1,23 +1,10 @@
 $(document).ready(function(){
-    $('body').on('click touchstart', '.main-menu-toggle',function () {
+    $('body').on('click', '.main-menu-toggle',function () {
         $('body').toggleClass('application--main-menu-is-open');
     });
 
-    $('body').on('click touchstart', '.main-menu-close',function () {
+    $('body').on('click', '.main-menu__backdrop', function () {
         $('body').removeClass('application--main-menu-is-open');
-    });
-
-    $('body').on('click touchstart', '.main-menu__backdrop', function () {
-        $('body').removeClass('application--main-menu-is-open');
-    });
-
-    // in the following we ensure that the menu can be closed when clicking outside the menu
-    // TODO: use reusable functions for showing and closing the menu
-    $('body').on('click touchstart', '.main-menu .section', function () {
-        $('body').removeClass('application--main-menu-is-open');
-    });
-    $('body').on('click touchstart', '.main-menu .section .growing-comb__content', function (event) {
-        event.stopPropagation();
     });
 
     $('.full-calendar').each(function() {
