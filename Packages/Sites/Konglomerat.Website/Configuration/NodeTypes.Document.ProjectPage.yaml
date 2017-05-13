@@ -1,0 +1,9 @@
+'Konglomerat.Website:ProjectPage':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  constraints:
+    nodeTypes:
+      'Neos.Neos:Document': false
+  ui:
+    group: 'general'
+    label: 'Projekt Detailseite'

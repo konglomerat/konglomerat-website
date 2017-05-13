@@ -1,0 +1,11 @@
+'Konglomerat.Website:ProjectRepository':
+  superTypes:
+    'Neos.Neos:Shortcut': true
+  constraints:
+    nodeTypes:
+      'Konglomerat.Website:ProjectPage': true
+      'Neos.Neos:Document': false
+  ui:
+    group: 'general'
+    label: 'Projekte Sammlung'
+    icon: 'icon-folder-open'

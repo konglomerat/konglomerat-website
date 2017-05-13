@@ -5,6 +5,7 @@
     nodeTypes:
       'Neos.Neos:Document': false
       'Konglomerat.Website:DivisionRepository': true
+      'Konglomerat.Website:ProjectRepository': true
       'Konglomerat.Website:MainPage': true
       'Konglomerat.Website:SecondaryPage': true
   ui:
