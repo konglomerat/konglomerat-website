@@ -3,7 +3,7 @@
     'Neos.Neos:Content': true
   ui:
     group: 'general'
-    label: 'Logowall Logo'
+    label: 'Imagewall Image'
     inlineEditable: false
   properties:
     image:

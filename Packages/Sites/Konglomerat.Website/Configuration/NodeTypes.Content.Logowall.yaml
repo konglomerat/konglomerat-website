@@ -5,7 +5,7 @@
     'Neos.Neos:ContentCollection': true
   ui:
     group: 'general'
-    label: 'Logowall'
+    label: 'Imagewall'
     inlineEditable: true
   constraints:
     nodeTypes:
