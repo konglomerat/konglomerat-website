@@ -1,16 +1,8 @@
 const colorScheme = [
-    '#ea3c00',
-    '#007dea',
-    '#ea7c00',
-    '#7200ea',
-    '#ea00c0',
-    '#ead900',
-    '#00eab4',
-    '#3bea00',
-    '#eaaa00',
-    '#ea001c',
-    '#c9ea00',
-    '#0009ea'
+    '#ab0f5c',
+    '#0047ff',
+    '#45ad91',
+    '#f5ad00'
 ];
 
 // needed to correctly init java script in the backend
