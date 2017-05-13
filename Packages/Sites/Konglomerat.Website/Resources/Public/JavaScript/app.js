@@ -9,6 +9,7 @@ const colorScheme = [
 if (typeof document.addEventListener === 'function') {
     document.addEventListener('Neos.PageLoaded', function(event) {
         initCalendar();
+        fitVideos();
     }, false);
 }
 
@@ -22,7 +23,12 @@ $(document).ready(function(){
     });
 
     initCalendar();
+    fitVideos();
 });
+
+const fitVideos = function(){
+    $('.neos-nodetypes-html').fitVids();
+};
 
 const initCalendar = function(){
     $('.full-calendar').each(function() {
