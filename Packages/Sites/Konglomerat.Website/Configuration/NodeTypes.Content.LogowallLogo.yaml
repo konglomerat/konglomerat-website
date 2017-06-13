@@ -29,3 +29,10 @@
         label: 'Logo Titel'
         inspector:
           group: 'properties'
+    externalLink:
+      type: string
+      ui:
+        reloadIfChanged: true
+        label: 'Externer Link'
+        inspector:
+          group: 'properties'

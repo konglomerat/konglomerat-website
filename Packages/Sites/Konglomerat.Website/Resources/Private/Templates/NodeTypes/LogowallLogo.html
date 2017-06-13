@@ -15,7 +15,16 @@
 	<f:else>
 		<f:if condition="{url}">
 			<f:then>
-				<img src="{url}" class="logowall__item" alt="{title}" style="height: {height}px;" />
+				<f:if condition="{externalLink}">
+					<f:then>
+						<a href="{externalLink}" class="logowall__item">
+							<img src="{url}" alt="{title}" style="height: {height}px;" />
+						</a>
+					</f:then>
+					<f:else>
+						<img src="{url}" class="logowall__item" alt="{title}" style="height: {height}px;" />
+					</f:else>
+				</f:if>
 			</f:then>
 		</f:if>
 	</f:else>
