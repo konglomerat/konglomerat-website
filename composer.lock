@@ -2012,12 +2012,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos-ui.git",
-                "reference": "bec627bba245bcafdc1d31f3a387c3afa957ec9d"
+                "reference": "c62dc3e59d3fad4c3d7a08170e3b55c5abe01b3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-ui/zipball/bec627bba245bcafdc1d31f3a387c3afa957ec9d",
-                "reference": "bec627bba245bcafdc1d31f3a387c3afa957ec9d",
+                "url": "https://api.github.com/repos/neos/neos-ui/zipball/c62dc3e59d3fad4c3d7a08170e3b55c5abe01b3b",
+                "reference": "c62dc3e59d3fad4c3d7a08170e3b55c5abe01b3b",
                 "shasum": ""
             },
             "require": {
@@ -2114,7 +2114,7 @@
                 "GPL-3.0+"
             ],
             "description": "NEOS CMS UI rewritten in React",
-            "time": "2017-04-07 18:54:23"
+            "time": "2017-07-05 11:54:45"
         },
         {
             "name": "neos/neos-ui-compiled",
@@ -2122,12 +2122,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos-ui-compiled.git",
-                "reference": "3c43d9b6044f52a1c3db913fb458d0297c209383"
+                "reference": "18ab8935b2cc2187a779d77ec28541bdf0db75dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-ui-compiled/zipball/3c43d9b6044f52a1c3db913fb458d0297c209383",
-                "reference": "3c43d9b6044f52a1c3db913fb458d0297c209383",
+                "url": "https://api.github.com/repos/neos/neos-ui-compiled/zipball/18ab8935b2cc2187a779d77ec28541bdf0db75dc",
+                "reference": "18ab8935b2cc2187a779d77ec28541bdf0db75dc",
                 "shasum": ""
             },
             "require": {
@@ -2145,7 +2145,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2017-04-07 19:00:40"
+            "time": "2017-07-05 12:01:18"
         },
         {
             "name": "neos/nodetypes",
